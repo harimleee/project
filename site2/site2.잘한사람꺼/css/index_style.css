@@ -1,0 +1,165 @@
+@import url('common.css');
+
+html,
+body {
+    width: 100%;
+    position: relative;
+}
+
+/*헤더 css*/
+header {
+    width: 1140px;
+    margin: 94px auto;
+}
+
+.hed {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hed div {}
+
+.hed div a {}
+
+.hed div a img {}
+
+.hed nav {
+    width: 455px;
+}
+
+.hed nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hed nav ul li {}
+
+.hed nav ul li a {
+    padding: 9px;
+    padding-top: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.hed nav ul li a:hover {
+    border-bottom: 5px solid #000;
+}
+
+
+
+/*메인컨텐츠 css*/
+main {
+
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*프론트 이미지*/
+
+.front_img {
+    width: 100%;
+    position: relative;
+    font-size: 0;
+}
+
+.front_img > p {
+    text-transform: uppercase;
+    width: 524px;
+    height: 165px;
+    text-shadow: 0 0 20px rgba(48, 48, 48, 0.7);
+    font-family: OpenSans;
+    font-size: 90px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: 9px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    left: 308px;
+    top: 182px;
+}
+
+.front_img > img {
+    height: 550px;
+    width: 100%;
+}
+
+/*첫번째 컨텐츠 섹션*/
+.fst_sec {}
+
+.fst_sec article {
+    margin-top: 70px;
+}
+
+.fst_sec article > p {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.fst_sec article div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fst_sec article div img {}
+
+.fst_sec article div div {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 367px;
+
+}
+
+.fst_sec article div div h2 {
+    font-family: OpenSans;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fst_sec article div div p {
+    font-size: 15px;
+}
+
+.fst_sec article div div a {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.aside {
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 20px;
+    left: -120px;
+    top:440px;
+    
+    
+}
+
+.aside p {}
+
+.aside img {}
+
+/*풋터 css*/
+.foot {
+    display: flex;
+    width: 100%;
+    height: 86px;
+    border: solid 1px #959595;
+    background-color: #434343;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer .foot p {
+    color: #fff;
+    font-size: 15px;
+}
