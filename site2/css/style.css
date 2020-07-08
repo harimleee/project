@@ -1,0 +1,107 @@
+@import url('common.css');
+
+header {
+    width: 1140px; 
+    margin: 50px auto;
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+header h1 {}
+
+header nav {}
+
+header nav a {
+    padding: 0 10px;
+    display: inline-block;
+    position: relative;
+
+}
+
+header nav a:after {
+    content: '';
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    width: 0%;
+    transition: .5s;
+}
+
+header nav a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+main {
+    width: 100%;
+}
+
+main section {
+    margin: 0 auto;
+    background: url('../img/main.jpg') no-repeat;
+    width: 1140px;
+    height: 550px;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section p {
+    color: #fff;
+    white-space: pre-line;
+    text-align: center;
+}
+
+main section p strong {
+    font-size: 5em;
+}
+
+
+.sub {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.sub h1 {}
+
+.sub p {}
+
+.sub ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub ul a {}
+
+.sub ul li {}
+
+.sub ul li img {}
+
+
+footer {
+    width: 1668px;
+    height: 82px;
+    background: #434343;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}

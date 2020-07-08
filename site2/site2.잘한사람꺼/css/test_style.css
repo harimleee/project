@@ -1,0 +1,8 @@
+@import url('common.css');
+
+.ic_bg {}
+
+.ic_bg a {}
+
+
+.ic_bg a:nth-of-type(1) {}

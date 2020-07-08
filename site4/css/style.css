@@ -1,0 +1,284 @@
+@import url('common.css');
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 80px 0;
+    z-index: 10;
+
+}
+
+header > div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header div h1 a img {}
+
+header > div div > a {
+    color: #fff;
+    position: relative;
+
+}
+
+header > div div > a:after {
+    position: absolute;
+    content: '';
+    right: -10px;
+    top: 50%;
+    transform: translateY(-30%);
+
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-top: 5px solid #fff;
+}
+
+header > div div {
+    position: relative;
+}
+
+header > div div ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    padding: 0 10px 10px 10px;
+}
+
+header > div div ul li {}
+
+header > div div ul li a {
+    font-size: .6em;
+    display: inline-block;
+    padding: 8px 0 0 0;
+}
+
+header > div div ul li a:hover {
+    text-decoration: underline;
+}
+
+header > div div:hover ul {
+    display: block;
+}
+
+/*menu-triger*/
+.menu-triger {
+    width: 26px;
+    height: 16px;
+    position: relative;
+}
+
+.menu-triger span {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 2px;
+}
+
+.menu-triger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-triger span:nth-of-type(3) {
+    bottom: 0;
+}
+
+
+main {
+    width: 100%;
+}
+
+main .m_1 {
+    position: relative;
+}
+
+main .m_1 img {}
+
+main .m_1 div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+
+main .m_1 div h2 {
+    font-size: 82.5px;
+    font-weight: bold;
+    color: #dbdeb5;
+
+
+}
+
+main .m_1 div .btn {
+    
+    font-family: AdobeGothicStd;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 1px solid #ffffff;
+    padding: 32px 95px 32px 53px;
+    margin-top:20px;
+    color: #fff;
+    display:inline-block;
+}
+
+
+
+
+/*<---m_2--->*/
+
+main .m_2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main .m_2 .m_2_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .m_2 .m_2_1 .imgp {
+    width: 760px;
+    height: 624px;
+}
+
+main .m_2 .m_2_1 .imgp img {
+    width: 100%;
+}
+
+main .m_2 .m_2_1 .letterp {
+    text-align: right;
+}
+
+main .m_2 .m_2_1 .letterp h3 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #222222;
+}
+
+main .m_2 .m_2_1 .letterp p {
+    width: 473px;
+    font-size: 22px;
+    line-height: 1.82;
+    color: #555555;
+}
+
+main .m_2 .m_2_1 .letterp a {
+    font-size: 22px;
+    line-height: 1.82;
+    color: #000;
+    border-bottom: 1px solid #000;
+    
+}
+
+/*------------------------*/
+
+main .m_2 .m_2_2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main .m_2 .m_2_2 .letterp2 {
+}
+
+main .m_2 .m_2_2 .letterp2 h4 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #222222;
+    text-align: left;
+}
+
+main .m_2 .m_2_2 .letterp2 p {
+    width: 473px;
+    font-size: 22px;
+    line-height: 1.82;
+
+    text-align: left;
+    color: #555555;
+}
+
+main .m_2 .m_2_2 .letterp2 a {
+    font-size: 22px;
+    line-height: 1.82;
+    color: #000;
+    border-bottom: 1px solid #000;
+    text-align: left;
+}
+
+main .m_2 .m_2_2 .imgp2 {
+    width: 760px;
+    height: 624px;
+}
+
+main .m_2 .m_2_2 .imgp2 img {
+    width: 100%;
+}
+
+/*<------------>*/
+main .m_3 {}
+
+main .m_3 .m_3_1 {}
+
+main .m_3 .m_3_1 h5 {
+    font-size: 60px;
+    text-align: center;
+}
+
+main .m_3 .m_3_1 span {
+    position: absolute;
+    background: #000;
+    width: 78px;
+    height: 5px;
+
+}
+
+main .m_3 .m_3_1 p {}
+
+
+
+main .m_3 .m_3_2 {}
+
+main .m_3 .m_3_2 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .m_3 .m_3_2 ul li {}
+
+main .m_3 .m_3_2 ul li a {}
+
+main .m_3 .m_3_2 ul li a img {}
+
+main .m_3 .m_3_2 ul li p {}
+
+
+
+footer {
+    width: 1900px;
+    height: 123px;
+    background: #404040;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #b4bbcb;
+    font-family: Ebrima;
+    font-size: 24px;
+}
