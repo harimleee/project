@@ -1,0 +1,594 @@
+@import url("common.css");
+main {
+    font-family: "함초롬돋움";
+    .logo {
+        img {
+            width: 5%;
+            margin: 6% 0 0 2.8%;
+        }
+    }
+    .visual {
+        text-align: center;
+        margin: 8% 0;
+        h1 {
+            font-size: 2.3vw;
+            font-weight: normal;
+        }
+        p {
+            font-size: 1.2vw;
+        }
+    }
+    .two {
+        text-align: center;
+        background: #0e5825;
+        color: white;
+        padding: 5%;
+        h2 {
+            font-family: "batang";
+            font-weight: normal;
+            font-size: 1.7vw;
+            margin: 0;
+        }
+        p {
+            margin: 1.5% 0 4% 0;
+        }
+        .block {
+            border: 1px solid#fff;
+            width: 58%;
+            margin: 0 auto;
+            padding: 1% 0;
+            h3 {
+                font-weight: normal;
+                display: inline-flex;
+                align-items: center;
+                margin: 3% 0 0 0;
+                font-size: 1.1vw;
+                .count1 {
+                    margin: 0;
+                    font-size: 2.3vw;
+                    color: #fff;
+                }
+                .count2 {
+                    margin: 0;
+                    font-size: 2.3vw;
+                    color: #fff;
+                }
+                .count3 {
+                    margin: 0;
+                    font-size: 2.3vw;
+                    color: #fff;
+                }
+                .comm {
+                    margin: 0;
+                    font-size: 2.3vw;
+                    color: #fff;
+                }
+            }
+            p {
+                font-size: 0.8vw;
+                margin-top: 4%;
+                color: #aaaaaa;
+            }
+        }
+    }
+    .three {
+        width: 50%;
+        margin: 8% auto;
+        text-align: center;
+        img {
+            width: 90%;
+        }
+        h4 {
+            margin-top: 17%;
+            font-size: 1.5vw;
+            font-weight: normal;
+        }
+        .num {
+            font-size: 1.1vw;
+            line-height: 2.5vw;
+        }
+        .caution {
+            font-size: 0.75vw;
+            margin: 10% 0;
+            line-height: 1.2vw;
+        }
+    }
+    .four {
+        margin: 13% 0;
+        h5 {
+            text-align: center;
+            font-family: 'batang';
+            font-size: 2.3vw;
+            font-weight: normal;
+        }
+        .f_1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 6%;
+            img {
+                width: 50%;
+            }
+            p {
+                padding: 0 10% 2% 0;
+                font-size: 0.9vw;
+                line-height: 2vw;
+            }
+        }
+        .f_2 {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0 auto;
+            .write {
+                text-align: right;
+                font-size: 0.9vw;
+                line-height: 2vw;
+                padding: 0 0 2% 26%;
+            }
+            img {
+                width: 50%;
+            }
+        }
+    }
+    .five {
+        text-align: center;
+        margin: 9% 0;
+        p {
+            font-family: 'batang';
+            font-size: 1.5vw;
+        }
+    }
+}
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media(max-width:1024px) {
+    main {
+        font-family: "함초롬돋움";
+        .logo {
+            img {
+                width: 10%;
+                margin: 12% 0 0 4%;
+            }
+        }
+        .visual {
+            text-align: center;
+            margin: 11% 0;
+            h1 {
+                font-size: 3.3vw;
+                font-weight: normal;
+            }
+            p {
+                font-size: 2.2vw;
+            }
+        }
+        .two {
+            text-align: center;
+            background: #0e5825;
+            color: white;
+            padding: 8%;
+            h2 {
+                font-family: "batang";
+                font-weight: normal;
+                font-size: 2.7vw;
+                margin: 0;
+            }
+            p {
+                margin: 4.5% 0 6% 0;
+            }
+            .block {
+                border: 1px solid#fff;
+                width: 70%;
+                margin: 0 auto;
+                padding: 2% 0;
+                h3 {
+                    font-weight: normal;
+                    display: inline-flex;
+                    align-items: center;
+                    margin: 3% 0 0 0;
+                    font-size: 2.1vw;
+                    .count1 {
+                        margin: 0;
+                        font-size: 3.3vw;
+                        color: #fff;
+                    }
+                    .count2 {
+                        margin: 0;
+                        font-size: 3.3vw;
+                        color: #fff;
+                    }
+                    .count3 {
+                        margin: 0;
+                        font-size: 3.3vw;
+                        color: #fff;
+                    }
+                    .comm {
+                        margin: 0;
+                        font-size: 3.3vw;
+                        color: #fff;
+                    }
+                }
+                p {
+                    font-size: 1.8vw;
+                    margin-top: 4%;
+                    color: #aaaaaa;
+                }
+            }
+        }
+        .three {
+            width: 70%;
+            margin: 12% auto;
+            text-align: center;
+            img {
+                width: 80%;
+            }
+            h4 {
+                margin-top: 17%;
+                font-size: 2.5vw;
+                font-weight: normal;
+            }
+            .num {
+                font-size: 1.5vw;
+                line-height: 3vw;
+            }
+            .caution {
+                font-size: 1.2vw;
+                margin: 10% 0;
+                line-height: 1.5vw;
+            }
+        }
+        .four {
+            margin: 17% 0;
+            h5 {
+                text-align: center;
+                font-family: 'batang';
+                font-size: 3.3vw;
+                font-weight: normal;
+            }
+            .f_1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 9%;
+                img {
+                    width: 50%;
+                }
+                p {
+                    padding: 0 3% 2% 0;
+                    font-size: 1.2vw;
+                    line-height: 2.5vw;
+                }
+            }
+            .f_2 {
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                width: 90%;
+                margin: 0 auto;
+                .write {
+                    text-align: right;
+                    font-size: 1.2vw;
+                    line-height: 2.5vw;
+                    padding: 0 0 2% 20%;
+                }
+                img {
+                    width: 50%;
+                }
+            }
+        }
+        .five {
+            text-align: center;
+            margin: 12% 0;
+            p {
+                font-family: 'batang';
+                font-size: 2.5vw;
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        font-family: "함초롬돋움";
+        .logo {
+            img {
+                width: 15%;
+                margin: 16% 0 0 6%;
+            }
+        }
+        .visual {
+            text-align: center;
+            margin: 15% 0;
+            h1 {
+                font-size: 4.3vw;
+                font-weight: normal;
+            }
+            p {
+                font-size: 3.2vw;
+            }
+        }
+        .two {
+            text-align: center;
+            background: #0e5825;
+            color: white;
+            padding: 10%;
+            h2 {
+                font-family: "batang";
+                font-weight: normal;
+                font-size: 3.7vw;
+                margin: 0;
+            }
+            p {
+                margin: 4.5% 0 6% 0;
+            }
+            .block {
+                border: 1px solid#fff;
+                width: 100%;
+                margin: 0 auto;
+                padding: 1% 0;
+                h3 {
+                    font-weight: normal;
+                    display: inline-flex;
+                    align-items: center;
+                    margin: 5% 0 0 0;
+                    font-size: 3.1vw;
+                    .count1 {
+                        margin: 0;
+                        font-size: 4.3vw;
+                        color: #fff;
+                    }
+                    .count2 {
+                        margin: 0;
+                        font-size: 4.3vw;
+                        color: #fff;
+                    }
+                    .count3 {
+                        margin: 0;
+                        font-size: 4.3vw;
+                        color: #fff;
+                    }
+                    .comm {
+                        margin: 0;
+                        font-size: 4.3vw;
+                        color: #fff;
+                    }
+                }
+                p {
+                    font-size: 2.8vw;
+                    margin-top: 4%;
+                    color: #aaaaaa;
+                }
+            }
+        }
+        .three {
+            width: 90%;
+            margin: 15% auto;
+            text-align: center;
+            img {
+                width: 95%;
+            }
+            h4 {
+                margin-top: 17%;
+                font-size: 3.5vw;
+                font-weight: normal;
+            }
+            .num {
+                font-size: 2.5vw;
+                line-height: 4vw;
+            }
+            .caution {
+                font-size: 2vw;
+                margin: 10% 0;
+                line-height: 3vw;
+            }
+        }
+        .four {
+            margin: 20% 0;
+            h5 {
+                text-align: center;
+                font-family: 'batang';
+                font-size: 4.3vw;
+                font-weight: normal;
+            }
+            .f_1 {
+                display: block;
+                justify-content: space-between;
+                align-items: flex-end;
+                width: 90%;
+                margin: 6% auto;
+                margin-top: 9%;
+                img {
+                    width: 60%;
+                }
+                p {
+                    padding: 0 0% 0% 0;
+                    font-size: 2.2vw;
+                    line-height: 5vw;
+                }
+            }
+            .f_2 {
+                display: block;
+                align-items: flex-end;
+                justify-content: space-between;
+                width: 90%;
+                margin: 6% auto;
+                text-align: right;
+                .write {
+                    font-size: 2.2vw;
+                    line-height: 5vw;
+                    padding: 0%;
+                }
+                img {
+                    width: 60%;
+                }
+            }
+        }
+        .five {
+            text-align: center;
+            margin: 15% auto;
+            width: 80%;
+            p {
+                font-family: 'batang';
+                font-size: 4vw;
+                line-height: 7vw;
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    main {
+        font-family: "함초롬돋움";
+        .logo {
+            img {
+                width: 20%;
+                margin: 20% 0 0 4%;
+            }
+        }
+        .visual {
+            text-align: center;
+            margin: 15% 0;
+            h1 {
+                font-size: 5.3vw;
+                font-weight: normal;
+            }
+            p {
+                font-size: 4.2vw;
+            }
+        }
+        .two {
+            text-align: center;
+            background: #0e5825;
+            color: white;
+            padding: 10%;
+            h2 {
+                font-family: "batang";
+                font-weight: normal;
+                font-size: 3.7vw;
+                margin: 0;
+                display: none;
+            }
+            p {
+                margin: 4.5% 0 6% 0;
+            }
+            .block {
+                border: 1px solid#fff;
+                width: 100%;
+                margin: 0 auto;
+                padding: 0% 0;
+                h3 {
+                    font-weight: normal;
+                    display: inline-flex;
+                    align-items: center;
+                    margin: 3% 0 0 0;
+                    font-size: 3.1vw;
+                    .count1 {
+                        margin: 0;
+                        font-size: 4.5vw;
+                        color: #fff;
+                    }
+                    .count2 {
+                        margin: 0;
+                        font-size: 4.5vw;
+                        color: #fff;
+                    }
+                    .count3 {
+                        margin: 0;
+                        font-size: 4.5vw;
+                        color: #fff;
+                    }
+                    .comm {
+                        margin: 0;
+                        font-size: 4.5vw;
+                        color: #fff;
+                    }
+                }
+                p {
+                    font-size: 3vw;
+                    margin-top: 4%;
+                    color: #aaaaaa;
+                }
+            }
+        }
+        .three {
+            width: 90%;
+            margin: 15% auto;
+            text-align: center;
+            img {
+                width: 100%;
+            }
+            h4 {
+                margin-top: 20%;
+                font-size: 4vw;
+                font-weight: normal;
+            }
+            .num {
+                font-size: 3.2vw;
+                line-height: 5vw;
+            }
+            .caution {
+                font-size: 3vw;
+                margin: 10% 0;
+                line-height: 4vw;
+            }
+        }
+        .four {
+            margin: 20% 0;
+            h5 {
+                text-align: center;
+                font-family: 'batang';
+                font-size: 5.3vw;
+                font-weight: normal;
+            }
+            .f_1 {
+                display: block;
+                justify-content: space-between;
+                align-items: flex-end;
+                width: 90%;
+                margin: 6% auto;
+                margin-top: 9%;
+                img {
+                    width: 70%;
+                }
+                p {
+                    padding: 0 0% 0% 0;
+                    font-size: 3.2vw;
+                    line-height: 6vw;
+                }
+            }
+            .f_2 {
+                display: block;
+                align-items: flex-end;
+                justify-content: space-between;
+                width: 90%;
+                margin: 6% auto;
+                text-align: right;
+                .write {
+                    font-size: 3.2vw;
+                    line-height: 6vw;
+                    padding: 0%;
+                }
+                img {
+                    width: 70%;
+                }
+            }
+        }
+        .five {
+            text-align: center;
+            margin: 15% auto;
+            width: 85%;
+            p {
+                font-family: 'batang';
+                font-size: 5vw;
+                line-height: 9vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,206 @@
+@charset "UTF-8";
+main {
+  font-family: "함초롬돋움";
+  text-align: center;
+}
+main .A_logo {
+  margin: 10% 0 0 2.8%;
+  text-align: left;
+}
+main .A_logo a img {
+  width: 6%;
+}
+main h1 {
+  text-align: center;
+  margin: 5% 0;
+  font-weight: normal;
+  font-size: 2vw;
+}
+main .text {
+  width: 70%;
+  margin: 0% auto 5% auto;
+}
+main .text ul {
+  text-align: left;
+}
+main .text ul li {
+  font-size: 0.9vw;
+  padding: 2% 0;
+  border-bottom: 1px solid #000;
+}
+main .text ul li p {
+  display: none;
+  font-size: 0.8vw;
+  margin: 5% 0;
+  line-height: 1.5vw;
+}
+main .text ul li p.active {
+  display: block;
+}
+main button {
+  border: none;
+  font-size: 0.9vw;
+  background: #363636;
+  color: white;
+  padding: 1% 2%;
+  margin: 0 0 9% 0;
+}
+main button:hover {
+  background: black;
+}
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+@media (max-width: 1024px) {
+  main {
+    font-family: "함초롬돋움";
+    text-align: center;
+  }
+  main .A_logo {
+    margin: 14% 0 0 4%;
+    text-align: left;
+  }
+  main .A_logo a img {
+    width: 10%;
+  }
+  main h1 {
+    text-align: center;
+    margin: 5% 0;
+    font-weight: normal;
+    font-size: 3vw;
+  }
+  main .text {
+    width: 80%;
+    margin: 0% auto 5% auto;
+  }
+  main .text ul {
+    text-align: left;
+  }
+  main .text ul li {
+    font-size: 1.8vw;
+    padding: 3% 0;
+    border-bottom: 1px solid #000;
+  }
+  main .text ul li p {
+    display: none;
+    font-size: 1.3vw;
+    margin: 6% 0;
+    line-height: 2.3vw;
+  }
+  main .text ul li p.active {
+    display: block;
+  }
+  main button {
+    border: none;
+    font-size: 2vw;
+    background: #363636;
+    color: white;
+    padding: 2% 3%;
+    margin: 0 0 10% 0;
+  }
+  main button:hover {
+    background: black;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    font-family: "함초롬돋움";
+    text-align: center;
+  }
+  main .A_logo {
+    margin: 18% 0 0 6%;
+    text-align: left;
+  }
+  main .A_logo a img {
+    width: 15%;
+  }
+  main h1 {
+    text-align: center;
+    margin: 8% 0;
+    font-weight: normal;
+    font-size: 4vw;
+  }
+  main .text {
+    width: 85%;
+    margin: 0% auto 5% auto;
+  }
+  main .text ul {
+    text-align: left;
+  }
+  main .text ul li {
+    font-size: 2.5vw;
+    padding: 4% 0;
+    border-bottom: 1px solid #000;
+  }
+  main .text ul li p {
+    display: none;
+    font-size: 2vw;
+    margin: 6% 0;
+    line-height: 3.2vw;
+  }
+  main .text ul li p.active {
+    display: block;
+  }
+  main button {
+    border: none;
+    font-size: 2.5vw;
+    background: #363636;
+    color: white;
+    padding: 2% 3%;
+    margin: 0 0 15% 0;
+  }
+  main button:hover {
+    background: black;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    font-family: "함초롬돋움";
+    text-align: center;
+  }
+  main .A_logo {
+    margin: 20% 0 0 5%;
+    text-align: left;
+  }
+  main .A_logo a img {
+    width: 20%;
+  }
+  main h1 {
+    text-align: center;
+    margin: 8% 0;
+    font-weight: normal;
+    font-size: 5vw;
+  }
+  main .text {
+    width: 85%;
+    margin: 0% auto 5% auto;
+  }
+  main .text ul {
+    padding: 0;
+    text-align: left;
+  }
+  main .text ul li {
+    font-size: 3.5vw;
+    padding: 5% 0;
+    border-bottom: 1px solid #000;
+  }
+  main .text ul li p {
+    display: none;
+    font-size: 3vw;
+    margin: 6% 0;
+    line-height: 4.5vw;
+  }
+  main .text ul li p.active {
+    display: block;
+  }
+  main button {
+    border: none;
+    font-size: 3.5vw;
+    background: #363636;
+    color: white;
+    padding: 3% 3%;
+    margin: 0 0 15% 0;
+  }
+  main button:hover {
+    background: black;
+  }
+}

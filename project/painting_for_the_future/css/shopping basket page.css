@@ -1,0 +1,399 @@
+@import url(1common.css);
+
+html,
+body {}
+
+
+
+header {
+    width: 100%;
+    margin: 2% auto;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 100%;
+}
+
+
+/*===↓menu bar↓===*/
+.list {
+    width: 30%;
+}
+
+.list nav {
+    width: 100%;
+    /*    margin-right: 30%;*/
+}
+
+.list nav a {
+    font-style: 'Roboto';
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 5%;
+    /*    padding-left: 5%;*/
+    text-align: center;
+}
+
+.list nav a:hover {
+    border-bottom: 2px solid darksalmon;
+    color: darksalmon;
+    /*    색바꾸기*/
+
+    /*    padding: 5px 0;*/
+}
+
+
+/*===↓language↓===*/
+.side{
+    width:12%;
+} 
+
+.side .lang {
+    justify-content:space-between;
+}
+
+.side .lang nav{
+}
+
+.side .lang nav a {
+    font-size: 20px;
+    text-align: end;
+    font-style: 'Roboto';
+}
+
+.side .lang nav a:hover {
+    border-bottom: 2px solid darksalmon;
+    color: darksalmon;
+}
+
+
+/*===↓Icons↓===*/
+.side .icons {}
+
+.side .icons nav {}
+
+.side .icons nav a {
+}
+
+
+.icons nav a:nth-of-type(1) img {
+    width: 35%;
+    height: 35%;
+
+}
+
+.icons nav a:nth-of-type(2) img {
+    width: 45%;
+    height: 45%;
+}
+s
+
+
+main {
+    width: 100%;
+
+}
+
+main .ba_1 {
+    background: url('../img/img.png');
+    height: 850px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+main .ba_1 p {
+    color: #fff;
+    text-align: center;
+
+
+
+}
+
+main .ba_1 p strong {
+    font-size: 5em;
+    position: absolute;
+    left: 15%;
+
+}
+
+table {
+    width: 95%;
+    line-height: 3.0;
+    margin: 20px;
+    border-collapse: collapse;
+    border-bottom: 2px solid #b8b8b8;
+    margin: 0 auto;
+    color: #b8b8b8;
+
+}
+
+table caption {
+    text-align: left;
+
+}
+
+table caption h1 {
+    font-size: 2em;
+    padding-bottom: 30px;
+    color: #b8b8b8;
+}
+
+table thead tr th {
+
+    padding: 0px 30px 0px;
+
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+}
+
+table tbody tr td {
+    text-align: center;
+}
+
+
+
+main h2{
+    text-align: right;
+    padding-right: 40px;
+    margin-top: 20px;
+    color: #b8b8b8;
+}
+
+main ul{
+    list-style: none;
+}
+
+
+.reci {
+    padding-right: 10px;
+    margin-top: 100px;
+
+}
+
+.reci h1 {
+    padding: 60px;
+    color: #b8b8b8;
+}
+
+.reci ul li p input {
+    list-style: none;
+    float: left;
+    margin: 30px 15px;
+    width: 14%;
+    height: 50px;
+    color: #b8b8b8;
+    border: 3px solid #b8b8b8;
+}
+
+.reci ul {
+    overflow: hidden;
+}
+
+.add input[name="aaa"]{width: 30%;}
+
+
+.add {
+    padding-left: 10px;
+
+}
+
+.add h1 {
+    padding: 40px;
+    color: #b8b8b8;
+}
+
+.add ul li p input {
+    list-style: none;
+    line-height: 3.0;
+    width: 10%;
+    height: 50px;
+    margin-top: 30px;
+    border: 3px solid #B8B8B8;
+
+}
+
+.add ul {}
+
+.add ul li {}
+
+
+.add ul li a {
+
+    background-color: #F59E8E;
+    color: #fff;
+    border-radius: 1px;
+    padding: 10px 10px;
+
+
+
+
+}
+
+
+
+
+
+.met {
+    padding-left: 30px
+}
+
+.met h1 {
+    padding: 20px;
+    color: #b8b8b8;
+}
+
+.met ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 20px;
+    color: #b8b8b8;
+}
+
+.met ul li {
+    float: left;
+
+}
+
+.met ul li p {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.met ul li p:hover {
+    background: #F59E8E;
+    color: #fff;
+}
+
+.met .btn a {
+    border: 1px solid #B8B8B8;
+    background-color: #fff;
+    color: #b8b8b8;
+    border-radius: 1px;
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 1%;
+
+
+}
+
+.met .btn a:hover {
+    color: #fff;
+    background: #F59E8E;
+}
+
+.met .btn {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer {
+    background: #f3f0ec;
+    width: 100%;
+    padding: 4% 0;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 3%;
+}
+
+/*=========↓left address↓========*/
+.left {
+    width: 20%;
+    padding: 0;
+    margin: auto;
+}
+
+.left p {
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+
+
+}
+
+/*============↓center↓===========*/
+.middle {
+    display: block;
+    width: 100%;
+    margin: auto;
+
+
+    /*    margin: 0 auto;*/
+}
+
+/*=====↓footer logo↓====*/
+.middle .footer_logo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.middle .footer_logo img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding-bottom: 2.5%
+}
+
+/*=====↓SNS↓====*/
+.middle ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+}
+
+.middle ul li {
+    margin-left: 2%;
+}
+
+.middle ul li a {}
+
+.middle ul li a img {
+    width: 100%;
+}
+
+/*=========↓right frq↓========*/
+.right {
+    width: 100%;
+
+}
+
+.right a {
+    width: 100%;
+}
+
+.right a img {
+    width: 100%;
+    margin-left: 10%;
+}
+

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+main {
+  font-family: "함초롬돋움";
+}
+main .A_logo {
+  margin: 10% 0 0 2.8%;
+}
+main .A_logo a img {
+  width: 6%;
+}
+main h1 {
+  text-align: center;
+  margin: 5% 0;
+}
+main .text {
+  width: 70%;
+  margin: 0% auto 5% auto;
+}
+main .text ul li {
+  font-size: 0.9vw;
+  padding: 2% 0;
+  border-bottom: 1px solid #000;
+}
+main .text ul li p {
+  display: none;
+  font-size: 0.8vw;
+  margin: 5% 0;
+}
+main .text ul li p.active {
+  display: block;
+}

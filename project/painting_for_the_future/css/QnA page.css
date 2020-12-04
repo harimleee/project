@@ -1,0 +1,387 @@
+@import url(common.css);
+
+html,
+body {}
+
+header {
+    width: 100%;
+    margin: 2% auto;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 100%;
+}
+
+
+/*===↓menu bar↓===*/
+.list {
+    width: 30%;
+}
+
+.list nav {
+    width: 100%;
+    /*    margin-right: 30%;*/
+}
+
+.list nav a {
+    font-style: 'Roboto';
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 5%;
+    /*    padding-left: 5%;*/
+    text-align: center;
+}
+
+.list nav a:hover {
+    border-bottom: 2px solid darksalmon;
+    color: darksalmon;
+    /*    색바꾸기*/
+
+    /*    padding: 5px 0;*/
+}
+
+
+/*===↓language↓===*/
+.side{
+    width:12%;
+} 
+
+.side .lang {
+    justify-content:space-between;
+}
+
+.side .lang nav{
+}
+
+.side .lang nav a {
+    font-size: 20px;
+    text-align: end;
+    font-style: 'Roboto';
+}
+
+.side .lang nav a:hover {
+    border-bottom: 2px solid darksalmon;
+    color: darksalmon;
+}
+
+
+/*===↓Icons↓===*/
+.side .icons {}
+
+.side .icons nav {}
+
+.side .icons nav a {
+}
+
+
+.icons nav a:nth-of-type(1) img {
+    width: 35%;
+    height: 35%;
+
+}
+
+.icons nav a:nth-of-type(2) img {
+    width: 45%;
+    height: 45%;
+}
+
+
+
+
+
+main h1 {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 72px;
+    padding-top: 30px;
+}
+
+main .search {
+    height: 40px;
+    width: 550px;
+    border: 1px solid #ddd;
+    background: #fff;
+    outline-offset: 0;
+}
+
+/*search 내부 테두리없애기*/
+.search {
+    font-size: 16px;
+    width: 375px;
+    padding: 10px;
+    margin: 100px auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/*마진값 퍼센트로 바꾸기*/
+.search button {
+   margin-left: 316px;
+}
+
+
+
+.childsup {
+    padding-right: 400px;
+    
+}
+.childsup ul{
+    float: right;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.childsup ul li {
+    border: 1px solid #ddd;
+    line-height: 5.0;
+    color: gray;
+    width: 550px;
+    padding-left: 30px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+    
+    
+
+}
+
+.childsup p strong {
+    color: #000;
+}
+
+.subapp {
+    padding-left: 400px;
+    margin-top: 300px;
+    
+}
+.subapp ul{
+    width: 550px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.subapp ul li {
+    border: 1px solid #ddd;
+    line-height: 5.0;
+    color: gray;
+    width: 100%;
+    padding-left: 30px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+
+}
+
+.subapp p strong {
+    color: #000;
+}
+
+.submoney {
+    padding-left: 400px;
+    margin-top: 300px;
+    
+}
+.submoney ul{
+    width: 550px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.submoney ul li {
+    border: 1px solid #ddd;
+    line-height: 5.0;
+    color: gray;
+    width: 100%;
+    padding-left: 30px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+
+}
+
+.submoney p strong {
+    color: #000;
+}
+
+.volun {
+    padding-right: 400px;
+    margin-top: 300px;
+    
+}
+.volun ul{
+    width: 550px;
+    float: right;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.volun ul li {
+    border: 1px solid #ddd;
+    line-height: 5.0;
+    color: gray;
+    width: 100%;
+    padding-left: 30px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+
+}
+
+.volun p strong {
+    color: #000;
+}
+
+.recu {
+    padding-left: 400px;
+    margin-top: 300px;
+    
+}
+.recu ul{
+    width: 550px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.recu ul li {
+    border: 1px solid #ddd;
+    line-height: 5.0;
+    color: gray;
+    width: 100%;
+    padding-left: 30px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+
+}
+
+.recu p strong {
+    color: #000;
+}
+
+.other {
+    padding-right: 400px;
+    margin-top: 300px;
+    
+}
+.other ul{
+    width: 550px;
+    float: right;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.other ul li {
+    border: 1px solid #ddd;
+    line-height: 5.0;
+    color: gray;
+    width: 1000%;
+    padding-left: 30px;
+    box-shadow: 1px 1px gray;
+    outline: none;
+
+}
+
+.other p strong {
+    color: #000;
+}
+
+
+footer {
+    background: #f3f0ec;
+    width: 100%;
+    padding: 4% 0;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 3%;
+}
+
+/*=========↓left address↓========*/
+.left {
+    width: 20%;
+    padding: 0;
+    margin: auto;
+}
+
+.left p {
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+
+
+}
+
+/*============↓center↓===========*/
+.middle {
+    display: block;
+    width: 100%;
+    margin: auto;
+
+
+    /*    margin: 0 auto;*/
+}
+
+/*=====↓footer logo↓====*/
+.middle .footer_logo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.middle .footer_logo img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding-bottom: 2.5%
+}
+
+/*=====↓SNS↓====*/
+.middle ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+}
+
+.middle ul li {
+    margin-left: 2%;
+}
+
+.middle ul li a {}
+
+.middle ul li a img {
+    width: 100%;
+}
+
+/*=========↓right frq↓========*/
+.right {
+    width: 100%;
+
+}
+
+.right a {
+    width: 100%;
+}
+
+.right a img {
+    width: 100%;
+    margin-left: 10%;
+}
+  
+
+    
+        
+    

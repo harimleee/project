@@ -1,0 +1,188 @@
+@import url(common.css);
+
+html,
+body {}
+
+header {
+    width: 98%;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+header p {
+    margin-top: 100px;
+}
+
+header p nav {}
+
+header nav {
+
+    margin-top: 50px;
+}
+
+header nav a {
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+
+
+
+}
+
+header nav a:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    background-color: #000;
+    transition: color .5s;
+
+}
+
+header nav a:hover:after {
+    width: 0%;
+    left: 30%;
+    bottom: 0;
+
+}
+
+header nav div {
+    position: relative;
+}
+
+.bar {}
+
+.bar ul li {
+    list-style: none;
+    color: black;
+    background-color: #fff;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bar .var {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.bar .var:hover {
+    color: black;
+    background-color: darkgray;
+}
+
+.bar li {
+    padding: 0 20px;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+}
+
+.plz li {
+    width: 100%;
+    border: none solid #000;
+}
+
+.plz {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.bar li:hover .plz {
+    display: block;
+    margin-top: 61px;
+    border: 1px solid #ddd;
+    background: gray;
+}
+
+
+/*----------------------------main----------------------*/
+
+main {
+    width: 100%;
+
+}
+
+main .ba_1 {
+    background: url('../img/kid.jpg');
+    height: 850px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+main .ba_1 p {
+    color: #fff;
+    text-align: center;
+
+
+
+}
+
+main .ba_1 p strong {
+    font-size: 3em;
+    position: absolute;
+    bottom: 20px;
+    left: 600px;
+
+}
+
+.btn {
+    text-align: center;
+    line-height: 2.5;
+    font-size: 25px;
+}
+
+.con_1 h1 {
+    padding-bottom: 10px;
+}
+
+main .btn a {
+    background-color: #FFE1B4;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 20px 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+    width: 10%;
+    margin-bottom: 30px;
+
+}
+
+.one {
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+main .btn p {
+    padding-top: 100px;
+}
+
+

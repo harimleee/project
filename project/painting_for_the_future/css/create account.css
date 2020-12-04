@@ -1,0 +1,134 @@
+@import url(common.css);
+
+
+
+
+
+.login{
+    
+    padding: 40px;
+    width: 700px;
+    margin:100px auto;
+    text-align: center;
+    background: #fff;
+}
+
+.login h2{
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.login > div{}
+.login > div p{
+    
+}
+.login > div p:nth-of-type(1){}
+    .login > div p:nth-of-type(1) input{
+        width: 70%;
+        padding:  15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 2px solid #ddd;
+        
+        
+        
+}
+
+.login > div p:nth-of-type(2){
+    
+    padding-top: 10px;
+    
+    
+}
+
+.login > div p:nth-of-type(2) input{
+    width: 70%;
+        padding:  15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 2px solid #ddd;
+        margin-top: 1px;
+        
+}
+.login > div p:nth-of-type(3){}
+    .login > div p:nth-of-type(3) a{
+        background: #000;
+        padding: 14px 30px;
+        color: #fff;
+        display: inline-block;
+        margin-top: 10px;
+        
+}
+
+.login > div p:nth-of-type(3) input{
+    width: 70%;
+        padding:  15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 2px solid #ddd;
+        margin-top: 10px;
+    
+}
+
+.login > div p:nth-of-type(4){}
+    .login > div p:nth-of-type(4) a{
+        background: #000;
+        padding: 14px 30px;
+        color: #fff;
+        display: inline-block;
+        margin-top: 10px;
+        
+}
+
+.login > div p:nth-of-type(4) input{
+    width: 70%;
+        padding:  15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 2px solid #ddd;
+        margin-top: 10px;
+    
+}
+
+
+
+
+
+.login a{
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    border-radius: 1px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.login a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.login > p{margin-top: 40px;}
+.login > p a{
+    text-decoration:underline;
+    font-size: .7em;
+}
+.login > p a:after{
+    content: '|';
+    display: inline-block;
+    padding: 0 10px;
+}
+.login > p a:last-of-type:after{
+    content: '';
+}

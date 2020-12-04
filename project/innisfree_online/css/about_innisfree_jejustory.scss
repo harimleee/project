@@ -1,0 +1,571 @@
+@import url("common.css");
+main {
+    width: 100%;
+    .visual {
+        width: 100%;
+        .logo {
+            width: 100%;
+            img {
+                width: 5%;
+                margin: 6% 0 0 2.8%;
+            }
+        }
+        .main_img {
+            width: 80%;
+            margin: 0 auto;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .two {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4% auto;
+        .left {
+            width: 30%;
+            img {
+                width: 100%;
+            }
+        }
+        .right {
+            width: 50%;
+            div {
+                font-family: "함초롬돋움";
+                margin: 8% 0;
+                .num {
+                    font-size: 0.8vw;
+                }
+                .title {
+                    font-size: 1vw;
+                }
+                .write {
+                    width: 63%;
+                    font-size: 0.8vw;
+                    line-height: 1.2vw;
+                }
+                .address {
+                    font-size: 0.7vw;
+                }
+            }
+        }
+    }
+    .three {
+        width: 100%;
+        font-family: "함초롬돋움";
+        margin: 10% 0;
+        .main_write {
+            text-align: center;
+            font-size: 0.8vw;
+            margin: 2% 0;
+        }
+        .book {
+            display: flex;
+            align-items: center;
+            width: 50%;
+            margin: 0 auto;
+            background: #eee;
+            padding: 3% 0;
+            .book_left {
+                width: 50%;
+                text-align: center;
+                margin-left: 8%;
+                img {
+                    width: 65%;
+                }
+            }
+            .book_right {
+                width: 50%;
+                h2 {
+                    font-size: 1.2vw;
+                }
+                .book_write {
+                    font-size: 0.8vw;
+                }
+                .book_btn {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 40%;
+                    border: 1px solid #000;
+                    padding: 0 3%;
+                    margin: 10% 0;
+                    text-decoration: none;
+                    color: #000;
+                    p {
+                        font-size: 0.7vw;
+                    }
+                    img {
+                        width: 8%;
+                    }
+                }
+                .book_btn:hover {
+                    background: #ddd;
+                }
+            }
+        }
+    }
+    .four {
+        text-align: center;
+        margin: 10% 0;
+        h3 {
+            font-family: "Batang";
+            font-size: 1.6vw;
+            font-weight: normal;
+            margin: 0;
+        }
+        .sub_title {
+            font-family: "함초롬돋움";
+            font-size: 0.8vw;
+            margin: 2% 0;
+        }
+        .book_list {
+            width: 70%;
+            margin: 0 auto;
+            position: relative;
+            a {
+                img {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media(max-width:1024px) {
+    main {
+        width: 100%;
+        .visual {
+            width: 100%;
+            .logo {
+                width: 100%;
+                img {
+                    width: 10%;
+                    margin: 13% 0 0 4%;
+                }
+            }
+            .main_img {
+                width: 90%;
+                margin: 5% auto 0 auto;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .two {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 4% auto;
+            .left {
+                width: 30%;
+                img {
+                    width: 100%;
+                }
+            }
+            .right {
+                width: 55%;
+                div {
+                    font-family: "함초롬돋움";
+                    margin: 8% 0;
+                    .num {
+                        font-size: 1.3vw;
+                    }
+                    .title {
+                        font-size: 1.8vw;
+                    }
+                    .write {
+                        width: 90%;
+                        font-size: 1.3vw;
+                        line-height: 2.2vw;
+                    }
+                    .address {
+                        font-size: 1.2vw;
+                    }
+                }
+            }
+        }
+        .three {
+            width: 100%;
+            font-family: "함초롬돋움";
+            margin: 10% 0;
+            .main_write {
+                text-align: center;
+                font-size: 1.3vw;
+                margin: 2% 0;
+            }
+            .book {
+                display: flex;
+                align-items: center;
+                width: 65%;
+                margin: 0 auto;
+                background: #eee;
+                padding: 5% 0;
+                .book_left {
+                    width: 45%;
+                    text-align: center;
+                    margin-left: 5%;
+                    img {
+                        width: 70%;
+                    }
+                }
+                .book_right {
+                    width: 50%;
+                    h2 {
+                        font-size: 2vw;
+                    }
+                    .book_write {
+                        font-size: 1.4vw;
+                    }
+                    .book_btn {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 50%;
+                        border: 1px solid #000;
+                        padding: 0 3%;
+                        margin: 10% 0;
+                        text-decoration: none;
+                        color: #000;
+                        p {
+                            font-size: 1.2vw;
+                        }
+                        img {
+                            width: 8%;
+                        }
+                    }
+                    .book_btn:hover {
+                        background: #ddd;
+                    }
+                }
+            }
+        }
+        .four {
+            text-align: center;
+            margin: 10% 0;
+            h3 {
+                font-family: "Batang";
+                font-size: 2.8vw;
+                font-weight: normal;
+                margin: 0;
+            }
+            .sub_title {
+                font-family: "함초롬돋움";
+                font-size: 1.5vw;
+                margin: 2% 0;
+            }
+            .book_list {
+                width: 80%;
+                margin: 0 auto;
+                position: relative;
+                a {
+                    img {
+                        width: 90%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        width: 100%;
+        .visual {
+            width: 100%;
+            .logo {
+                width: 100%;
+                img {
+                    width: 15%;
+                    margin: 15% 0 0 6%;
+                }
+            }
+            .main_img {
+                width: 95%;
+                margin: 10% auto 0 auto;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .two {
+            width: 80%;
+            display: block;
+            align-items: center;
+            justify-content: space-around;
+            margin: 70% auto 60% auto;
+            position: relative;
+            .left {
+                width: 50%;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                }
+            }
+            .right {
+                background: rgba(255, 254, 243, 0.6);
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: -60%;
+                div {
+                    font-family: "함초롬돋움";
+                    margin: 8% 0;
+                    .num {
+                        font-size: 2vw;
+                    }
+                    .title {
+                        font-size: 2.8vw;
+                    }
+                    .write {
+                        width: 100%;
+                        font-size: 2vw;
+                        line-height: 4vw;
+                    }
+                    .address {
+                        font-size: 1.9vw;
+                    }
+                }
+            }
+        }
+        .three {
+            width: 90%;
+            font-family: "함초롬돋움";
+            margin: 10% auto;
+            .main_write {
+                text-align: center;
+                font-size: 2.5vw;
+                margin: 4% auto;
+                width: 85%;
+            }
+            .book {
+                display: flex;
+                align-items: center;
+                width: 95%;
+                margin: 0 auto;
+                background: #eee;
+                padding: 8% 0;
+                .book_left {
+                    width: 45%;
+                    text-align: center;
+                    margin-left: 4%;
+                    img {
+                        width: 80%;
+                    }
+                }
+                .book_right {
+                    width: 50%;
+                    h2 {
+                        font-size: 3vw;
+                    }
+                    .book_write {
+                        font-size: 2vw;
+                    }
+                    .book_btn {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 60%;
+                        border: 1px solid #000;
+                        padding: 0 3%;
+                        margin: 10% 0;
+                        text-decoration: none;
+                        color: #000;
+                        p {
+                            font-size: 2vw;
+                        }
+                        img {
+                            width: 8%;
+                        }
+                    }
+                    .book_btn:hover {
+                        background: #ddd;
+                    }
+                }
+            }
+        }
+        .four {
+            text-align: center;
+            margin: 20% 0;
+            h3 {
+                font-family: "Batang";
+                font-size: 3.8vw;
+                font-weight: normal;
+                margin: 0;
+            }
+            .sub_title {
+                font-family: "함초롬돋움";
+                font-size: 2.5vw;
+                margin: 2% 0;
+            }
+            .book_list {
+                width: 90%;
+                margin: 0 auto;
+                position: relative;
+                a {
+                    img {
+                        width: 90%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    main {
+        width: 100%;
+        .visual {
+            width: 100%;
+            .logo {
+                width: 100%;
+                img {
+                    width: 20%;
+                    margin: 20% 0 0 5%;
+                }
+            }
+            .main_img {
+                width: 95%;
+                margin: 13% auto 0 auto;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .two {
+            width: 80%;
+            display: block;
+            align-items: center;
+            justify-content: space-around;
+            margin: 70% auto 130% auto;
+            position: relative;
+            .left {
+                width: 70%;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                }
+            }
+            .right {
+                background: rgba(255, 254, 243, 0.6);
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: -40%;
+                div {
+                    font-family: "함초롬돋움";
+                    margin: 8% 0;
+                    .num {
+                        font-size: 2.8vw;
+                    }
+                    .title {
+                        font-size: 4vw;
+                    }
+                    .write {
+                        width: 100%;
+                        font-size: 2.8vw;
+                        line-height: 4.8vw;
+                    }
+                    .address {
+                        font-size: 2.7vw;
+                    }
+                }
+            }
+        }
+        .three {
+            width: 90%;
+            font-family: "함초롬돋움";
+            margin: 10% auto;
+            .main_write {
+                text-align: center;
+                font-size: 3vw;
+                margin: 4% auto;
+                width: 85%;
+            }
+            .book {
+                display: block;
+                align-items: center;
+                width: 95%;
+                margin: 0 auto;
+                background: #eee;
+                padding: 8% 0;
+                .book_left {
+                    width: 45%;
+                    text-align: center;
+                    margin-left: 0%;
+                    margin: 0 auto;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .book_right {
+                    width: 80%;
+                    margin: 0 auto;
+                    text-align: center;
+                    h2 {
+                        font-size: 3.8vw;
+                    }
+                    .book_write {
+                        font-size: 3vw;
+                    }
+                    .book_btn {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 60%;
+                        border: 1px solid #000;
+                        padding: 0 3%;
+                        margin: 10% auto;
+                        text-decoration: none;
+                        color: #000;
+                        p {
+                            font-size: 3vw;
+                        }
+                        img {
+                            width: 8%;
+                        }
+                    }
+                    .book_btn:hover {
+                        background: #ddd;
+                    }
+                }
+            }
+        }
+        .four {
+            text-align: center;
+            margin: 20% 0;
+            h3 {
+                font-family: "Batang";
+                font-size: 5vw;
+                font-weight: normal;
+                margin: 0;
+            }
+            .sub_title {
+                font-family: "함초롬돋움";
+                font-size: 4vw;
+                margin: 5% auto;
+                width: 80%;
+            }
+            .book_list {
+                width: 90%;
+                margin: 0 auto;
+                position: relative;
+                a {
+                    img {
+                        width: 90%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

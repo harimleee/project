@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url("common.css");
+.header_left a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main .visual {
+  position: relative;
+  width: 100%;
+  height: 30vw;
+}
+
+main .visual img {
+  width: 100%;
+  height: 100%;
+}
+
+main .visual .logo {
+  width: 6%;
+  position: absolute;
+  left: 3%;
+  top: 18%;
+}
+
+main .visual .logo img {
+  width: 100%;
+}
+
+main .visual .center {
+  position: absolute;
+  left: 25%;
+  top: 18%;
+  text-align: center;
+  font-family: "함초롬돋움";
+  color: white;
+}
+
+main .visual .center h2 {
+  font-size: 1.8vw;
+  margin-top: 9%;
+}
+
+main .visual .center p {
+  font-size: 0.9vw;
+  line-height: 1.5vw;
+  margin: 5% 0;
+}
+
+main .visual .center .v_btn {
+  margin: 6% 0;
+  font-size: 1.1vw;
+}
+
+main .visual .center .v_btn a {
+  color: white;
+  text-decoration: none;
+}
+
+main .visual .center .v_btn a.active {
+  font-weight: bolder;
+}
+/*# sourceMappingURL=read_playgreen.css.map */

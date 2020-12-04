@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@import url("common.css");
+main {
+  font-family: "함초롬돋움";
+}
+main .main .A_logo {
+  margin: 10% 0 0 2.8%;
+}
+main .main .A_logo a img {
+  width: 6%;
+}
+main .nav {
+  margin: 3% 2.8%;
+}
+main .nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9vw;
+  padding-right: 0.8%;
+}
+main .nav a.active {
+  font-weight: bold;
+}
+main .list .list_text table {
+  width: 50%;
+  margin: 3% 2.6%;
+  border-collapse: collapse;
+}
+main .list .list_text table thead th {
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 2%;
+  border-bottom: 1px solid #dddbd5;
+  font-size: 0.8vw;
+}
+main .list .list_text table tbody {
+  cursor: pointer;
+}
+main .list .list_text table tbody tr {
+  font-size: 0.7vw;
+}
+main .list .list_text table tbody tr td {
+  border-bottom: 1px solid #dddbd5;
+  padding: 2% 0;
+  text-align: left;
+}
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+@media (max-width: 1024px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .main .A_logo {
+    margin: 12% 0 0 4%;
+  }
+  main .main .A_logo a img {
+    width: 10%;
+  }
+  main .nav {
+    margin: 5% 4%;
+  }
+  main .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    padding-right: 0.8%;
+  }
+  main .nav a.active {
+    font-weight: bold;
+  }
+  main .list .list_text table {
+    width: 75%;
+    margin: 5% 4%;
+    border-collapse: collapse;
+  }
+  main .list .list_text table thead th {
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #dddbd5;
+    font-size: 1.3vw;
+  }
+  main .list .list_text table tbody tr {
+    font-size: 1.2vw;
+  }
+  main .list .list_text table tbody tr td {
+    border-bottom: 1px solid #dddbd5;
+    padding: 2% 2%;
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .main .A_logo {
+    margin: 15% 0 0 6.5%;
+  }
+  main .main .A_logo a img {
+    width: 15%;
+  }
+  main .nav {
+    margin: 5% 6.5%;
+  }
+  main .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8vw;
+    padding-right: 0.8%;
+  }
+  main .nav a.active {
+    font-weight: bold;
+  }
+  main .list .list_text table {
+    width: 90%;
+    margin: 5% 4%;
+    border-collapse: collapse;
+  }
+  main .list .list_text table thead th {
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #dddbd5;
+    font-size: 2vw;
+  }
+  main .list .list_text table tbody tr {
+    font-size: 1.8vw;
+  }
+  main .list .list_text table tbody tr td {
+    border-bottom: 1px solid #dddbd5;
+    padding: 2% 2%;
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .main .A_logo {
+    margin: 20% 0 0 6%;
+  }
+  main .main .A_logo a img {
+    width: 20%;
+  }
+  main .nav {
+    margin: 8% 6%;
+  }
+  main .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 4vw;
+    padding-right: 0.8%;
+  }
+  main .nav a.active {
+    font-weight: bold;
+  }
+  main .list .list_text table {
+    width: 90%;
+    margin: 8% auto;
+    border-collapse: collapse;
+  }
+  main .list .list_text table thead th {
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #dddbd5;
+    font-size: 3.3vw;
+  }
+  main .list .list_text table tbody tr {
+    font-size: 3vw;
+  }
+  main .list .list_text table tbody tr td {
+    border-bottom: 1px solid #dddbd5;
+    padding: 2% 2%;
+    text-align: left;
+  }
+}

@@ -1,0 +1,790 @@
+@charset "UTF-8";
+main {
+  font-family: "함초롬돋움";
+}
+main .A_logo {
+  margin: 10% 0 0 2.8%;
+}
+main .A_logo a img {
+  width: 6%;
+}
+main .nav {
+  width: 40%;
+  margin: 2% auto 0 auto;
+}
+main .nav p {
+  width: 32%;
+  color: black;
+  padding: 3% 8%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1vw;
+}
+main .nav p.active {
+  color: white;
+  background-color: black;
+}
+main .nav_text {
+  width: 70%;
+  margin: 0% auto 5% auto;
+}
+main .nav_text div {
+  display: none;
+}
+main .nav_text div:nth-of-type(1) ul li {
+  font-size: 0.9vw;
+  padding: 2% 0;
+  border-bottom: 1px solid #000;
+}
+main .nav_text div:nth-of-type(1) ul li p {
+  display: none;
+  font-size: 0.8vw;
+  margin: 5% 0;
+}
+main .nav_text div:nth-of-type(1) ul li p.active {
+  display: block;
+}
+main .nav_text div:nth-of-type(2) {
+  margin: 5% 0;
+  text-align: center;
+}
+main .nav_text div:nth-of-type(2) p {
+  font-size: 1.2vw;
+  line-height: 3vw;
+  margin-bottom: 8%;
+  font-family: "함초롬바탕";
+}
+main .nav_text div:nth-of-type(2) a {
+  text-decoration: none;
+  color: black;
+  font-size: 1vw;
+  padding: 2% 3%;
+}
+main .nav_text div:nth-of-type(2) a:hover {
+  background-color: #e9e1d1;
+  transition: 1s;
+}
+main .nav_text div:nth-of-type(2) button {
+  display: block;
+  margin: 8% auto;
+  border: none;
+  background: #363636;
+  color: white;
+  padding: 1% 2%;
+  font-size: 0.8vw;
+  cursor: pointer;
+}
+main .nav_text div:nth-of-type(2) button:hover {
+  background: black;
+}
+main .nav_text div:nth-of-type(3) {
+  margin: 6% auto;
+  text-align: center;
+}
+main .nav_text div:nth-of-type(3) .procedure .txt {
+  font-size: 1vw;
+  text-align: left;
+}
+main .nav_text div:nth-of-type(3) .procedure img {
+  width: 100%;
+}
+main .nav_text div:nth-of-type(3) .condition {
+  margin: 6% 0;
+}
+main .nav_text div:nth-of-type(3) .condition .txt {
+  font-size: 1vw;
+  text-align: left;
+}
+main .nav_text div:nth-of-type(3) .condition .condi2 {
+  background: white;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .nav_text div:nth-of-type(3) .condition .condi2 article {
+  width: 50%;
+  text-align: left;
+}
+main .nav_text div:nth-of-type(3) .condition .condi2 article p {
+  padding-left: 10%;
+  line-height: 2vw;
+}
+main .nav_text div:nth-of-type(3) .condition .condi2 article p strong {
+  font-size: 1.4vw;
+  font-weight: normal;
+}
+main .nav_text div:nth-of-type(3) .condition .condi2 article p small {
+  color: #8d8d8d;
+}
+main .nav_text div:nth-of-type(3) .condition .condi2 article p:nth-of-type(2) {
+  font-size: 0.7vw;
+  padding-left: 10%;
+  color: #bbbbbb;
+}
+main .nav_text div:nth-of-type(3) .condition .condi2 img {
+  width: 35%;
+  padding-right: 5%;
+}
+main .nav_text div:nth-of-type(3) .cost {
+  margin: 6% 0;
+}
+main .nav_text div:nth-of-type(3) .cost .txt {
+  font-size: 1vw;
+  text-align: left;
+}
+main .nav_text div:nth-of-type(3) .cost table {
+  background: white;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+main .nav_text div:nth-of-type(3) .cost table tbody th {
+  border-bottom: 1px solid #ddd;
+  font-weight: normal;
+  font-size: 0.9vw;
+  padding: 1% 0;
+}
+main .nav_text div:nth-of-type(3) .cost table tbody tr {
+  border: 1px solid #ddd;
+  font-size: 0.8vw;
+}
+main .nav_text div:nth-of-type(3) .cost table tbody tr td {
+  padding: 1% 0;
+}
+main .nav_text div:nth-of-type(3) .structure {
+  margin: 6% 0;
+}
+main .nav_text div:nth-of-type(3) .structure .txt {
+  font-size: 1vw;
+  text-align: left;
+}
+main .nav_text div:nth-of-type(3) .structure .formula {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+main .nav_text div:nth-of-type(3) .structure .formula p {
+  background: white;
+  font-size: 1.4vw;
+  padding: 6% 5%;
+  border: 1px solid #ddd;
+}
+main .nav_text div:nth-of-type(3) .structure .formula p:nth-of-type(2),
+main .nav_text div:nth-of-type(3) .structure .formula p:nth-of-type(4) {
+  background: none;
+  font-size: 3vw;
+  border: none;
+}
+main .nav_text div:nth-of-type(3) button {
+  border: none;
+  background: #363636;
+  color: white;
+  padding: 1% 2%;
+  font-size: 0.8vw;
+  cursor: pointer;
+  margin: 0 auto;
+}
+main .nav_text div:nth-of-type(3) button:hover {
+  background: black;
+}
+main .nav_text div.active {
+  display: block;
+}
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+@media (max-width: 1024px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .A_logo {
+    margin: 12% 0 0 4%;
+  }
+  main .A_logo a img {
+    width: 9%;
+  }
+  main .nav {
+    width: 60%;
+    margin: 5% auto 0 auto;
+  }
+  main .nav p {
+    width: 32%;
+    color: black;
+    padding: 3% 8%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5vw;
+  }
+  main .nav p.active {
+    color: white;
+    background-color: black;
+  }
+  main .nav_text {
+    width: 80%;
+    margin: 0% auto 8% auto;
+  }
+  main .nav_text div {
+    display: none;
+  }
+  main .nav_text div:nth-of-type(1) ul li {
+    font-size: 1.5vw;
+    padding: 3% 0;
+    border-bottom: 1px solid #000;
+  }
+  main .nav_text div:nth-of-type(1) ul li p {
+    display: none;
+    font-size: 1.4vw;
+    margin: 5% 0;
+  }
+  main .nav_text div:nth-of-type(1) ul li p.active {
+    display: block;
+  }
+  main .nav_text div:nth-of-type(2) {
+    margin: 9% 0;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(2) p {
+    font-size: 2vw;
+    line-height: 3vw;
+    margin-bottom: 9%;
+    font-family: "함초롬바탕";
+  }
+  main .nav_text div:nth-of-type(2) a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8vw;
+    padding: 2% 3%;
+  }
+  main .nav_text div:nth-of-type(2) a:hover {
+    background-color: #e9e1d1;
+    transition: 1s;
+  }
+  main .nav_text div:nth-of-type(2) button {
+    display: block;
+    margin: 8% auto;
+    border: none;
+    background: #363636;
+    color: white;
+    padding: 2% 3%;
+    font-size: 1.5vw;
+    cursor: pointer;
+  }
+  main .nav_text div:nth-of-type(2) button:hover {
+    background: black;
+  }
+  main .nav_text div:nth-of-type(3) {
+    margin: 8% auto;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(3) .procedure .txt {
+    font-size: 1.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .procedure img {
+    width: 100%;
+  }
+  main .nav_text div:nth-of-type(3) .condition {
+    margin: 8% 0;
+  }
+  main .nav_text div:nth-of-type(3) .condition .txt {
+    font-size: 1.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 {
+    background: white;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article {
+    width: 60%;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p {
+    padding-left: 8%;
+    line-height: 3vw;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p strong {
+    font-size: 2.2vw;
+    font-weight: normal;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p small {
+    color: #8d8d8d;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p:nth-of-type(2) {
+    font-size: 1vw;
+    padding-left: 8%;
+    color: #bbbbbb;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 img {
+    width: 35%;
+    padding-right: 5%;
+  }
+  main .nav_text div:nth-of-type(3) .cost {
+    margin: 6% 0;
+  }
+  main .nav_text div:nth-of-type(3) .cost .txt {
+    font-size: 1.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .cost table {
+    background: white;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody th {
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    font-size: 1.5vw;
+    padding: 1% 0;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody tr {
+    border: 1px solid #ddd;
+    font-size: 1.2vw;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody tr td {
+    padding: 1% 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure {
+    margin: 0% 0 5% 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure .txt {
+    font-size: 1.5vw;
+    text-align: left;
+    margin: 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula p {
+    background: white;
+    font-size: 1.8vw;
+    padding: 6.5% 5%;
+    border: 1px solid #ddd;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula p:nth-of-type(2),
+main .nav_text div:nth-of-type(3) .structure .formula p:nth-of-type(4) {
+    background: none;
+    font-size: 4vw;
+    border: none;
+  }
+  main .nav_text div:nth-of-type(3) button {
+    border: none;
+    background: #363636;
+    color: white;
+    padding: 2% 3%;
+    font-size: 1.4vw;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  main .nav_text div:nth-of-type(3) button:hover {
+    background: black;
+  }
+  main .nav_text div.active {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .A_logo {
+    margin: 15% 0 0 6.5%;
+  }
+  main .A_logo a img {
+    width: 14%;
+  }
+  main .nav {
+    width: 75%;
+    margin: 5% auto 0 auto;
+  }
+  main .nav p {
+    width: 32%;
+    color: black;
+    padding: 3% 8%;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.5vw;
+  }
+  main .nav p.active {
+    color: white;
+    background-color: black;
+  }
+  main .nav_text {
+    width: 90%;
+    margin: 0% auto 8% auto;
+  }
+  main .nav_text div {
+    display: none;
+  }
+  main .nav_text div:nth-of-type(1) ul li {
+    font-size: 2.3vw;
+    padding: 4% 0;
+    border-bottom: 1px solid #000;
+  }
+  main .nav_text div:nth-of-type(1) ul li p {
+    display: none;
+    font-size: 2vw;
+    margin: 5% 0;
+  }
+  main .nav_text div:nth-of-type(1) ul li p.active {
+    display: block;
+  }
+  main .nav_text div:nth-of-type(2) {
+    margin: 9% 0;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(2) p {
+    font-size: 3.2vw;
+    line-height: 6vw;
+    margin-bottom: 9%;
+    font-family: "함초롬바탕";
+  }
+  main .nav_text div:nth-of-type(2) a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.8vw;
+    padding: 2% 3%;
+  }
+  main .nav_text div:nth-of-type(2) a:hover {
+    background-color: #e9e1d1;
+    transition: 1s;
+  }
+  main .nav_text div:nth-of-type(2) button {
+    display: block;
+    margin: 10% auto;
+    border: none;
+    background: #363636;
+    color: white;
+    padding: 3% 4%;
+    font-size: 2.2vw;
+    cursor: pointer;
+  }
+  main .nav_text div:nth-of-type(2) button:hover {
+    background: black;
+  }
+  main .nav_text div:nth-of-type(3) {
+    margin: 8% auto;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(3) .procedure .txt {
+    font-size: 2.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .procedure img {
+    width: 100%;
+  }
+  main .nav_text div:nth-of-type(3) .condition {
+    margin: 8% 0;
+  }
+  main .nav_text div:nth-of-type(3) .condition .txt {
+    font-size: 2.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 {
+    background: white;
+    border: 1px solid #ddd;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p {
+    padding-left: 0%;
+    line-height: 6vw;
+    font-size: 3vw;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p strong {
+    font-size: 4vw;
+    font-weight: normal;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p small {
+    color: #8d8d8d;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p:nth-of-type(2) {
+    font-size: 1.8vw;
+    padding-left: 0%;
+    color: #bbbbbb;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 img {
+    width: 50%;
+    padding-right: 0%;
+  }
+  main .nav_text div:nth-of-type(3) .cost {
+    margin: 8% 0;
+  }
+  main .nav_text div:nth-of-type(3) .cost .txt {
+    font-size: 2.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .cost table {
+    background: white;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody th {
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    font-size: 2.3vw;
+    padding: 2% 0;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody tr {
+    border: 1px solid #ddd;
+    font-size: 1.8vw;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody tr td {
+    padding: 2% 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure {
+    margin: 0% 0 5% 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure .txt {
+    font-size: 2.5vw;
+    text-align: left;
+    margin: 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula p {
+    background: white;
+    font-size: 2vw;
+    padding: 6.5% 5%;
+    border: 1px solid #ddd;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula p:nth-of-type(2),
+main .nav_text div:nth-of-type(3) .structure .formula p:nth-of-type(4) {
+    background: none;
+    font-size: 5vw;
+    border: none;
+  }
+  main .nav_text div:nth-of-type(3) button {
+    border: none;
+    background: #363636;
+    color: white;
+    padding: 2% 3%;
+    font-size: 2vw;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  main .nav_text div:nth-of-type(3) button:hover {
+    background: black;
+  }
+  main .nav_text div.active {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .A_logo {
+    margin: 20% 0 0 6%;
+  }
+  main .A_logo a img {
+    width: 20%;
+  }
+  main .nav {
+    width: 80%;
+    margin: 5% auto 0 auto;
+  }
+  main .nav p {
+    width: 32%;
+    color: black;
+    padding: 3% 8%;
+    display: inline-block;
+    text-align: center;
+    font-size: 3.3vw;
+  }
+  main .nav p.active {
+    color: white;
+    background-color: black;
+  }
+  main .nav_text {
+    width: 85%;
+    margin: 0% auto 8% auto;
+  }
+  main .nav_text div {
+    display: none;
+  }
+  main .nav_text div:nth-of-type(1) ul {
+    padding: 0;
+  }
+  main .nav_text div:nth-of-type(1) ul li {
+    font-size: 3.2vw;
+    padding: 5% 0;
+    border-bottom: 1px solid #000;
+  }
+  main .nav_text div:nth-of-type(1) ul li p {
+    display: none;
+    font-size: 3vw;
+    margin: 5% 0;
+  }
+  main .nav_text div:nth-of-type(1) ul li p.active {
+    display: block;
+  }
+  main .nav_text div:nth-of-type(2) {
+    margin: 9% 0;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(2) p {
+    font-size: 5vw;
+    line-height: 9vw;
+    margin-bottom: 9%;
+    font-family: "함초롬바탕";
+  }
+  main .nav_text div:nth-of-type(2) a {
+    text-decoration: none;
+    color: black;
+    font-size: 4vw;
+    padding: 2% 3%;
+  }
+  main .nav_text div:nth-of-type(2) a:hover {
+    background-color: #e9e1d1;
+    transition: 1s;
+  }
+  main .nav_text div:nth-of-type(2) button {
+    display: block;
+    margin: 20% auto;
+    border: none;
+    background: #363636;
+    color: white;
+    padding: 4% 5%;
+    font-size: 3.2vw;
+    cursor: pointer;
+  }
+  main .nav_text div:nth-of-type(2) button:hover {
+    background: black;
+  }
+  main .nav_text div:nth-of-type(3) {
+    margin: 8% auto;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(3) .procedure .txt {
+    font-size: 3.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .procedure img {
+    width: 100%;
+  }
+  main .nav_text div:nth-of-type(3) .condition {
+    margin: 8% 0;
+  }
+  main .nav_text div:nth-of-type(3) .condition .txt {
+    font-size: 3.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 {
+    background: white;
+    border: 1px solid #ddd;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p {
+    padding-left: 0%;
+    line-height: 8vw;
+    font-size: 4vw;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p strong {
+    font-size: 5.5vw;
+    font-weight: normal;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p small {
+    color: #8d8d8d;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 article p:nth-of-type(2) {
+    font-size: 1.8vw;
+    padding-left: 0%;
+    line-height: 5vw;
+    color: #bbbbbb;
+  }
+  main .nav_text div:nth-of-type(3) .condition .condi2 img {
+    width: 50%;
+    padding-right: 0%;
+  }
+  main .nav_text div:nth-of-type(3) .cost {
+    margin: 8% 0;
+  }
+  main .nav_text div:nth-of-type(3) .cost .txt {
+    font-size: 3.5vw;
+    text-align: left;
+  }
+  main .nav_text div:nth-of-type(3) .cost table {
+    background: white;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody th {
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    font-size: 3vw;
+    padding: 2% 2%;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody tr {
+    border: 1px solid #ddd;
+    font-size: 1vw;
+  }
+  main .nav_text div:nth-of-type(3) .cost table tbody tr td {
+    padding: 2% 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure {
+    margin: 0% 0 5% 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure .txt {
+    font-size: 3.5vw;
+    text-align: left;
+    margin: 0;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula p {
+    background: white;
+    font-size: 2vw;
+    padding: 6.5% 5%;
+    border: 1px solid #ddd;
+  }
+  main .nav_text div:nth-of-type(3) .structure .formula p:nth-of-type(2),
+main .nav_text div:nth-of-type(3) .structure .formula p:nth-of-type(4) {
+    background: none;
+    font-size: 5vw;
+    border: none;
+  }
+  main .nav_text div:nth-of-type(3) button {
+    border: none;
+    background: #363636;
+    color: white;
+    padding: 2% 3%;
+    font-size: 3.5vw;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  main .nav_text div:nth-of-type(3) button:hover {
+    background: black;
+  }
+  main .nav_text div.active {
+    display: block;
+  }
+}

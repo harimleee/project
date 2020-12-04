@@ -1,0 +1,189 @@
+@import url(../css/a_1web_common.css);
+
+html,
+body {}
+
+
+
+
+
+
+main h1 {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 72px;
+    padding-top: 30px;
+}
+
+main .search {
+    height: 40px;
+    width: 550px;
+    border: 1px solid #ddd;
+    background: #fff;
+    outline-offset: 0;
+}
+
+/*search 내부 테두리없애기*/
+.search {
+    font-size: 16px;
+    width: 375px;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.search input {
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    outline-style: none;
+}
+
+
+
+.btn {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.btn h1 {
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+.btn a {
+    background: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 30px 100px 30px 100px;
+    font-size: 2em;
+
+
+}
+
+
+footer {
+    background: #f3f0ec;
+    width: 100%;
+    padding: 4% 0;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 3%;
+}
+
+/*=========↓left address↓========*/
+.left {
+    width: 20%;
+    padding: 0;
+    margin: auto;
+}
+
+.left p {
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+
+
+}
+
+/*============↓center↓===========*/
+.middle {
+    display: block;
+    width: 100%;
+    margin: auto;
+
+
+    /*    margin: 0 auto;*/
+}
+
+/*=====↓footer logo↓====*/
+.middle .footer_logo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.middle .footer_logo img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding-bottom: 2.5%
+}
+
+/*=====↓SNS↓====*/
+.middle ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+}
+
+.middle ul li {
+    margin-left: 2%;
+}
+
+.middle ul li a {}
+
+.middle ul li a img {
+    width: 100%;
+}
+
+/*=========↓right frq↓========*/
+.right {
+    width: 100%;
+
+}
+
+.right a {
+    width: 100%;
+}
+
+.right a img {
+    width: 100%;
+    margin-left: 10%;
+}
+
+
+/*==================↓pop ups↓==================*/
+/*=====↓pop ups  그림자↓====*/
+.popup_box {
+
+    box-shadow: -12px 26px 39px 2px rgba(0, 0, 0, 0.52);
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 60px;
+    font: roboto;
+
+}
+
+
+/*
+@media(max-width:480px) {
+    body {
+        margin: 0
+    }
+
+    #body {
+        min-height: 100%
+    }
+
+    .footer {
+        margin-top: -1.9em;
+        height: 1.9em;
+    }
+
+
+}
+*/

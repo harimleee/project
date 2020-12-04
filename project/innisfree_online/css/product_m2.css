@@ -1,0 +1,303 @@
+@charset "UTF-8";
+@import url("common.css");
+.main {
+    width: 100%;
+    font-family: "함초롬돋움";
+}
+
+.A_logo {
+    margin: 9% 0 0 3%;
+    width: 7%;
+}
+
+.A_logo a img {
+    width: 100%;
+}
+
+.A_product_nav {
+    width: 100%;
+}
+
+.A_product_nav .name {
+    margin: 3% 0 1% 2.8%;
+    font-size: 1.3vw;
+}
+
+.A_product_nav .tab {
+    padding: 2% 0;
+    background: #f1f1e7;
+}
+
+.A_product_nav .tab a {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5%;
+    font-size: 0.9vw;
+    color: #3e3e3e;
+}
+
+.A_product_nav .tab a:nth-of-type(1) {
+    margin: 0;
+    margin-left: 3%;
+}
+
+.A_product_nav .tab a.active {
+    border-bottom: 1px solid #3e3e3e;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 0 7% 2%;
+}
+
+.list figure {
+    width: 20%;
+    margin: 2% 2%;
+    text-align: center;
+}
+
+.list figure a {
+    text-decoration: none;
+}
+
+.list figure p {
+    margin: 0;
+}
+
+.list figure p img {
+    width: 100%;
+}
+
+.list figure figcaption h3 {
+    color: black;
+    font-weight: normal;
+    font-size: 0.9vw;
+}
+
+.list figure figcaption p {
+    color: black;
+    font-size: 0.7vw;
+}
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media(max-width:1024px) {
+    .main {
+        width: 100%;
+        font-family: "함초롬돋움";
+    }
+    .A_logo {
+        margin: 14% 0 0 4%;
+        width: 10%;
+    }
+    .A_logo a img {
+        width: 100%;
+    }
+    .A_product_nav {
+        width: 100%;
+    }
+    .A_product_nav .name {
+        margin: 5% 0 1% 4%;
+        font-size: 1.8vw;
+    }
+    .A_product_nav .tab {
+        padding: 3% 0;
+        background: #f1f1e7;
+    }
+    .A_product_nav .tab a {
+        text-decoration: none;
+        color: black;
+        margin: 0 0.5%;
+        font-size: 1.3vw;
+        color: #3e3e3e;
+    }
+    .A_product_nav .tab a:nth-of-type(1) {
+        margin: 0;
+        margin-left: 4%;
+    }
+    .A_product_nav .tab a.active {
+        border-bottom: 1px solid #3e3e3e;
+    }
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2% 0 7% 2%;
+    }
+    .list figure {
+        width: 25%;
+        margin: 2% 0;
+        text-align: center;
+    }
+    .list figure a {
+        text-decoration: none;
+    }
+    .list figure p {
+        margin: 0;
+    }
+    .list figure p img {
+        width: 100%;
+    }
+    .list figure figcaption h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 1.4vw;
+    }
+    .list figure figcaption p {
+        color: black;
+        font-size: 1.2vw;
+    }
+}
+
+@media(max-width:768px) {
+    .main {
+        width: 100%;
+        font-family: "함초롬돋움";
+    }
+    .A_logo {
+        margin: 18% 0 0 6%;
+        width: 15%;
+    }
+    .A_logo a img {
+        width: 100%;
+    }
+    .A_product_nav {
+        width: 100%;
+    }
+    .A_product_nav .name {
+        margin: 5% 0 2% 6%;
+        font-size: 3vw;
+    }
+    .A_product_nav .tab {
+        padding: 3% 2% 3% 2%;
+        background: #f1f1e7;
+        width: 100%;
+    }
+    .A_product_nav .tab a {
+        text-decoration: none;
+        color: black;
+        margin: 0 1%;
+        font-size: 2.5vw;
+        line-height: 5vw;
+        color: #3e3e3e;
+    }
+    .A_product_nav .tab a:nth-of-type(1) {
+        margin: 0;
+        margin-left: 4%;
+    }
+    .A_product_nav .tab a:nth-of-type(10) {
+        margin-left: 4%;
+    }
+    .A_product_nav .tab a.active {
+        border-bottom: 1px solid #3e3e3e;
+    }
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2% 0 7% 2%;
+    }
+    .list figure {
+        width: 33%;
+        margin: 2% 0;
+        text-align: center;
+    }
+    .list figure a {
+        text-decoration: none;
+    }
+    .list figure p {
+        margin: 0;
+    }
+    .list figure p img {
+        width: 100%;
+    }
+    .list figure figcaption h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 2.4vw;
+    }
+    .list figure figcaption p {
+        color: black;
+        font-size: 2.2vw;
+    }
+}
+
+@media(max-width:480px) {
+    .main {
+        width: 100%;
+        font-family: "함초롬돋움";
+    }
+    .A_logo {
+        margin: 20% 0 0 5%;
+        width: 20%;
+    }
+    .A_logo a img {
+        width: 100%;
+    }
+    .A_product_nav {
+        width: 100%;
+    }
+    .A_product_nav .name {
+        margin: 8% 0 3% 5%;
+        font-size: 4vw;
+    }
+    .A_product_nav .tab {
+        padding: 3% 2% 3% 2%;
+        background: #f1f1e7;
+        width: 100%;
+    }
+    .A_product_nav .tab a {
+        text-decoration: none;
+        color: black;
+        margin: 0 1%;
+        font-size: 4.2vw;
+        line-height: 8.5vw;
+        color: #3e3e3e;
+    }
+    .A_product_nav .tab a:nth-of-type(1) {
+        margin: 0;
+        margin-left: 4%;
+    }
+    .A_product_nav .tab a:nth-of-type(10) {
+        margin-left: 0%;
+    }
+    .A_product_nav .tab a:nth-of-type(7) {
+        margin-left: 4%;
+    }
+    .A_product_nav .tab a:nth-of-type(12) {
+        margin-left: 4%;
+    }
+    .A_product_nav .tab a.active {
+        border-bottom: 1px solid #3e3e3e;
+    }
+    .list {
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 2% auto 7% auto;
+    }
+    .list figure {
+        width: 45%;
+        margin: 2% 0;
+        text-align: center;
+    }
+    .list figure a {
+        text-decoration: none;
+    }
+    .list figure p {
+        margin: 0;
+    }
+    .list figure p img {
+        width: 100%;
+    }
+    .list figure figcaption h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 3.5vw;
+    }
+    .list figure figcaption p {
+        color: black;
+        font-size: 3.3vw;
+    }
+}

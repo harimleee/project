@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1year subscription</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/a_sub.css" rel="stylesheet" type="text/css">
+    <link href="css/a_1web_common.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+
+</head>
+
+<body>
+
+    <header></header>
+    <div class="popup_box"></div>
+    <div class="popup_box2"></div>
+    <div class="popup_box3"></div>
+    <div class="popup_box4"></div>
+    <div class="popup_box5"></div>
+
+
+
+    <div class="subimg">
+        <img src="img/a_1y_submain.png">
+        <div class="lang">
+            <img src="img/a_1y_sub.png">
+        </div>
+    </div>
+
+    <main>
+        <div class="list_s">
+            <div class="left_s">
+                <h2>Choose your type</h2>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Period Selection</button>
+                    <div>Cycle Change</div>
+                    <div class="dropdown-content">
+                        <a href="#">Subscribe period 2 shares</a>
+                        <a href="#">Subscribe period 4 shares</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="selectDate">
+
+                    <input type="date" name="dateofbirth" id="dateofbirth">
+                    <div>Change Receiving Date</div>
+                </div>
+
+
+                <div class="frame">
+                    <div class="block3">
+
+                        <form action="/action_page.php">
+                            <input type="checkbox" id="check" name="checkbox" value="frame_">
+                            <label for="vehicle1"> Would you like to add a frame?</label>
+                        </form>
+
+
+                        <ul class="frame3">
+                            <li>
+                                <a href="#">
+                                    <img src="img/printonly.png">
+                                    <p>Print Only</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/white.png">
+                                    <p>White</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/black.png">
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/natural.png">
+                                    <p>Natural</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dropdown_">
+                    <button class="dropbtn_">Choose your style of painting</button>
+                    <div>▼</div>
+                    <div class="dropdown-content_">
+                        <a href="#">Abstract</a>
+                        <a href="#">Animals</a>
+                        <a href="#">Landscape</a>
+                        <a href="#">Portrait</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="right">
+                <div class="info">
+                    <p>Recipient Information</p>
+                    <ul>
+                        <li class="lang5">
+                            <input type="text" placeholder="Name">
+                        </li>
+                        <li class="lang6">
+                            <input type="phone number" placeholder="Phone Number">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="address">
+                    <p>* Address</p>
+                    <div class="address_r">
+                        <div class="top">
+                            <input type="text" placeholder="Postal code">
+                            <div class="btn">
+                                <a href="#">
+                                Find Address
+                            </a>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Address">
+                        <input type="text" placeholder="Detailed address">
+                    </div>
+                </div>
+                <div class="caution">
+                    <p class="t_lang">* Precautions for Saturday Receipt Selection
+                    </p>
+                    <p class="b_lang">
+                        If you choose to receive Saturday, the company address is difficult to deliver.<br> Please enter an address that you can directly receive from your home or recipient.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--    re-check-->
+
+        <table class="re_cbox">
+            <caption>Please check your order again.</caption>
+            <thead>
+                <tr>
+                    <th>Date of receipt</th>
+                    <th>Subscription type</th>
+                    <th>Frame addition</th>
+                    <th>Style</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>0000. 00. 00.</td>
+                    <td>0 month / Period 0 weeks</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>$ 00.0</td>
+
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="address_c">
+            <h1>
+                Shipping address
+            </h1>
+            <div class="address_box">
+                <div class="left2">
+                    <div class="name">
+                        <p>Recipient name</p>
+                        <input>
+                    </div>
+                    <div class="name">
+                        <p>Recipient phone number</p>
+                        <input>
+                    </div>
+
+                    <div class="name">
+                        <p>Postal code</p>
+                        <input>
+                    </div>
+                    <div class="name">
+                        <p>Address</p>
+                        <input>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--    credit card-->
+
+        <div class="card">
+            <h2>Payment</h2>
+            <p>*Regular payment products can only be paid by credit card (direct input).</p>
+
+            <div class="card_l">
+                <div class="num">
+                    <p>Card number</p>
+                    <input type="text" class="moveNumber" maxlength="4" />
+                    <input type="text" class="moveNumber" maxlength="4" />
+                    <input type="text" class="moveNumber" maxlength="4" />
+                    <input type="text" class="moveNumber" maxlength="4" />
+                </div>
+
+                <div class="vp">
+                    <p>Validity Period (Year/Month)</p>
+                    <input type="number" min="2020" max="2050" placeholder="Year">
+                    <input type="number" min="1" max="12" placeholder="Month">
+
+
+                </div>
+
+                <div class="rn">
+                    <p>First digit of resident registration number</p>
+                    <input type="text" class="moveNumber" maxlength="6" />
+
+                </div>
+
+                <div class="password">
+                    <p>The first two digits of the password</p>
+                    <input type="text" class="moveNumber" maxlength="2" />
+                </div>
+            </div>
+        </div>
+
+        <!--    ---total, click btn----->
+        <div class="total">
+            <p>Total</p>
+            <p>$ 00.0</p>
+        </div>
+
+        <div class="btn">
+            <div>To return</div>
+            <div>Payment</div>
+        </div>
+    </main>
+
+
+    <footer></footer>
+
+
+
+
+</body>

@@ -1,0 +1,1031 @@
+@charset "UTF-8";
+@import url("common.css");
+main .main .logo {
+  margin: 5% 0 0 2.8%;
+}
+main .main .logo a img {
+  width: 5%;
+}
+main .main .main_pro {
+  display: flex;
+  justify-content: flex-end;
+  align-items: top;
+  font-family: "함초롬돋움";
+  margin: 2% 0 6% 0;
+}
+main .main .main_pro .left {
+  width: 20%;
+  text-align: center;
+}
+main .main .main_pro .left img {
+  width: 100%;
+}
+main .main .main_pro .left p {
+  margin: 3% 0;
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+main .main .main_pro .right {
+  width: 23%;
+  margin-right: 13%;
+}
+main .main .main_pro .right .right_main {
+  border-bottom: 1.5px solid #000;
+}
+main .main .main_pro .right .right_main .main_type {
+  margin: 0;
+  color: #666666;
+  font-size: 0.8vw;
+}
+main .main .main_pro .right .right_main .main_name {
+  margin: 4% 0;
+  font-size: 1.5vw;
+}
+main .main .main_pro .right .right_main .main_ex {
+  margin: 0;
+  color: #666666;
+  font-size: 0.8vw;
+  margin-bottom: 6%;
+}
+main .main .main_pro .right .right_ex .ex_block1 {
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 0.8vw;
+  padding: 3% 0;
+}
+main .main .main_pro .right .right_ex .ex_block1 .ex_t {
+  margin: 0;
+  margin-bottom: 1%;
+}
+main .main .main_pro .right .right_ex .ex_block1 .ex_s {
+  color: #3e3e3e;
+  margin: 0;
+}
+main .main .main_pro .right .right_ex .ex_block2 {
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 0.8vw;
+  padding: 3% 0;
+}
+main .main .main_pro .right .right_ex .ex_block2 .ex_t {
+  margin: 0;
+  margin-bottom: 1%;
+}
+main .main .main_pro .right .right_ex .ex_block2 .ex_s {
+  color: #3e3e3e;
+  margin: 0;
+}
+main .main .main_pro .right .right_ex .ex_block3 {
+  font-size: 0.8vw;
+  padding: 3% 0 0 0;
+}
+main .main .main_pro .right .right_ex .ex_block3 .ex_t {
+  margin: 0;
+  margin-bottom: 1%;
+}
+main .main .main_pro .right .right_ex .ex_block3 .ex_s {
+  color: #3e3e3e;
+  margin: 0;
+}
+main .main .main_pro a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.7vw;
+}
+main .main .main_pro a div {
+  background: #000;
+  padding: 4% 0;
+  margin-top: 6%;
+}
+main .product_ex {
+  font-family: "함초롬돋움";
+}
+main .product_ex .ex_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30vw;
+}
+main .product_ex .ex_1 .left1 {
+  width: 50%;
+  height: 100%;
+  background: #eceade;
+  position: relative;
+}
+main .product_ex .ex_1 .left1 img {
+  width: 55%;
+  position: absolute;
+  right: 0;
+  top: 19%;
+}
+main .product_ex .ex_1 .right1 {
+  width: 50%;
+  height: 100%;
+  background: #f6f5e8;
+  position: relative;
+}
+main .product_ex .ex_1 .right1 div {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+}
+main .product_ex .ex_1 .right1 div h2 {
+  font-family: "Batang";
+  font-weight: normal;
+  font-size: 1.4vw;
+  border-bottom: 1px solid #a7a69e;
+  padding-bottom: 4%;
+  color: black;
+}
+main .product_ex .ex_1 .right1 div .r_1 {
+  color: #6f6d64;
+  font-size: 0.85vw;
+  margin: 6% 0 7% 0;
+}
+main .product_ex .ex_1 .right1 div .r_2 {
+  color: #a7a69e;
+  font-size: 0.85vw;
+  line-height: 28px;
+}
+main .product_ex .ex_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30vw;
+}
+main .product_ex .ex_2 .left2 {
+  width: 50%;
+  height: 100%;
+  background: #f6f5e8;
+  position: relative;
+}
+main .product_ex .ex_2 .left2 div {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 45%;
+}
+main .product_ex .ex_2 .left2 div h2 {
+  font-family: "Batang";
+  font-weight: normal;
+  font-size: 1.4vw;
+  border-bottom: 1px solid #a7a69e;
+  padding-bottom: 4%;
+  color: black;
+}
+main .product_ex .ex_2 .left2 div .r_1 {
+  color: #6f6d64;
+  font-size: 0.85vw;
+  margin: 6% 0 7% 0;
+}
+main .product_ex .ex_2 .left2 div .r_2 {
+  color: #a7a69e;
+  font-size: 0.85vw;
+  line-height: 28px;
+}
+main .product_ex .ex_2 .right2 {
+  width: 50%;
+  height: 100%;
+  background: #eceade;
+  position: relative;
+}
+main .product_ex .ex_2 .right2 img {
+  width: 55%;
+  position: absolute;
+  left: 0;
+  top: 19%;
+}
+main .product_to {
+  font-family: "함초롬돋움";
+  position: relative;
+}
+main .product_to .up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 0% 1.5% 4.5%;
+}
+main .product_to .up .to_w {
+  width: 16%;
+}
+main .product_to .up .to_w .to_w_t {
+  font-family: "함초롬바탕";
+  font-size: 1.3vw;
+}
+main .product_to .up .to_w .to_w_e {
+  color: #a7a69e;
+  font-size: 0.8vw;
+  line-height: 1.5vw;
+}
+main .product_to .up .to_p {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  text-align: center;
+}
+main .product_to .up .to_p div {
+  width: 100%;
+}
+main .product_to .up .to_p div a {
+  text-decoration: none;
+  color: black;
+}
+main .product_to .up .to_p div a img {
+  width: 100%;
+}
+main .product_to .up .to_p div a p {
+  margin: 0;
+  font-size: 0.83vw;
+}
+main .product_to .bar {
+  width: 90%;
+  margin: 1% auto 3% auto;
+  background: #dcdcdc;
+  height: 2px;
+  position: relative;
+}
+main .product_to .bar span {
+  border: 1px solid #000;
+  width: 20%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+@media (max-width: 1024px) {
+  main .main .logo {
+    margin: 10% 0 0 4%;
+  }
+  main .main .logo a img {
+    width: 8%;
+  }
+  main .main .main_pro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: top;
+    font-family: "함초롬돋움";
+    margin: 3% 0 7% 0;
+  }
+  main .main .main_pro .left {
+    width: 33%;
+    text-align: center;
+  }
+  main .main .main_pro .left img {
+    width: 100%;
+  }
+  main .main .main_pro .left p {
+    margin: 3% 0;
+    font-size: 1.2vw;
+    font-weight: bold;
+  }
+  main .main .main_pro .right {
+    width: 30%;
+    margin-right: 10%;
+  }
+  main .main .main_pro .right .right_main {
+    border-bottom: 1.5px solid #000;
+  }
+  main .main .main_pro .right .right_main .main_type {
+    margin: 0;
+    color: #666666;
+    font-size: 1.2vw;
+  }
+  main .main .main_pro .right .right_main .main_name {
+    margin: 5% 0;
+    font-size: 2vw;
+  }
+  main .main .main_pro .right .right_main .main_ex {
+    margin: 0;
+    color: #666666;
+    font-size: 1.2vw;
+    margin-bottom: 8%;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 {
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 1.2vw;
+    padding: 4% 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 {
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 1.2vw;
+    padding: 4% 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 {
+    font-size: 1.2vw;
+    padding: 4% 0 0 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2vw;
+  }
+  main .main .main_pro a div {
+    background: #000;
+    padding: 5% 0;
+    margin-top: 8%;
+  }
+  main .product_ex {
+    font-family: "함초롬돋움";
+  }
+  main .product_ex .ex_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40vw;
+  }
+  main .product_ex .ex_1 .left1 {
+    width: 50%;
+    height: 100%;
+    background: #eceade;
+    position: relative;
+  }
+  main .product_ex .ex_1 .left1 img {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 19%;
+  }
+  main .product_ex .ex_1 .right1 {
+    width: 50%;
+    height: 100%;
+    background: #f6f5e8;
+    position: relative;
+  }
+  main .product_ex .ex_1 .right1 div {
+    position: absolute;
+    left: 18%;
+    top: 25%;
+    width: 65%;
+  }
+  main .product_ex .ex_1 .right1 div h2 {
+    font-family: "Batang";
+    font-weight: normal;
+    font-size: 2vw;
+    border-bottom: 1px solid #a7a69e;
+    padding-bottom: 4%;
+    color: black;
+  }
+  main .product_ex .ex_1 .right1 div .r_1 {
+    color: #6f6d64;
+    font-size: 1.4vw;
+    margin: 6% 0 7% 0;
+  }
+  main .product_ex .ex_1 .right1 div .r_2 {
+    color: #a7a69e;
+    font-size: 1.3vw;
+    line-height: 28px;
+  }
+  main .product_ex .ex_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40vw;
+  }
+  main .product_ex .ex_2 .left2 {
+    width: 50%;
+    height: 100%;
+    background: #f6f5e8;
+    position: relative;
+  }
+  main .product_ex .ex_2 .left2 div {
+    position: absolute;
+    left: 19%;
+    top: 25%;
+    width: 65%;
+  }
+  main .product_ex .ex_2 .left2 div h2 {
+    font-family: "Batang";
+    font-weight: normal;
+    font-size: 2vw;
+    border-bottom: 1px solid #a7a69e;
+    padding-bottom: 4%;
+    color: black;
+  }
+  main .product_ex .ex_2 .left2 div .r_1 {
+    color: #6f6d64;
+    font-size: 1.3vw;
+    margin: 6% 0 7% 0;
+  }
+  main .product_ex .ex_2 .left2 div .r_2 {
+    color: #a7a69e;
+    font-size: 1.3vw;
+    line-height: 28px;
+  }
+  main .product_ex .ex_2 .right2 {
+    width: 50%;
+    height: 100%;
+    background: #eceade;
+    position: relative;
+  }
+  main .product_ex .ex_2 .right2 img {
+    width: 70%;
+    position: absolute;
+    left: 0;
+    top: 19%;
+  }
+  main .product_to {
+    font-family: "함초롬돋움";
+    position: relative;
+  }
+  main .product_to .up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0% 1.5% 4.5%;
+  }
+  main .product_to .up .to_w {
+    width: 23%;
+  }
+  main .product_to .up .to_w .to_w_t {
+    font-family: "함초롬바탕";
+    font-size: 2vw;
+  }
+  main .product_to .up .to_w .to_w_e {
+    color: #a7a69e;
+    font-size: 1.2vw;
+    line-height: 2.4vw;
+  }
+  main .product_to .up .to_p {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+  }
+  main .product_to .up .to_p div {
+    width: 100%;
+  }
+  main .product_to .up .to_p div a {
+    text-decoration: none;
+    color: black;
+  }
+  main .product_to .up .to_p div a img {
+    width: 100%;
+  }
+  main .product_to .up .to_p div a p {
+    margin: 0;
+    font-size: 1.5vw;
+  }
+  main .product_to .bar {
+    width: 90%;
+    margin: 1% auto 3% auto;
+    background: #dcdcdc;
+    height: 2px;
+    position: relative;
+  }
+  main .product_to .bar span {
+    border: 1px solid #000;
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+@media (max-width: 768px) {
+  main .main .logo {
+    margin: 15% 0 0 6%;
+  }
+  main .main .logo a img {
+    width: 15%;
+  }
+  main .main .main_pro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: top;
+    font-family: "함초롬돋움";
+    margin: 5% 0 9% 0;
+  }
+  main .main .main_pro .left {
+    width: 45%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  main .main .main_pro .left img {
+    width: 100%;
+  }
+  main .main .main_pro .left p {
+    margin: 3% 0;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  main .main .main_pro .right {
+    width: 45%;
+    margin-right: 10%;
+  }
+  main .main .main_pro .right .right_main {
+    border-bottom: 1.5px solid #000;
+  }
+  main .main .main_pro .right .right_main .main_type {
+    margin: 0;
+    color: #666666;
+    font-size: 2vw;
+  }
+  main .main .main_pro .right .right_main .main_name {
+    margin: 5% 0;
+    font-size: 3.2vw;
+  }
+  main .main .main_pro .right .right_main .main_ex {
+    margin: 0;
+    color: #666666;
+    font-size: 2vw;
+    margin-bottom: 8%;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 {
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 2vw;
+    padding: 4% 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 {
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 2vw;
+    padding: 4% 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 {
+    font-size: 2vw;
+    padding: 4% 0 0 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vw;
+  }
+  main .main .main_pro a div {
+    background: #000;
+    padding: 5% 0;
+    margin-top: 8%;
+  }
+  main .product_ex {
+    font-family: "함초롬돋움";
+  }
+  main .product_ex .ex_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+  }
+  main .product_ex .ex_1 .left1 {
+    width: 50%;
+    height: 100%;
+    background: #eceade;
+    position: relative;
+  }
+  main .product_ex .ex_1 .left1 img {
+    width: 90%;
+    position: absolute;
+    right: 0;
+    top: 25%;
+  }
+  main .product_ex .ex_1 .right1 {
+    width: 50%;
+    height: 100%;
+    background: #f6f5e8;
+    position: relative;
+  }
+  main .product_ex .ex_1 .right1 div {
+    position: absolute;
+    left: 6%;
+    top: 25%;
+    width: 90%;
+  }
+  main .product_ex .ex_1 .right1 div h2 {
+    font-family: "Batang";
+    font-weight: normal;
+    font-size: 3vw;
+    border-bottom: 1px solid #a7a69e;
+    padding-bottom: 4%;
+    color: black;
+  }
+  main .product_ex .ex_1 .right1 div .r_1 {
+    color: #6f6d64;
+    font-size: 2.3vw;
+    margin: 6% 0 7% 0;
+  }
+  main .product_ex .ex_1 .right1 div .r_2 {
+    color: #a7a69e;
+    font-size: 2vw;
+    line-height: 28px;
+  }
+  main .product_ex .ex_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+  }
+  main .product_ex .ex_2 .left2 {
+    width: 50%;
+    height: 100%;
+    background: #f6f5e8;
+    position: relative;
+  }
+  main .product_ex .ex_2 .left2 div {
+    position: absolute;
+    left: 6%;
+    top: 25%;
+    width: 90%;
+  }
+  main .product_ex .ex_2 .left2 div h2 {
+    font-family: "Batang";
+    font-weight: normal;
+    font-size: 3vw;
+    border-bottom: 1px solid #a7a69e;
+    padding-bottom: 4%;
+    color: black;
+  }
+  main .product_ex .ex_2 .left2 div .r_1 {
+    color: #6f6d64;
+    font-size: 2vw;
+    margin: 6% 0 7% 0;
+  }
+  main .product_ex .ex_2 .left2 div .r_2 {
+    color: #a7a69e;
+    font-size: 2vw;
+    line-height: 28px;
+  }
+  main .product_ex .ex_2 .right2 {
+    width: 50%;
+    height: 100%;
+    background: #eceade;
+    position: relative;
+  }
+  main .product_ex .ex_2 .right2 img {
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+  }
+  main .product_to {
+    font-family: "함초롬돋움";
+    position: relative;
+  }
+  main .product_to .up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0% 1.5% 4.5%;
+  }
+  main .product_to .up .to_w {
+    width: 23%;
+  }
+  main .product_to .up .to_w .to_w_t {
+    font-family: "함초롬바탕";
+    font-size: 3.3vw;
+  }
+  main .product_to .up .to_w .to_w_e {
+    color: #a7a69e;
+    font-size: 2vw;
+    line-height: 3.4vw;
+    display: none;
+  }
+  main .product_to .up .to_p {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+  }
+  main .product_to .up .to_p div {
+    width: 100%;
+  }
+  main .product_to .up .to_p div a {
+    text-decoration: none;
+    color: black;
+  }
+  main .product_to .up .to_p div a img {
+    width: 100%;
+  }
+  main .product_to .up .to_p div a p {
+    margin: 0;
+    font-size: 2vw;
+  }
+  main .product_to .bar {
+    width: 90%;
+    margin: 1% auto 3% auto;
+    background: #dcdcdc;
+    height: 2px;
+    position: relative;
+  }
+  main .product_to .bar span {
+    border: 1px solid #000;
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+@media (max-width: 480px) {
+  main .main .logo {
+    margin: 20% 0 0 6%;
+  }
+  main .main .logo a img {
+    width: 20%;
+  }
+  main .main .main_pro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: top;
+    font-family: "함초롬돋움";
+    margin: 5% 0 9% 0;
+  }
+  main .main .main_pro .left {
+    width: 45%;
+    text-align: center;
+    margin-top: 15%;
+  }
+  main .main .main_pro .left img {
+    width: 100%;
+  }
+  main .main .main_pro .left p {
+    margin: 3% 0;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  main .main .main_pro .right {
+    width: 45%;
+    margin-right: 5%;
+  }
+  main .main .main_pro .right .right_main {
+    border-bottom: 1.5px solid #000;
+  }
+  main .main .main_pro .right .right_main .main_type {
+    margin: 0;
+    color: #666666;
+    font-size: 2.8vw;
+  }
+  main .main .main_pro .right .right_main .main_name {
+    margin: 5% 0;
+    font-size: 4.2vw;
+  }
+  main .main .main_pro .right .right_main .main_ex {
+    margin: 0;
+    color: #666666;
+    font-size: 2.8vw;
+    margin-bottom: 8%;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 {
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 2.8vw;
+    padding: 4% 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block1 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 {
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 2.8vw;
+    padding: 4% 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block2 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 {
+    font-size: 2.8vw;
+    padding: 4% 0 0 0;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 .ex_t {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+  main .main .main_pro .right .right_ex .ex_block3 .ex_s {
+    color: #3e3e3e;
+    margin: 0;
+  }
+  main .main .main_pro a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.8vw;
+  }
+  main .main .main_pro a div {
+    background: #000;
+    padding: 5% 0;
+    margin-top: 8%;
+  }
+  main .product_ex {
+    font-family: "함초롬돋움";
+  }
+  main .product_ex .ex_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+  }
+  main .product_ex .ex_1 .left1 {
+    width: 50%;
+    height: 100%;
+    background: #eceade;
+    position: relative;
+  }
+  main .product_ex .ex_1 .left1 img {
+    width: 90%;
+    position: absolute;
+    right: 0;
+    top: 25%;
+  }
+  main .product_ex .ex_1 .right1 {
+    width: 50%;
+    height: 100%;
+    background: #f6f5e8;
+    position: relative;
+  }
+  main .product_ex .ex_1 .right1 div {
+    position: absolute;
+    left: 6%;
+    top: 15%;
+    width: 90%;
+  }
+  main .product_ex .ex_1 .right1 div h2 {
+    font-family: "Batang";
+    font-weight: normal;
+    font-size: 3vw;
+    border-bottom: 1px solid #a7a69e;
+    padding-bottom: 4%;
+    color: black;
+  }
+  main .product_ex .ex_1 .right1 div .r_1 {
+    color: #6f6d64;
+    font-size: 2.3vw;
+    margin: 6% 0 7% 0;
+  }
+  main .product_ex .ex_1 .right1 div .r_2 {
+    color: #a7a69e;
+    font-size: 2vw;
+    line-height: 28px;
+  }
+  main .product_ex .ex_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+  }
+  main .product_ex .ex_2 .left2 {
+    width: 50%;
+    height: 100%;
+    background: #f6f5e8;
+    position: relative;
+  }
+  main .product_ex .ex_2 .left2 div {
+    position: absolute;
+    left: 6%;
+    top: 15%;
+    width: 90%;
+  }
+  main .product_ex .ex_2 .left2 div h2 {
+    font-family: "Batang";
+    font-weight: normal;
+    font-size: 3vw;
+    border-bottom: 1px solid #a7a69e;
+    padding-bottom: 4%;
+    color: black;
+  }
+  main .product_ex .ex_2 .left2 div .r_1 {
+    color: #6f6d64;
+    font-size: 2vw;
+    margin: 6% 0 7% 0;
+  }
+  main .product_ex .ex_2 .left2 div .r_2 {
+    color: #a7a69e;
+    font-size: 2vw;
+    line-height: 28px;
+  }
+  main .product_ex .ex_2 .right2 {
+    width: 50%;
+    height: 100%;
+    background: #eceade;
+    position: relative;
+  }
+  main .product_ex .ex_2 .right2 img {
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+  }
+  main .product_to {
+    font-family: "함초롬돋움";
+    position: relative;
+  }
+  main .product_to .up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0% 1.5% 4.5%;
+  }
+  main .product_to .up .to_w {
+    width: 23%;
+  }
+  main .product_to .up .to_w .to_w_t {
+    font-family: "함초롬바탕";
+    font-size: 3vw;
+  }
+  main .product_to .up .to_w .to_w_e {
+    color: #a7a69e;
+    font-size: 2vw;
+    line-height: 3.4vw;
+    display: none;
+  }
+  main .product_to .up .to_p {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+  }
+  main .product_to .up .to_p div {
+    width: 100%;
+  }
+  main .product_to .up .to_p div a {
+    text-decoration: none;
+    color: black;
+  }
+  main .product_to .up .to_p div a img {
+    width: 100%;
+  }
+  main .product_to .up .to_p div a p {
+    margin: 0;
+    font-size: 3vw;
+    display: none;
+  }
+  main .product_to .bar {
+    width: 90%;
+    margin: 1% auto 3% auto;
+    background: #dcdcdc;
+    height: 2px;
+    position: relative;
+  }
+  main .product_to .bar span {
+    border: 1px solid #000;
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

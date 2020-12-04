@@ -1,0 +1,755 @@
+
+.change_img{
+    background: url(../img/shops_shop.jpg)  center no-repeat;
+    background-size: cover;
+} 
+
+main{width: 85%;}
+.part2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+.part2 select {
+    width: 25%;
+    height: 70px;
+    border: 2px solid #C4C4C4;
+    padding: 0 2%;
+
+    font-size: 24px;
+    font-style: Roboto;
+
+    cursor: pointer;
+}
+
+
+
+.clear_all {
+    width: 100%;
+
+}
+
+.clear_all a {
+    font-size: 24px;
+    font-style: Roboto;
+    /*    float:right;*/
+}
+
+
+/*part_3*/
+
+.part_3 {
+    width: 100%;
+    padding: 2%;
+}
+
+.part_3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+.part_3 ul li {
+    width: 100%;
+    /*
+    transform: translateX(-50%);
+    left:50;
+    right:50;
+*/
+
+
+}
+
+
+/*fram_1*/
+.part_3 ul .frame_1 {
+    width: 30%;
+}
+
+
+
+.part_3 ul .frame_1 .wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_1 a img {
+    width: 100%;
+    height: 100%;
+    border: 20px solid #000;
+    padding: 5%;
+    margin-bottom: 5%;
+    height: 50%;
+    box-shadow: -9px 10px 25px 1px rgba(0, 0, 0, 0.75);
+}
+
+
+.part_3 ul .frame_1 .art {
+    width: 100%;
+    padding-bottom: 20%;
+
+}
+
+
+.part_3 ul .frame_1 .art p {
+    font-size: 30px;
+    line-height: 35px;
+    font-style: 'Roboto';
+    padding-left: 10%;
+}
+
+
+
+main .more_middle {
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+main .more_middle a:hover{
+    border: 1px solid#F59E8E;
+    background-color: #F59E8E;
+}
+
+main .more_middle a{
+ border: 1px solid #000;
+    padding: 1% 3%;
+    font-size: 20px;
+} 
+
+
+/*
+.art button{
+    animation:basket 1.5s 1s linear infinite alternate;
+    
+    animation-delay: 1s;
+    animation-play-state: running;
+    
+    animation-name: basket;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes basket{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100;
+    }
+}
+*/
+.art button{
+    
+   background: none;
+    height:35px;
+    width: 50px;
+    border: none;
+    padding: 0;
+    margin-top: 4%;
+}
+.art button img{
+  width: 100%;
+    height:100%;
+    transition: .5s;
+}
+.art button:hover img{
+    
+    transform: translateX(100%);
+}
+
+.part_3 ul .frame_2 {
+        display: none;
+    }
+
+
+@media(max-width:1024px){
+    main{width: 85%;}
+.part2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+.part2 select {
+    width: 25%;
+    height: 45px;
+    border: 2px solid #C4C4C4;
+    padding: 0 2%;
+
+    font-size: 20px;
+    font-style: Roboto;
+
+    cursor: pointer;
+}
+
+
+
+.clear_all {
+    width: 100%;
+
+}
+
+.clear_all a {
+    font-size: 20px;
+    font-style: Roboto;
+    /*    float:right;*/
+}
+
+
+/*part_3*/
+
+.part_3 {
+    width: 100%;
+    padding: 2%;
+}
+
+.part_3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+.part_3 ul li {
+    width: 100%;
+    /*
+    transform: translateX(-50%);
+    left:50;
+    right:50;
+*/
+
+
+}
+
+
+/*fram_1*/
+.part_3 ul .frame_1 {
+    width: 30%;
+}
+
+
+
+.part_3 ul .frame_1 .wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_1 a img {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #000;
+    padding: 5%;
+    margin-bottom: 5%;
+    height: 50%;
+    box-shadow: -9px 10px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.part_3 ul .frame_1 .art {
+    width: 100%;
+    padding-bottom: 20%;
+
+}
+
+
+.part_3 ul .frame_1 .art p {
+    font-size: 22px;
+    line-height: 30px;
+    font-style: 'Roboto';
+    padding-left: 10%;
+}
+
+
+
+main .more_middle {
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+main .more_middle a:hover{
+    border: 1px solid#F59E8E;
+    background-color: #F59E8E;
+}
+
+main .more_middle a{
+ border: 1px solid #000;
+    padding: 1% 3%;
+    font-size: 15px;
+} 
+
+
+/*
+.art button{
+    animation:basket 1.5s 1s linear infinite alternate;
+    
+    animation-delay: 1s;
+    animation-play-state: running;
+    
+    animation-name: basket;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes basket{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100;
+    }
+}
+*/
+.art button{
+    
+   background: none;
+    height:25px;
+    width: 35px;
+    border: none;
+    padding: 0;
+    margin-top: 4%;
+}
+.art button img{
+  width: 100%;
+    height:100%;
+    transition: .5s;
+}
+.art button:hover img{
+    
+    transform: translateX(100%);
+}
+    .part_3 ul .frame_2 {
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    main{width: 85%;}
+.part2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+.part2 select {
+    width: 25%;
+    height: 35px;
+    border: 2px solid #C4C4C4;
+    padding: 0 2%;
+
+    font-size: 15px;
+    font-style: Roboto;
+
+    cursor: pointer;
+}
+
+
+
+.clear_all {
+    width: 100%;
+
+}
+
+.clear_all a {
+    font-size: 15px;
+    font-style: Roboto;
+    /*    float:right;*/
+}
+
+
+/*part_3*/
+
+.part_3 {
+    width: 100%;
+    padding: 2%;
+}
+
+.part_3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+.part_3 ul li {
+    width: 100%;
+    /*
+    transform: translateX(-50%);
+    left:50;
+    right:50;
+*/
+
+
+}
+
+
+/*fram_1*/
+.part_3 ul .frame_1 {
+    width: 50%;
+}
+
+
+
+.part_3 ul .frame_1 .wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_1 a img {
+    width: 100%;
+    height: 100%;
+    border: 11px solid #000;
+    padding: 5%;
+    margin-bottom: 5%;
+    height: 50%;
+    box-shadow: -9px 10px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.part_3 ul .frame_1 .art {
+    width: 100%;
+    padding-bottom: 20%;
+
+}
+
+
+.part_3 ul .frame_1 .art p {
+    font-size: 22px;
+    line-height: 30px;
+    font-style: 'Roboto';
+    padding-left: 10%;
+}
+
+
+
+main .more_middle {
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+main .more_middle a:hover{
+    border: 1px solid#F59E8E;
+    background-color: #F59E8E;
+}
+
+main .more_middle a{
+ border: 1px solid #000;
+    padding: 1% 3%;
+    font-size: 15px;
+} 
+
+
+/*
+.art button{
+    animation:basket 1.5s 1s linear infinite alternate;
+    
+    animation-delay: 1s;
+    animation-play-state: running;
+    
+    animation-name: basket;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes basket{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100;
+    }
+}
+*/
+.art button{
+    
+   background: none;
+    height:25px;
+    width: 35px;
+    border: none;
+    padding: 0;
+    margin-top: 4%;
+}
+.art button img{
+  width: 100%;
+    height:100%;
+    transition: .5s;
+}
+.art button:hover img{
+    
+    transform: translateX(100%);
+}
+    
+.part_3 ul .frame_2 {
+    width: 50%;
+    display: block;
+}
+
+
+
+.part_3 ul .frame_2 .wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_2 a img {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #000;
+    padding: 5%;
+    margin-bottom: 5%;
+    height: 50%;
+    box-shadow: -9px 10px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.part_3 ul .frame_2 .art {
+    width: 100%;
+    padding-bottom: 20%;
+
+}
+
+
+.part_3 ul .frame_2 .art p {
+    font-size: 22px;
+    line-height: 30px;
+    font-style: 'Roboto';
+    padding-left: 10%;
+}
+   
+    
+}
+
+@media(max-width:480px){
+    main{width: 85%;}
+.part2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+.part2 select {
+    width: 30%;
+    height: 25px;
+    border: 2px solid #C4C4C4;
+    padding: 0 2%;
+
+    font-size: 11px;
+    font-style: Roboto;
+
+    cursor: pointer;
+}
+
+
+
+.clear_all {
+    width: 100%;
+
+}
+
+.clear_all a {
+    font-size: 11px;
+    font-style: Roboto;
+    /*    float:right;*/
+}
+
+
+/*part_3*/
+
+.part_3 {
+    width: 100%;
+    padding: 2%;
+}
+
+.part_3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+.part_3 ul li {
+    width: 100%;
+    /*
+    transform: translateX(-50%);
+    left:50;
+    right:50;
+*/
+
+
+}
+
+
+/*fram_1*/
+.part_3 ul .frame_1 {
+    width: 50%;
+}
+
+
+
+.part_3 ul .frame_1 .wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_1 a img {
+    width: 100%;
+    height: 100%;
+    border: 6px solid #000;
+    padding: 5%;
+    margin-bottom: 5%;
+    height: 50%;
+    box-shadow: -9px 10px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.part_3 ul .frame_1 .art {
+    width: 100%;
+    padding-bottom: 20%;
+
+}
+
+
+.part_3 ul .frame_1 .art p {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: 'Roboto';
+    padding-left: 10%;
+}
+
+
+
+main .more_middle {
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+main .more_middle a:hover{
+    border: 1px solid#F59E8E;
+    background-color: #F59E8E;
+}
+
+main .more_middle a{
+ border: 1px solid #000;
+    padding: 1% 3%;
+    font-size: 8px;
+} 
+
+
+/*
+.art button{
+    animation:basket 1.5s 1s linear infinite alternate;
+    
+    animation-delay: 1s;
+    animation-play-state: running;
+    
+    animation-name: basket;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes basket{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100;
+    }
+}
+*/
+.art button{
+    
+   background: none;
+    height:18px;
+    width: 22px;
+    border: none;
+    padding: 0;
+    margin-top: 4%;
+}
+.art button img{
+  width: 100%;
+    height:100%;
+    transition: .5s;
+}
+.art button:hover img{
+    
+    transform: translateX(100%);
+}
+    
+.part_3 ul .frame_2 {
+    width: 50%;
+}
+
+
+
+.part_3 ul .frame_2 .wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_2 a img {
+    width: 100%;
+    height: 100%;
+    border: 6px solid #000;
+    padding: 5%;
+    margin-bottom: 5%;
+    height: 50%;
+    box-shadow: -9px 10px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.part_3 ul .frame_2 .art {
+    width: 100%;
+    padding-bottom: 20%;
+
+}
+
+
+.part_3 ul .frame_2 .art p {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: 'Roboto';
+    padding-left: 10%;
+}
+
+    
+}
+
+
+

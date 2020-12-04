@@ -1,0 +1,358 @@
+@import url("common.css");
+main {
+    .logo {
+        img {
+            width: 5%;
+            margin: 6% 0 0 2.8%;
+        }
+    }
+    .visual {
+        text-align: center;
+        p {
+            font-family: "함초롬돋움";
+            font-size: 2.2vw;
+            margin: 4% 0;
+            line-height: 3.5vw;
+        }
+        img {
+            width: 60%;
+            margin: 3% 0;
+        }
+    }
+    .two {
+        width: 80%;
+        margin: 0 auto;
+        font-family: "함초롬돋움";
+        h2 {
+            font-size: 1.3vw;
+            margin-top: 5%;
+        }
+        .sub_t {
+            font-weight: bold;
+            margin: 3% 0;
+            font-size: 1vw;
+        }
+        .write {
+            font-size: 1vw;
+            line-height: 1.6vw;
+        }
+    }
+    .three {
+        width: 80%;
+        margin: 0 auto;
+        font-family: "함초롬돋움";
+        .sub_t {
+            font-weight: bold;
+            margin-top: 10%;
+            font-size: 1vw;
+        }
+        .character {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            img {
+                width: 23%;
+                height: 10vw;
+                margin: 8% 0;
+            }
+            .right {
+                margin-left: 30%;
+                .c_t {
+                    font-size: 1vw;
+                    font-weight: bold;
+                }
+                .c_w {
+                    font-size: 0.9vw;
+                    line-height: 1.5vw;
+                }
+            }
+        }
+    }
+    .four {
+        width: 80%;
+        margin: 10% auto;
+        font-family: "함초롬돋움";
+        text-align: center;
+        .sub_t {
+            text-align: left;
+            font-weight: bold;
+            margin-bottom: 5%;
+            font-size: 1vw;
+        }
+        img {
+            width: 80%;
+        }
+    }
+}
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media(max-width:1024px) {
+    main {
+        .logo {
+            img {
+                width: 10%;
+                margin: 12% 0 0 4%;
+            }
+        }
+        .visual {
+            text-align: center;
+            p {
+                font-family: "함초롬돋움";
+                font-size: 3vw;
+                margin: 8% 0;
+                line-height: 5vw;
+            }
+            img {
+                width: 70%;
+                margin: 3% 0;
+            }
+        }
+        .two {
+            width: 80%;
+            margin: 0 auto;
+            font-family: "함초롬돋움";
+            h2 {
+                font-size: 2.3vw;
+                margin-top: 8%;
+            }
+            .sub_t {
+                font-weight: bold;
+                margin: 4% 0;
+                font-size: 1.8vw;
+            }
+            .write {
+                font-size: 1.5vw;
+                line-height: 2.5vw;
+            }
+        }
+        .three {
+            width: 80%;
+            margin: 0 auto;
+            font-family: "함초롬돋움";
+            .sub_t {
+                font-weight: bold;
+                margin: 4% 0;
+                font-size: 1.8vw;
+            }
+            .character {
+                width: 86%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                img {
+                    width: 25%;
+                    height: 13vw;
+                    margin: 8% 0;
+                }
+                .right {
+                    margin-left: 15%;
+                    .c_t {
+                        font-size: 1.8vw;
+                        font-weight: bold;
+                    }
+                    .c_w {
+                        font-size: 1.5vw;
+                        line-height: 2.5vw;
+                    }
+                }
+            }
+        }
+        .four {
+            width: 80%;
+            margin: 10% auto;
+            font-family: "함초롬돋움";
+            text-align: center;
+            .sub_t {
+                text-align: left;
+                font-weight: bold;
+                margin-bottom: 5%;
+                font-size: 1.8vw;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        .logo {
+            img {
+                width: 14%;
+                margin: 15% 0 0 6%;
+            }
+        }
+        .visual {
+            text-align: center;
+            p {
+                font-family: "함초롬돋움";
+                font-size: 4vw;
+                margin: 8% 0;
+                line-height: 6.5vw;
+            }
+            img {
+                width: 70%;
+                margin: 3% 0;
+            }
+        }
+        .two {
+            width: 80%;
+            margin: 0 auto;
+            font-family: "함초롬돋움";
+            h2 {
+                font-size: 3vw;
+                margin-top: 8%;
+            }
+            .sub_t {
+                font-weight: bold;
+                margin: 5% 0;
+                font-size: 2.3vw;
+            }
+            .write {
+                font-size: 2vw;
+                line-height: 3.5vw;
+            }
+        }
+        .three {
+            width: 80%;
+            margin: 0 auto;
+            font-family: "함초롬돋움";
+            .sub_t {
+                font-weight: bold;
+                margin: 5% 0;
+                font-size: 2.3vw;
+            }
+            .character {
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                img {
+                    width: 20%;
+                    height: 13vw;
+                    margin: 8% 0;
+                }
+                .right {
+                    margin-left: 11%;
+                    .c_t {
+                        font-size: 2.3vw;
+                        font-weight: bold;
+                    }
+                    .c_w {
+                        font-size: 2vw;
+                        line-height: 3.5vw;
+                    }
+                }
+            }
+        }
+        .four {
+            width: 80%;
+            margin: 10% auto;
+            font-family: "함초롬돋움";
+            text-align: center;
+            .sub_t {
+                text-align: left;
+                font-weight: bold;
+                margin-bottom: 5%;
+                font-size: 2.3vw;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    main {
+        .logo {
+            img {
+                width: 20%;
+                margin: 20% 0 0 4%;
+            }
+        }
+        .visual {
+            text-align: center;
+            p {
+                font-family: "함초롬돋움";
+                font-size: 4.5vw;
+                margin: 10% 0;
+                line-height: 7vw;
+            }
+            img {
+                width: 80%;
+                margin: 3% 0;
+            }
+        }
+        .two {
+            width: 85%;
+            margin: 0 auto;
+            font-family: "함초롬돋움";
+            h2 {
+                font-size: 4vw;
+                margin-top: 8%;
+            }
+            .sub_t {
+                font-weight: bold;
+                margin: 5% 0;
+                font-size: 3.5vw;
+            }
+            .write {
+                font-size: 3vw;
+                line-height: 6vw;
+            }
+        }
+        .three {
+            width: 85%;
+            margin: 0 auto;
+            font-family: "함초롬돋움";
+            .sub_t {
+                font-weight: bold;
+                margin: 10% 0 5% 0;
+                font-size: 3.5vw;
+            }
+            .character {
+                width: 100%;
+                margin: 0 auto;
+                display: block;
+                align-items: center;
+                text-align: center;
+                img {
+                    width: 50%;
+                    height: 30vw;
+                }
+                .right {
+                    text-align: left;
+                    margin-left: 0%;
+                    .c_t {
+                        font-size: 3.5vw;
+                        font-weight: bold;
+                    }
+                    .c_w {
+                        font-size: 3vw;
+                        line-height: 6vw;
+                    }
+                }
+            }
+        }
+        .four {
+            width: 85%;
+            margin: 10% auto;
+            font-family: "함초롬돋움";
+            text-align: center;
+            .sub_t {
+                text-align: left;
+                font-weight: bold;
+                margin-bottom: 5%;
+                font-size: 3.5vw;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

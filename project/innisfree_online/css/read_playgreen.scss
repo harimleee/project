@@ -1,0 +1,53 @@
+@import url("common.css");
+
+.header_left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    .visual {
+        position: relative;
+        width: 100%;
+        height: 30vw;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .logo {
+            width: 6%;
+            position: absolute;
+            left: 3%;
+            top: 18%;
+            img {
+                width: 100%;
+            }
+        }
+
+        .center {
+            position: absolute;
+            left: 25%;
+            top: 18%;
+            text-align: center;
+            font-family: "함초롬돋움";
+            color:white;
+            h2{
+                font-size: 1.8vw;
+                margin-top: 9%;
+            }
+            p{
+                font-size: 0.9vw;
+                line-height: 1.5vw;
+                margin: 5% 0;
+            }
+            .v_btn{
+                margin: 6% 0;
+                font-size: 1.1vw;
+                a{color:white;
+                text-decoration: none;}
+                a.active{font-weight: bolder;}
+            }
+        }
+    }
+    
+}

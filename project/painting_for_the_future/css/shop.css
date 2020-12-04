@@ -1,0 +1,175 @@
+/*@import url('commom.css');*/
+
+main {
+    width: 100%;
+}
+
+main .part1 {
+    width: 100%;
+    height: 670px;
+
+}
+
+main .part1 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+main .part1 h1 {
+    color: #fff;
+    font-size: 92px;
+    text-align: center;
+    position: absolute;
+    left: 37.5%;
+    top: 16.5%;
+    white-space: pre-line;
+    margin: 0 auto;
+}
+
+
+.part2{
+    width: 100%;;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.part2 select {
+    width: 400px;
+    height: 70px;
+    border: 2px solid #C4C4C4;
+/*    font-size: 100px;*/
+/*    padding: 0 20px;*/
+    cursor: pointer;
+}
+
+.part2 select option {
+    padding: 10px 0;
+}
+
+
+/*part_3*/
+
+.part_3 {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.part_3 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.part_3 ul li {
+    list-style-type: none;
+    margin: 50px 50px;
+}
+
+.part_3 ul li a {
+    text-decoration: none;
+}
+
+.part_3 ul li a .frame_s {
+    border: 30px solid #000;
+    width: 350px;
+    height: 350px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.part_3 ul li a .frame_s .art_s {
+    margin: 76px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.part_3 ul li a .frame_s img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.part_3 ul li a .frame_p {
+    border: 30px solid #000;
+    width: 222px;
+    height: 382px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.part_3 ul li a .frame_p .art_p {
+    margin: 92px 50px;
+    width: 122px;
+    height: 200px;
+}
+
+.part_3 ul li a .frame_p img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.part_3 ul li a .frame_l {
+    border: 30px solid #000;
+    width: 382px;
+    height: 222px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.part_3 ul li a .frame_l .art_l {
+    margin: 50px 92px;
+    width: 200px;
+    height: 122px;
+}
+
+.part_3 ul li a .frame_l img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.part_3 ul li article {
+    padding: 10px;
+}
+
+.part_3 ul li article h2 {
+    color: #000;
+    font-size: 30px;
+
+}
+
+.part_3 ul li article h2 small {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.part_3 ul li a article button {}
+
+.part_3 .more {
+    width: 170px;
+    background: #d5d5d5;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0 auto 300px auto;
+}
+
+.part_3 .more a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.part_3 .more:hover{
+    background: #f59e8e;
+}

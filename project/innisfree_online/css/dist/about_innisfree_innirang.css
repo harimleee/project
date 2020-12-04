@@ -1,0 +1,339 @@
+@charset "UTF-8";
+@import url("common.css");
+main .logo img {
+  width: 5%;
+  margin: 6% 0 0 2.8%;
+}
+main .visual {
+  text-align: center;
+}
+main .visual p {
+  font-family: "함초롬돋움";
+  font-size: 2.2vw;
+  margin: 4% 0;
+  line-height: 3.5vw;
+}
+main .visual img {
+  width: 60%;
+  margin: 3% 0;
+}
+main .two {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "함초롬돋움";
+}
+main .two h2 {
+  font-size: 1.3vw;
+  margin-top: 5%;
+}
+main .two .sub_t {
+  font-weight: bold;
+  margin: 3% 0;
+  font-size: 1vw;
+}
+main .two .write {
+  font-size: 1vw;
+  line-height: 1.6vw;
+}
+main .three {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "함초롬돋움";
+}
+main .three .sub_t {
+  font-weight: bold;
+  margin-top: 10%;
+  font-size: 1vw;
+}
+main .three .character {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+main .three .character img {
+  width: 23%;
+  height: 10vw;
+  margin: 8% 0;
+}
+main .three .character .right {
+  margin-left: 30%;
+}
+main .three .character .right .c_t {
+  font-size: 1vw;
+  font-weight: bold;
+}
+main .three .character .right .c_w {
+  font-size: 0.9vw;
+  line-height: 1.5vw;
+}
+main .four {
+  width: 80%;
+  margin: 10% auto;
+  font-family: "함초롬돋움";
+  text-align: center;
+}
+main .four .sub_t {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5%;
+  font-size: 1vw;
+}
+main .four img {
+  width: 80%;
+}
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+@media (max-width: 1024px) {
+  main .logo img {
+    width: 10%;
+    margin: 12% 0 0 4%;
+  }
+  main .visual {
+    text-align: center;
+  }
+  main .visual p {
+    font-family: "함초롬돋움";
+    font-size: 3vw;
+    margin: 8% 0;
+    line-height: 5vw;
+  }
+  main .visual img {
+    width: 70%;
+    margin: 3% 0;
+  }
+  main .two {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "함초롬돋움";
+  }
+  main .two h2 {
+    font-size: 2.3vw;
+    margin-top: 8%;
+  }
+  main .two .sub_t {
+    font-weight: bold;
+    margin: 4% 0;
+    font-size: 1.8vw;
+  }
+  main .two .write {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+  }
+  main .three {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "함초롬돋움";
+  }
+  main .three .sub_t {
+    font-weight: bold;
+    margin: 4% 0;
+    font-size: 1.8vw;
+  }
+  main .three .character {
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  main .three .character img {
+    width: 25%;
+    height: 13vw;
+    margin: 8% 0;
+  }
+  main .three .character .right {
+    margin-left: 15%;
+  }
+  main .three .character .right .c_t {
+    font-size: 1.8vw;
+    font-weight: bold;
+  }
+  main .three .character .right .c_w {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+  }
+  main .four {
+    width: 80%;
+    margin: 10% auto;
+    font-family: "함초롬돋움";
+    text-align: center;
+  }
+  main .four .sub_t {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-size: 1.8vw;
+  }
+  main .four img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  main .logo img {
+    width: 14%;
+    margin: 15% 0 0 6%;
+  }
+  main .visual {
+    text-align: center;
+  }
+  main .visual p {
+    font-family: "함초롬돋움";
+    font-size: 4vw;
+    margin: 8% 0;
+    line-height: 6.5vw;
+  }
+  main .visual img {
+    width: 70%;
+    margin: 3% 0;
+  }
+  main .two {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "함초롬돋움";
+  }
+  main .two h2 {
+    font-size: 3vw;
+    margin-top: 8%;
+  }
+  main .two .sub_t {
+    font-weight: bold;
+    margin: 5% 0;
+    font-size: 2.3vw;
+  }
+  main .two .write {
+    font-size: 2vw;
+    line-height: 3.5vw;
+  }
+  main .three {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "함초롬돋움";
+  }
+  main .three .sub_t {
+    font-weight: bold;
+    margin: 5% 0;
+    font-size: 2.3vw;
+  }
+  main .three .character {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  main .three .character img {
+    width: 20%;
+    height: 13vw;
+    margin: 8% 0;
+  }
+  main .three .character .right {
+    margin-left: 11%;
+  }
+  main .three .character .right .c_t {
+    font-size: 2.3vw;
+    font-weight: bold;
+  }
+  main .three .character .right .c_w {
+    font-size: 2vw;
+    line-height: 3.5vw;
+  }
+  main .four {
+    width: 80%;
+    margin: 10% auto;
+    font-family: "함초롬돋움";
+    text-align: center;
+  }
+  main .four .sub_t {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-size: 2.3vw;
+  }
+  main .four img {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  main .logo img {
+    width: 20%;
+    margin: 20% 0 0 4%;
+  }
+  main .visual {
+    text-align: center;
+  }
+  main .visual p {
+    font-family: "함초롬돋움";
+    font-size: 4.5vw;
+    margin: 10% 0;
+    line-height: 7vw;
+  }
+  main .visual img {
+    width: 80%;
+    margin: 3% 0;
+  }
+  main .two {
+    width: 85%;
+    margin: 0 auto;
+    font-family: "함초롬돋움";
+  }
+  main .two h2 {
+    font-size: 4vw;
+    margin-top: 8%;
+  }
+  main .two .sub_t {
+    font-weight: bold;
+    margin: 5% 0;
+    font-size: 3.5vw;
+  }
+  main .two .write {
+    font-size: 3vw;
+    line-height: 6vw;
+  }
+  main .three {
+    width: 85%;
+    margin: 0 auto;
+    font-family: "함초롬돋움";
+  }
+  main .three .sub_t {
+    font-weight: bold;
+    margin: 10% 0 5% 0;
+    font-size: 3.5vw;
+  }
+  main .three .character {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  main .three .character img {
+    width: 50%;
+    height: 30vw;
+  }
+  main .three .character .right {
+    text-align: left;
+    margin-left: 0%;
+  }
+  main .three .character .right .c_t {
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  main .three .character .right .c_w {
+    font-size: 3vw;
+    line-height: 6vw;
+  }
+  main .four {
+    width: 85%;
+    margin: 10% auto;
+    font-family: "함초롬돋움";
+    text-align: center;
+  }
+  main .four .sub_t {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-size: 3.5vw;
+  }
+  main .four img {
+    width: 100%;
+  }
+}

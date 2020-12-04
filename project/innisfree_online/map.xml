@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <type>p001</type>
+        <name>이마트_IF상봉점</name>
+        <address>서울특별시 중랑구 상봉로 1181층 이니스프리 (망우동,이마트상봉점)</address>
+        <cell>02-435-5508</cell>
+    </item>
+    <item>
+        <type>p001</type>
+        <name>롯데마트_IF서울역점</name>
+        <address>서울특별시 중구 청파로426 (봉래동2가) 롯데마트 서울역점 이니스프리</address>
+        <cell>02-362-7098</cell>
+    </item>
+    <item>
+        <type>p001</type>
+        <name>IF 청구역점</name>
+        <address>서울특별시 중구 다산로162, 1층 (신당동)</address>
+        <cell>070-7716-7220</cell>
+    </item>
+    <item>
+        <type>p001</type>
+        <name>IF 잠실지하점</name>
+        <address>서울특별시 송파구 송파대로 567올림픽지하상가 A-8,9,10,11호 (잠실동)</address>
+        <cell>02-422-6666</cell>
+    </item>
+
+    <item>
+        <type>p002</type>
+        <name>IF 용인점</name>
+        <address>경기도 용인시 처인구 금령로 95(김량장동)</address>
+        <cell>031-336-0061</cell>
+    </item>
+    <item>
+        <type>p002</type>
+        <name>IF 오리역점</name>
+        <address>경기도 성남시 분당구 성남대로 38104 케이앤에프코퍼레이션제1층) (구미동)</address>
+        <cell>031-716-1014</cell>
+    </item>
+    <item>
+        <type>p002</type>
+        <name>IF 경기 하남점</name>
+        <address>경기도 하남시 신장로 134(덕풍동)</address>
+        <cell>031-794-1010</cell>
+    </item>
+    <item>
+        <type>p002</type>
+        <name>IF 탄현역점</name>
+        <address>경기도 고양시 일산서구 일현로97-11 일산위브더제니스 스퀘어 상가 209호</address>
+        <cell>031-912-5581</cell>
+    </item>
+
+    <item>
+        <type>p003</type>
+        <name>홈플러스_IF춘천점</name>
+        <address>강원도 춘천시 김유정로 1840홈플러스 춘천점 지하 2층 이니스프리 (퇴계동)</address>
+        <cell>033-263-0790</cell>
+    </item>
+    <item>
+        <type>p003</type>
+        <name>이마트_IF강릉점</name>
+        <address>강원도 강릉시 경강로 2398-10강릉점 이니스프리 (송정동,이마트)</address>
+        <cell>033-651-1202</cell>
+    </item>
+
+    <item>
+        <type>p004</type>
+        <name>이마트_IF마산점</name>
+        <address>경상남도 창원시 마산합포구 서성로 3마산점 이니스프리 (중앙동3가,이마트)</address>
+        <cell>055-221-7859</cell>
+    </item>
+    <item>
+        <type>p004</type>
+        <name>롯데마트_IF진해점</name>
+        <address>경상남도 창원시 진해구 진해대로 762진해점 이니스프리 (석동,롯데마트)</address>
+        <cell>055-551-8810</cell>
+    </item>
+    <item>
+        <type>p004</type>
+        <name>IF 경남 인제대점</name>
+        <address>경상남도 김해시 인제로 189(어방동)</address>
+        <cell>055-313-1155</cell>
+    </item>
+
+    <item>
+        <type>p005</type>
+        <name>이마트_IF포항점</name>
+        <address>경상북도 포항시 남구 냉천로 101층 이니스프리 (인덕동,이마트포항점)</address>
+        <cell>054-274-0363</cell>
+    </item>
+    <item>
+        <type>p005</type>
+        <name>이마트_IF구미점	</name>
+        <address>경상북도 구미시 구미대로 256구미점 이니스프리 (광평동,이마트)	</address>
+        <cell>054-462-5444	</cell>
+    </item>
+    <item>
+        <type>p005</type>
+        <name>IF 경산 중앙점</name>
+        <address>경상북도 경산시 중앙로 79(중방동)</address>
+        <cell>053-812-0070</cell>
+    </item>
+
+    <item>
+        <type>p006</type>
+        <name>IF 충장로점</name>
+        <address>광주광역시 동구 충장로 86(충장로2가)</address>
+        <cell>062-223-2134</cell>
+    </item>
+    <item>
+        <type>p006</type>
+        <name>IF 광주 송정점</name>
+        <address>광주광역시 광산구 광산로 341층 (송정동)</address>
+        <cell>062-945-1966</cell>
+    </item>
+
+    <item>
+        <type>p007</type>
+        <name>IF 칠곡 시네마점 (신)</name>
+        <address>대구광역시 북구 동암로 100101호 (동천동,씨네피아)</address>
+        <cell>053-326-7660</cell>
+    </item>
+    <item>
+        <type>p007</type>
+        <name>IF 대구 교대점</name>
+        <address>대구광역시 남구 중앙대로221, 1층 (대명동)</address>
+        <cell>053-622-7570</cell>
+    </item>
+
+    <item>
+        <type>p008</type>
+        <name>IF 충남대점 (신)</name>
+        <address>대전광역시 유성구 궁동로18번길 45(궁동)</address>
+        <cell>042-822-9104</cell>
+    </item>
+    <item>
+        <type>p008</type>
+        <name>IF 대전 정림점</name>
+        <address>대전광역시 서구 정림로 641층 (정림동)</address>
+        <cell>042-583-9200	</cell>
+    </item>
+
+    <item>
+        <type>p009</type>
+        <name>이마트_IF해운대점</name>
+        <address>부산광역시 해운대구 좌동순환로 511해운대점 이니스프리 (중동,이마트)</address>
+        <cell>051-746-7069</cell>
+    </item>
+    <item>
+        <type>p009</type>
+        <name>IF 부산 신당감점</name>
+        <address>부산광역시 부산진구 당감로27-1 (당감동)</address>
+        <cell>051-891-9966</cell>
+    </item>
+
+    <item>
+        <type>p010</type>
+        <name>IF 세종몰리브점</name>
+        <address>세종특별자치시 종촌동C1-1 몰리브상가 1층 129-1, 129-2호</address>
+        <cell>044-862-9606</cell>
+    </item>
+    
+
+    <item>
+        <type>p011</type>
+        <name>IF 울산대점 (신)</name>
+        <address>울산광역시 남구 대학로 90(무거동)</address>
+        <cell>052-223-0081</cell>
+    </item>
+    <item>
+        <type>p011</type>
+        <name>IF 울산 상안점</name>
+        <address>울산광역시 북구 아진로 94115호 (천곡동,아진복합상가)</address>
+        <cell>052-295-5009</cell>
+    </item>
+
+    <item>
+        <type>p012</type>
+        <name>IF 인천 청라점 (신)</name>
+        <address>인천광역시 서구 중봉대로586번길22, 상가A동 127호 (연희동,청라풍림 엑슬루타워)</address>
+        <cell>032-565-4848</cell>
+    </item>
+    <item>
+        <type>p012</type>
+        <name>IF 인하대점 (신)	</name>
+        <address>인천광역시 미추홀구 인하로 77번길6</address>
+        <cell>032-874-2133</cell>
+    </item>
+
+    <item>
+        <type>p013</type>
+        <name>IF 전남 해남점</name>
+        <address>전라남도 해남군 해남읍 중앙1로 140-1(성내리)</address>
+        <cell>061-534-9087</cell>
+    </item>
+    <item>
+        <type>p013</type>
+        <name>IF 여수 중앙점</name>
+        <address>전라남도 여수시 진남상가길 39-61층 (교동)</address>
+        <cell>061-663-1277</cell>
+    </item>
+
+    <item>
+        <type>p014</type>
+        <name>IF 전주 혁신점</name>
+        <address>전라북도 완주군 이서면 기지로 51106호 (갈산리,혁신빌딩)</address>
+        <cell>063-227-1565</cell>
+    </item>
+    <item>
+        <type>p014</type>
+        <name>IF 전북 고창점</name>
+        <address>전라북도 고창군 고창읍 중앙로 207-1(읍내리)</address>
+        <cell>063-561-2982</cell>
+    </item>
+    <item>
+        <type>p014</type>
+        <name>IF 완주 첨단점</name>
+        <address>전라북도 완주군 봉동읍 둔산3로79, 1층</address>
+        <cell>063-263-1777</cell>
+    </item>
+
+    <item>
+        <type>p015</type>
+        <name>IF 제주점 (신)</name>
+        <address>제주특별자치도 제주시 중앙로 지하 60,73호 동(1호,3호,10호) (일도일동)</address>
+        <cell>064-758-0453</cell>
+    </item>
+    <item>
+        <type>p015</type>
+        <name>IF 제주 시청점</name>
+        <address>제주특별자치도 제주시 광양14길 3(이도이동)</address>
+        <cell>064-702-2442</cell>
+    </item>
+
+    <item>
+        <type>p016</type>
+        <name>IF 충남 예산점</name>
+        <address>충청남도 예산군 예산읍 역전로 150-2(산성리)</address>
+        <cell>041-331-0406</cell>
+    </item>
+    <item>
+        <type>p016</type>
+        <name>IF 천안 두정점</name>
+        <address>충청남도 천안시 서북구 원두정10길 7(두정동)</address>
+        <cell>041-621-2122</cell>
+    </item>
+
+    <item>
+        <type>p017</type>
+        <name>IF 충북대점</name>
+        <address>충청북도 청주시 서원구 내수동로 116(사창동)</address>
+        <cell>043-266-5325</cell>
+    </item>
+    <item>
+        <type>p017</type>
+        <name>IF 충북 청주대점</name>
+        <address>충청북도 청주시 청원구 상당로 2571층 (우암동,우인빌딩)</address>
+        <cell>043-225-1133</cell>
+    </item>
+    <item>
+        <type>p017</type>
+        <name>IF 청주 분평점</name>
+        <address>충청북도 청주시 서원구 1순환로1107번길 36103호 (분평동,아주빌딩)</address>
+        <cell>043-287-2280</cell>
+    </item>
+
+</items>

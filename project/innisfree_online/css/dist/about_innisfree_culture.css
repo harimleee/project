@@ -1,0 +1,361 @@
+@charset "UTF-8";
+@import url("common.css");
+main .visual .logo img {
+  width: 5%;
+  margin: 6% 0 0 2.8%;
+}
+main .visual .visual_write {
+  margin: 6% 0 0 2.8%;
+}
+main .visual .visual_write h2 {
+  font-family: "Batang";
+  font-size: 2.5vw;
+  font-weight: normal;
+  line-height: 3.5vw;
+  margin: 0;
+}
+main .visual .visual_write p {
+  font-family: "함초롬돋움";
+  font-size: 1vw;
+  margin: 1% 0;
+}
+main .first2 {
+  margin: 8% 0;
+  position: relative;
+}
+main .first2 .first_img {
+  width: 30%;
+  margin: 1% auto;
+}
+main .first2 .first_img img {
+  width: 100%;
+  padding: 12%;
+}
+main .first2 .first_img .first_lang {
+  font-size: 1.2vw;
+}
+main .first2 .first_img .first_lang p:nth-of-type(1) {
+  position: absolute;
+  left: 52%;
+  top: 0;
+}
+main .first2 .first_img .first_lang p:nth-of-type(2) {
+  position: absolute;
+  right: 24%;
+  top: 21%;
+  text-align: right;
+  font-size: 1vw;
+}
+main .first2 .first_img .first_lang p:nth-of-type(3) {
+  position: absolute;
+  right: 36%;
+  top: 56%;
+  text-align: right;
+}
+main .first2 .first_img .first_lang p:nth-of-type(4) {
+  position: absolute;
+  left: 36%;
+  top: 56%;
+}
+main .first2 .first_write {
+  width: 36%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "함초롬돋움";
+  font-size: 1vw;
+  line-height: 1.6vw;
+  color: #707070;
+}
+main .first2 .first_btn {
+  font-family: "함초롬돋움";
+  width: 13%;
+  margin: 3% auto;
+  background: #000;
+  text-align: center;
+  padding: 0.4% 0;
+  font-size: 0.85vw;
+}
+main .first2 .first_btn a {
+  color: #fff;
+  text-decoration: none;
+}
+main .second2 {
+  text-align: center;
+}
+main .second2 iframe {
+  width: 60%;
+  height: 600px;
+  margin: 4% 0 10% 0;
+}
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+@media (max-width: 1024px) {
+  main .visual .logo img {
+    width: 10%;
+    margin: 12% 0 0 4%;
+  }
+  main .visual .visual_write {
+    margin: 8% 0 0 4%;
+  }
+  main .visual .visual_write h2 {
+    font-family: "Batang";
+    font-size: 4vw;
+    font-weight: normal;
+    line-height: 6vw;
+    margin: 0;
+  }
+  main .visual .visual_write p {
+    font-family: "함초롬돋움";
+    font-size: 1.8vw;
+    margin: 3% 0;
+  }
+  main .first2 {
+    margin: 15% 0;
+    position: relative;
+  }
+  main .first2 .first_img {
+    width: 50%;
+    margin: 1% auto;
+  }
+  main .first2 .first_img img {
+    width: 100%;
+    padding: 12%;
+  }
+  main .first2 .first_img .first_lang {
+    font-size: 2vw;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(1) {
+    position: absolute;
+    left: 53%;
+    top: 0;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(2) {
+    position: absolute;
+    right: 7%;
+    top: 21%;
+    text-align: right;
+    font-size: 1.8vw;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(3) {
+    position: absolute;
+    right: 27%;
+    top: 57%;
+    text-align: right;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(4) {
+    position: absolute;
+    left: 27%;
+    top: 57%;
+  }
+  main .first2 .first_write {
+    width: 63%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "함초롬돋움";
+    font-size: 1.8vw;
+    line-height: 3vw;
+    color: #707070;
+  }
+  main .first2 .first_btn {
+    font-family: "함초롬돋움";
+    width: 22%;
+    margin: 4% auto;
+    background: #000;
+    text-align: center;
+    padding: 0.5% 0;
+    font-size: 1.6vw;
+  }
+  main .first2 .first_btn a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main .second2 {
+    text-align: center;
+  }
+  main .second2 iframe {
+    width: 80%;
+    height: 500px;
+    margin: 4% 0 25% 0;
+  }
+}
+@media (max-width: 768px) {
+  main .visual .logo img {
+    width: 15%;
+    margin: 15% 0 0 6.5%;
+  }
+  main .visual .visual_write {
+    margin: 8% 0 0 6.5%;
+  }
+  main .visual .visual_write h2 {
+    font-family: "Batang";
+    font-size: 6vw;
+    font-weight: normal;
+    line-height: 9vw;
+    margin: 0;
+  }
+  main .visual .visual_write p {
+    font-family: "함초롬돋움";
+    font-size: 3vw;
+    margin: 3% 0;
+  }
+  main .first2 {
+    margin: 15% 0;
+    position: relative;
+  }
+  main .first2 .first_img {
+    width: 65%;
+    margin: 0% auto;
+  }
+  main .first2 .first_img img {
+    width: 100%;
+    padding: 12%;
+  }
+  main .first2 .first_img .first_lang {
+    font-size: 3vw;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(1) {
+    position: absolute;
+    left: 54%;
+    top: 0;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(2) {
+    position: absolute;
+    right: 3%;
+    top: 24%;
+    text-align: right;
+    font-size: 2vw;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(3) {
+    position: absolute;
+    right: 20%;
+    top: 53%;
+    text-align: right;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(4) {
+    position: absolute;
+    left: 20%;
+    top: 53%;
+  }
+  main .first2 .first_write {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "함초롬돋움";
+    font-size: 2.3vw;
+    line-height: 4vw;
+    color: #707070;
+    padding-top: 3%;
+  }
+  main .first2 .first_btn {
+    font-family: "함초롬돋움";
+    width: 30%;
+    margin: 5% auto;
+    background: #000;
+    text-align: center;
+    padding: 0.8% 0;
+    font-size: 2.2vw;
+  }
+  main .first2 .first_btn a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main .second2 {
+    text-align: center;
+  }
+  main .second2 iframe {
+    width: 90%;
+    height: 450px;
+    margin: 4% 0 25% 0;
+  }
+}
+@media (max-width: 480px) {
+  main .visual .logo img {
+    width: 20%;
+    margin: 25% 0 0 6%;
+  }
+  main .visual .visual_write {
+    margin: 8% 0 0 6%;
+  }
+  main .visual .visual_write h2 {
+    font-family: "Batang";
+    font-size: 8vw;
+    font-weight: normal;
+    line-height: 11vw;
+    margin: 0;
+  }
+  main .visual .visual_write p {
+    font-family: "함초롬돋움";
+    font-size: 4vw;
+    margin: 4% 0;
+  }
+  main .first2 {
+    margin: 15% 0;
+    position: relative;
+  }
+  main .first2 .first_img {
+    width: 90%;
+    margin: 0% auto;
+  }
+  main .first2 .first_img img {
+    width: 100%;
+    padding: 12%;
+  }
+  main .first2 .first_img .first_lang {
+    font-size: 4.5vw;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(1) {
+    position: absolute;
+    left: 54%;
+    top: -1%;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(2) {
+    position: absolute;
+    right: 3%;
+    top: 15%;
+    text-align: right;
+    font-size: 3vw;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(3) {
+    position: absolute;
+    right: 8%;
+    top: 48%;
+    text-align: right;
+  }
+  main .first2 .first_img .first_lang p:nth-of-type(4) {
+    position: absolute;
+    left: 8%;
+    top: 48%;
+  }
+  main .first2 .first_write {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "함초롬돋움";
+    font-size: 4vw;
+    line-height: 6.5vw;
+    color: #707070;
+    padding-top: 3%;
+  }
+  main .first2 .first_btn {
+    font-family: "함초롬돋움";
+    width: 43%;
+    margin: 5% auto;
+    background: #000;
+    text-align: center;
+    padding: 0.8% 0;
+    font-size: 3.3vw;
+  }
+  main .first2 .first_btn a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main .second2 {
+    text-align: center;
+  }
+  main .second2 iframe {
+    width: 90%;
+    height: 250px;
+    margin: 4% 0 25% 0;
+  }
+}

@@ -1,0 +1,258 @@
+@import url(common.css);
+
+html,
+body {}
+
+header {
+    width: 98%;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+header p {
+    margin-top: 100px;
+}
+
+header p nav {}
+
+header nav {
+    
+    margin-top: 50px;
+}
+
+header nav a {
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    
+    
+
+}
+
+header nav a:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    background-color: #000;
+    transition: color .5s;
+
+}
+
+header nav a:hover:after {
+    width: 0%;
+    left: 30%;
+    bottom: 0;
+    
+}
+
+header nav div {
+    position: relative;
+}
+
+.bar{}
+
+.bar ul li{
+    list-style: none;
+    color: black;
+    background-color: #fff;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bar .var{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.bar .var:hover{
+    color: black;
+    background-color: darkgray;
+}
+.bar li{
+    padding: 0 20px;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+}
+.plz li{
+    width: 100%; border: none solid #000;
+    
+}
+
+.plz{
+    position: absolute;
+    top: 100%; left: 0;
+    display: none;
+}
+
+.bar li:hover .plz{
+    display: block;
+    margin-top: 61px;
+    border: 1px solid #ddd;
+    background: gray;
+}
+
+
+main {
+    width: 100%;
+
+}
+
+main .ba_1 {
+    background: url('../img/join%20us%20phto.jpg');
+    height: 850px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+main .ba_1 p {
+    color: #fff;
+    text-align: center;
+
+
+
+}
+
+main .ba_1 p strong {
+    font-size: 72px;
+    text-shadow: 4px 4px 4px gray;
+    
+    
+
+}
+
+
+
+.con_1 h1 {
+    padding-bottom: 10px;
+}
+
+/*
+@media (max-width:480px){
+    
+    .plan{
+        float: none;
+        
+        
+    }
+    
+    .ba_1{
+        height: auto;
+    }
+    .ba_1 p{
+        font-size: 10px;
+    }
+}
+*/
+
+
+main .plan  ul li p{
+    text-align: center;
+    background: #FFFBE0;
+    width: 391px;
+    height: 513px;
+    top: 167px;
+    
+    line-height: 3.0;
+    
+}
+
+main .plan h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+main .plan ul li p storng{
+    padding-top: 50px;
+    font-size: 2em;
+}
+
+main .plan{
+    position: relative;
+    
+}
+
+main .plan ul{
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+
+main .plan ul li {
+    display: inline-block;
+    text-align: center;
+    
+    overflow: hidden;
+    
+
+}
+main .plan ul li p{
+    padding-top: 25%;
+}
+
+main .plan ul li p:hover{
+    border: 20px solid #FFF4A5;
+    background: #fff;
+}
+
+main .plan ul li p a{
+    padding-top: 20px;
+    border: 2px solid #F59E8E;
+    background-color: #F59E8E;
+    color: #fff;
+    border-radius: 1px;
+    padding: 10px 80px;
+    margin-top:100px;
+    font-size: 20px;
+    
+    
+}
+
+
+
+.how{
+    text-align: center;
+    padding-top: 100px;
+    line-height: 1.5;
+}
+.how ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.how ul li{
+    float: left;
+/*    padding-left: 230px;*/
+    text-align: center;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+
+
+
+

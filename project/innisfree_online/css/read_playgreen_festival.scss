@@ -1,0 +1,233 @@
+@import url("common.css");
+main {
+    .logo {
+        img {
+            width: 5%;
+            margin: 6% 0 0 2.8%;
+        }
+    }
+    .visual {
+        width: 100%;
+        text-align: center;
+        font-family: "함초롬돋움";
+        h2 {
+            font-size: 2.8vw;
+            font-weight: normal;
+            margin-top: 5%;
+        }
+        p {
+            font-size: 1.1vw;
+            line-height: 2vw;
+            margin: 3% 0 8% 0;
+        }
+        .vdo {
+            width: 100%;
+            height: 40vw;
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .two {
+        font-family: "함초롬돋움";
+        text-align: center;
+        h3 {
+            font-size: 2.2vw;
+            font-weight: normal;
+            margin-top: 8%;
+        }
+        p {
+            width: 36%;
+            font-size: 1.1vw;
+            line-height: 2vw;
+            margin: 5% auto 8% auto;
+            color: #636262;
+        }
+    }
+    .three {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 10%;
+        img {
+            padding: 0 10%;
+        }
+    }
+}
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media(max-width:1024px) {
+    main {
+        .logo {
+            img {
+                width: 10%;
+                margin: 12% 0 0 4%;
+            }
+        }
+        .visual {
+            width: 100%;
+            text-align: center;
+            font-family: "함초롬돋움";
+            h2 {
+                font-size: 3.8vw;
+                font-weight: normal;
+                margin-top: 8%;
+            }
+            p {
+                font-size: 2.1vw;
+                line-height: 4vw;
+                margin: 5% 0 8% 0;
+            }
+            .vdo {
+                width: 100%;
+                height: 50vw;
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .two {
+            font-family: "함초롬돋움";
+            text-align: center;
+            h3 {
+                font-size: 3.2vw;
+                font-weight: normal;
+                margin-top: 8%;
+            }
+            p {
+                width: 58%;
+                font-size: 1.8vw;
+                line-height: 3vw;
+                margin: 5% auto 8% auto;
+                color: #636262;
+            }
+        }
+        .three {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 10%;
+            img {
+                padding: 0 5%;
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        .logo {
+            img {
+                width: 15%;
+                margin: 15% 0 0 5%;
+            }
+        }
+        .visual {
+            width: 100%;
+            text-align: center;
+            font-family: "함초롬돋움";
+            h2 {
+                font-size: 4.8vw;
+                font-weight: normal;
+                margin-top: 10%;
+            }
+            p {
+                font-size: 3vw;
+                line-height: 5vw;
+                margin: 8% 0 10% 0;
+            }
+            .vdo {
+                width: 100%;
+                height: 50vw;
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .two {
+            font-family: "함초롬돋움";
+            text-align: center;
+            h3 {
+                font-size: 4.2vw;
+                font-weight: normal;
+                margin-top: 8%;
+            }
+            p {
+                width: 73%;
+                font-size: 2.2vw;
+                line-height: 4vw;
+                margin: 8% auto 10% auto;
+                color: #636262;
+            }
+        }
+        .three {
+            width: 85%;
+            margin: 0 auto;
+            margin-bottom: 10%;
+            img {
+                padding: 0 5%;
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    main {
+        .logo {
+            img {
+                width: 20%;
+                margin: 20% 0 0 4%;
+            }
+        }
+        .visual {
+            width: 100%;
+            text-align: center;
+            font-family: "함초롬돋움";
+            h2 {
+                font-size: 5.8vw;
+                font-weight: normal;
+                margin-top: 13%;
+            }
+            p {
+                font-size: 4vw;
+                line-height: 6.5vw;
+                margin: 10% 0 12% 0;
+            }
+            .vdo {
+                width: 100%;
+                height: 60vw;
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .two {
+            font-family: "함초롬돋움";
+            text-align: center;
+            h3 {
+                font-size: 5.2vw;
+                font-weight: normal;
+                margin-top: 10%;
+            }
+            p {
+                width: 85%;
+                font-size: 3.5vw;
+                line-height: 5.5vw;
+                margin: 8% auto 10% auto;
+                color: #636262;
+            }
+        }
+        .three {
+            width: 85%;
+            margin: 0 auto;
+            margin-bottom: 10%;
+            img {
+                padding: 0 5%;
+            }
+        }
+    }
+}

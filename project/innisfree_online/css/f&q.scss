@@ -1,0 +1,831 @@
+main {
+    font-family: '함초롬돋움';
+    .A_logo {
+        margin: 10% 0 0 2.8%;
+        a {
+            img {
+                width: 6%;
+            }
+        }
+    }
+    .nav {
+        width: 40%;
+        margin: 2% auto 0 auto;
+        p {
+            width: 32%;
+            color: black;
+            padding: 3% 8%;
+            display: inline-block;
+            text-align: center;
+            font-size: 1vw;
+        }
+        p.active {
+            color: white;
+            background-color: black;
+        }
+    }
+    .nav_text {
+        width: 70%;
+        margin: 0% auto 5% auto;
+        div {
+            display: none;
+        }
+        div:nth-of-type(1) {
+            ul {
+                li {
+                    font-size: 0.9vw;
+                    padding: 2% 0;
+                    border-bottom: 1px solid#000;
+                    p {
+                        display: none;
+                        font-size: 0.8vw;
+                        margin: 5% 0;
+                    }
+                    p.active {
+                        display: block;
+                    }
+                }
+            }
+        }
+        div:nth-of-type(2) {
+            margin: 5% 0;
+            text-align: center;
+            p {
+                font-size: 1.2vw;
+                line-height: 3vw;
+                margin-bottom: 8%;
+                font-family: '함초롬바탕';
+            }
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 1vw;
+                padding: 2% 3%;
+            }
+            a:hover {
+                background-color: rgb(233, 225, 209);
+                transition: 1s;
+            }
+            button {
+                display: block;
+                margin: 8% auto;
+                border: none;
+                background: rgb(54, 54, 54);
+                color: white;
+                padding: 1% 2%;
+                font-size: 0.8vw;
+                cursor: pointer;
+            }
+            button:hover {
+                background: black;
+            }
+        }
+        div:nth-of-type(3) {
+            margin: 6% auto;
+            text-align: center;
+            .procedure {
+                .txt {
+                    font-size: 1vw;
+                    text-align: left;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .condition {
+                margin: 6% 0;
+                .txt {
+                    font-size: 1vw;
+                    text-align: left;
+                }
+                .condi2 {
+                    background: white;
+                    border: 1px solid#ddd;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    article {
+                        width: 50%;
+                        text-align: left;
+                        p {
+                            padding-left: 10%;
+                            line-height: 2vw;
+                            strong {
+                                font-size: 1.4vw;
+                                font-weight: normal;
+                            }
+                            small {
+                                color: rgb(141, 141, 141);
+                            }
+                        }
+                        p:nth-of-type(2) {
+                            font-size: 0.7vw;
+                            padding-left: 10%;
+                            color: rgb(187, 187, 187);
+                        }
+                    }
+                    img {
+                        width: 35%;
+                        padding-right: 5%;
+                    }
+                }
+            }
+            .cost {
+                margin: 6% 0;
+                .txt {
+                    font-size: 1vw;
+                    text-align: left;
+                }
+                table {
+                    background: white;
+                    width: 100%;
+                    text-align: center;
+                    border-collapse: collapse;
+                    tbody {
+                        th {
+                            border-bottom: 1px solid#ddd;
+                            font-weight: normal;
+                            font-size: 0.9vw;
+                            padding: 1% 0;
+                        }
+                        tr {
+                            border: 1px solid#ddd;
+                            font-size: 0.8vw;
+                            td {
+                                padding: 1% 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .structure {
+                margin: 6% 0;
+                .txt {
+                    font-size: 1vw;
+                    text-align: left;
+                }
+                .formula {
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    p {
+                        background: white;
+                        font-size: 1.4vw;
+                        padding: 6% 5%;
+                        border: 1px solid#ddd;
+                    }
+                    p:nth-of-type(2),
+                    p:nth-of-type(4) {
+                        background: none;
+                        font-size: 3vw;
+                        border: none;
+                    }
+                }
+            }
+            button {
+                border: none;
+                background: rgb(54, 54, 54);
+                color: white;
+                padding: 1% 2%;
+                font-size: 0.8vw;
+                cursor: pointer;
+                margin: 0 auto;
+            }
+            button:hover {
+                background: black;
+            }
+        }
+        div.active {
+            display: block;
+        }
+    }
+}
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media(max-width:1024px) {
+    main {
+        font-family: '함초롬돋움';
+        .A_logo {
+            margin: 12% 0 0 4%;
+            a {
+                img {
+                    width: 9%;
+                }
+            }
+        }
+        .nav {
+            width: 60%;
+            margin: 5% auto 0 auto;
+            p {
+                width: 32%;
+                color: black;
+                padding: 3% 8%;
+                display: inline-block;
+                text-align: center;
+                font-size: 1.5vw;
+            }
+            p.active {
+                color: white;
+                background-color: black;
+            }
+        }
+        .nav_text {
+            width: 80%;
+            margin: 0% auto 8% auto;
+            div {
+                display: none;
+            }
+            div:nth-of-type(1) {
+                ul {
+                    li {
+                        font-size: 1.5vw;
+                        padding: 3% 0;
+                        border-bottom: 1px solid#000;
+                        p {
+                            display: none;
+                            font-size: 1.4vw;
+                            margin: 5% 0;
+                        }
+                        p.active {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            div:nth-of-type(2) {
+                margin: 9% 0;
+                text-align: center;
+                p {
+                    font-size: 2vw;
+                    line-height: 3vw;
+                    margin-bottom: 9%;
+                    font-family: '함초롬바탕';
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1.8vw;
+                    padding: 2% 3%;
+                }
+                a:hover {
+                    background-color: rgb(233, 225, 209);
+                    transition: 1s;
+                }
+                button {
+                    display: block;
+                    margin: 8% auto;
+                    border: none;
+                    background: rgb(54, 54, 54);
+                    color: white;
+                    padding: 2% 3%;
+                    font-size: 1.5vw;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background: black;
+                }
+            }
+            div:nth-of-type(3) {
+                margin: 8% auto;
+                text-align: center;
+                .procedure {
+                    .txt {
+                        font-size: 1.5vw;
+                        text-align: left;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                }
+                .condition {
+                    margin: 8% 0;
+                    .txt {
+                        font-size: 1.5vw;
+                        text-align: left;
+                    }
+                    .condi2 {
+                        background: white;
+                        border: 1px solid#ddd;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        article {
+                            width: 60%;
+                            text-align: left;
+                            p {
+                                padding-left: 8%;
+                                line-height: 3vw;
+                                strong {
+                                    font-size: 2.2vw;
+                                    font-weight: normal;
+                                }
+                                small {
+                                    color: rgb(141, 141, 141);
+                                }
+                            }
+                            p:nth-of-type(2) {
+                                font-size: 1vw;
+                                padding-left: 8%;
+                                color: rgb(187, 187, 187);
+                            }
+                        }
+                        img {
+                            width: 35%;
+                            padding-right: 5%;
+                        }
+                    }
+                }
+                .cost {
+                    margin: 6% 0;
+                    .txt {
+                        font-size: 1.5vw;
+                        text-align: left;
+                    }
+                    table {
+                        background: white;
+                        width: 100%;
+                        text-align: center;
+                        border-collapse: collapse;
+                        tbody {
+                            th {
+                                border-bottom: 1px solid#ddd;
+                                font-weight: normal;
+                                font-size: 1.5vw;
+                                padding: 1% 0;
+                            }
+                            tr {
+                                border: 1px solid#ddd;
+                                font-size: 1.2vw;
+                                td {
+                                    padding: 1% 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .structure {
+                    margin: 0% 0 5% 0;
+                    .txt {
+                        font-size: 1.5vw;
+                        text-align: left;
+                        margin: 0;
+                    }
+                    .formula {
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        p {
+                            background: white;
+                            font-size: 1.8vw;
+                            padding: 6.5% 5%;
+                            border: 1px solid#ddd;
+                        }
+                        p:nth-of-type(2),
+                        p:nth-of-type(4) {
+                            background: none;
+                            font-size: 4vw;
+                            border: none;
+                        }
+                    }
+                }
+                button {
+                    border: none;
+                    background: rgb(54, 54, 54);
+                    color: white;
+                    padding: 2% 3%;
+                    font-size: 1.4vw;
+                    cursor: pointer;
+                    margin: 0 auto;
+                }
+                button:hover {
+                    background: black;
+                }
+            }
+            div.active {
+                display: block;
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        font-family: '함초롬돋움';
+        .A_logo {
+            margin: 15% 0 0 6.5%;
+            a {
+                img {
+                    width: 14%;
+                }
+            }
+        }
+        .nav {
+            width: 75%;
+            margin: 5% auto 0 auto;
+            p {
+                width: 32%;
+                color: black;
+                padding: 3% 8%;
+                display: inline-block;
+                text-align: center;
+                font-size: 2.5vw;
+            }
+            p.active {
+                color: white;
+                background-color: black;
+            }
+        }
+        .nav_text {
+            width: 90%;
+            margin: 0% auto 8% auto;
+            div {
+                display: none;
+            }
+            div:nth-of-type(1) {
+                ul {
+                    li {
+                        font-size: 2.3vw;
+                        padding: 4% 0;
+                        border-bottom: 1px solid#000;
+                        p {
+                            display: none;
+                            font-size: 2vw;
+                            margin: 5% 0;
+                        }
+                        p.active {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            div:nth-of-type(2) {
+                margin: 9% 0;
+                text-align: center;
+                p {
+                    font-size: 3.2vw;
+                    line-height: 6vw;
+                    margin-bottom: 9%;
+                    font-family: '함초롬바탕';
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 2.8vw;
+                    padding: 2% 3%;
+                }
+                a:hover {
+                    background-color: rgb(233, 225, 209);
+                    transition: 1s;
+                }
+                button {
+                    display: block;
+                    margin: 10% auto;
+                    border: none;
+                    background: rgb(54, 54, 54);
+                    color: white;
+                    padding: 3% 4%;
+                    font-size: 2.2vw;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background: black;
+                }
+            }
+            div:nth-of-type(3) {
+                margin: 8% auto;
+                text-align: center;
+                .procedure {
+                    .txt {
+                        font-size: 2.5vw;
+                        text-align: left;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                }
+                .condition {
+                    margin: 8% 0;
+                    .txt {
+                        font-size: 2.5vw;
+                        text-align: left;
+                    }
+                    .condi2 {
+                        background: white;
+                        border: 1px solid#ddd;
+                        display: block;
+                        justify-content: space-between;
+                        align-items: center;
+                        text-align: right;
+                        article {
+                            width: 90%;
+                            margin: 0 auto;
+                            text-align: left;
+                            p {
+                                padding-left: 0%;
+                                line-height: 6vw;
+                                font-size: 3vw;
+                                strong {
+                                    font-size: 4vw;
+                                    font-weight: normal;
+                                }
+                                small {
+                                    color: rgb(141, 141, 141);
+                                }
+                            }
+                            p:nth-of-type(2) {
+                                font-size: 1.8vw;
+                                padding-left: 0%;
+                                color: rgb(187, 187, 187);
+                            }
+                        }
+                        img {
+                            width: 50%;
+                            padding-right: 0%;
+                        }
+                    }
+                }
+                .cost {
+                    margin: 8% 0;
+                    .txt {
+                        font-size: 2.5vw;
+                        text-align: left;
+                    }
+                    table {
+                        background: white;
+                        width: 100%;
+                        text-align: center;
+                        border-collapse: collapse;
+                        tbody {
+                            th {
+                                border-bottom: 1px solid#ddd;
+                                font-weight: normal;
+                                font-size: 2.3vw;
+                                padding: 2% 0;
+                            }
+                            tr {
+                                border: 1px solid#ddd;
+                                font-size: 1.8vw;
+                                td {
+                                    padding: 2% 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .structure {
+                    margin: 0% 0 5% 0;
+                    .txt {
+                        font-size: 2.5vw;
+                        text-align: left;
+                        margin: 0;
+                    }
+                    .formula {
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        p {
+                            background: white;
+                            font-size: 2vw;
+                            padding: 6.5% 5%;
+                            border: 1px solid#ddd;
+                        }
+                        p:nth-of-type(2),
+                        p:nth-of-type(4) {
+                            background: none;
+                            font-size: 5vw;
+                            border: none;
+                        }
+                    }
+                }
+                button {
+                    border: none;
+                    background: rgb(54, 54, 54);
+                    color: white;
+                    padding: 2% 3%;
+                    font-size: 2vw;
+                    cursor: pointer;
+                    margin: 0 auto;
+                }
+                button:hover {
+                    background: black;
+                }
+            }
+            div.active {
+                display: block;
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    main {
+        font-family: '함초롬돋움';
+        .A_logo {
+            margin: 20% 0 0 6%;
+            a {
+                img {
+                    width: 20%;
+                }
+            }
+        }
+        .nav {
+            width: 80%;
+            margin: 5% auto 0 auto;
+            p {
+                width: 32%;
+                color: black;
+                padding: 3% 8%;
+                display: inline-block;
+                text-align: center;
+                font-size: 3.3vw;
+            }
+            p.active {
+                color: white;
+                background-color: black;
+            }
+        }
+        .nav_text {
+            width: 85%;
+            margin: 0% auto 8% auto;
+            div {
+                display: none;
+            }
+            div:nth-of-type(1) {
+                ul {
+                    padding: 0;
+                    li {
+                        font-size: 3.2vw;
+                        padding: 5% 0;
+                        border-bottom: 1px solid#000;
+                        p {
+                            display: none;
+                            font-size: 3vw;
+                            margin: 5% 0;
+                        }
+                        p.active {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            div:nth-of-type(2) {
+                margin: 9% 0;
+                text-align: center;
+                p {
+                    font-size: 5vw;
+                    line-height: 9vw;
+                    margin-bottom: 9%;
+                    font-family: '함초롬바탕';
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 4vw;
+                    padding: 2% 3%;
+                }
+                a:hover {
+                    background-color: rgb(233, 225, 209);
+                    transition: 1s;
+                }
+                button {
+                    display: block;
+                    margin: 20% auto;
+                    border: none;
+                    background: rgb(54, 54, 54);
+                    color: white;
+                    padding: 4% 5%;
+                    font-size: 3.2vw;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background: black;
+                }
+            }
+            div:nth-of-type(3) {
+                margin: 8% auto;
+                text-align: center;
+                .procedure {
+                    .txt {
+                        font-size: 3.5vw;
+                        text-align: left;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                }
+                .condition {
+                    margin: 8% 0;
+                    .txt {
+                        font-size: 3.5vw;
+                        text-align: left;
+                    }
+                    .condi2 {
+                        background: white;
+                        border: 1px solid#ddd;
+                        display: block;
+                        justify-content: space-between;
+                        align-items: center;
+                        text-align: right;
+                        article {
+                            width: 90%;
+                            margin: 0 auto;
+                            text-align: left;
+                            p {
+                                padding-left: 0%;
+                                line-height: 8vw;
+                                font-size: 4vw;
+                                strong {
+                                    font-size: 5.5vw;
+                                    font-weight: normal;
+                                }
+                                small {
+                                    color: rgb(141, 141, 141);
+                                }
+                            }
+                            p:nth-of-type(2) {
+                                font-size: 1.8vw;
+                                padding-left: 0%;
+                                line-height: 5vw;
+                                color: rgb(187, 187, 187);
+                            }
+                        }
+                        img {
+                            width: 50%;
+                            padding-right: 0%;
+                        }
+                    }
+                }
+                .cost {
+                    margin: 8% 0;
+                    .txt {
+                        font-size: 3.5vw;
+                        text-align: left;
+                    }
+                    table {
+                        background: white;
+                        width: 100%;
+                        text-align: center;
+                        border-collapse: collapse;
+                        tbody {
+                            th {
+                                border-bottom: 1px solid#ddd;
+                                font-weight: normal;
+                                font-size: 3vw;
+                                padding: 2% 2%;
+                            }
+                            tr {
+                                border: 1px solid#ddd;
+                                font-size: 1vw;
+                                td {
+                                    padding: 2% 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .structure {
+                    margin: 0% 0 5% 0;
+                    .txt {
+                        font-size: 3.5vw;
+                        text-align: left;
+                        margin: 0;
+                    }
+                    .formula {
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        p {
+                            background: white;
+                            font-size: 2vw;
+                            padding: 6.5% 5%;
+                            border: 1px solid#ddd;
+                        }
+                        p:nth-of-type(2),
+                        p:nth-of-type(4) {
+                            background: none;
+                            font-size: 5vw;
+                            border: none;
+                        }
+                    }
+                }
+                button {
+                    border: none;
+                    background: rgb(54, 54, 54);
+                    color: white;
+                    padding: 2% 3%;
+                    font-size: 3.5vw;
+                    cursor: pointer;
+                    margin: 0 auto;
+                }
+                button:hover {
+                    background: black;
+                }
+            }
+            div.active {
+                display: block;
+            }
+        }
+    }
+}

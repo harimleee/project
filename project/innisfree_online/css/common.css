@@ -1,0 +1,2743 @@
+body {
+    background-color: #fffef3;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*---------------------------*/
+
+.thanks_banner {
+    background: #bbae02;
+    color: #000;
+    text-align: center;
+    font-family: '함초롬돋움';
+    font-size: 0.8vw;
+}
+
+.thanks_banner p {
+    padding: 0.6%;
+    margin: 0;
+}
+
+.thanks_banner p:before {
+    content: "이니스프리 온라인 스토어를 이용해 주셔서 감사합니다. 주문 폭주 및 배송사의 사정으로 배송 지연이 발생 될 수 있는 점 참고 부탁 드립니다.";
+}
+
+.member_banner {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-family: '함초롬돋움';
+    font-size: 0.8vw;
+    padding: 0.5%;
+}
+
+.member_banner p {
+    margin: 0 auto;
+}
+
+.member_banner:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cart {
+    background: #0000009a;
+    color: #fff;
+    text-align: right;
+    font-family: '함초롬돋움';
+    font-size: 0.8vw;
+    display: none;
+}
+
+.cart p {
+    padding: 0.8% 1%;
+    margin: 0;
+}
+
+
+/*-------------------------------------*/
+
+.head {
+    position: relative;
+}
+
+header {
+    font-family: '함초롬돋움';
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    padding: 1.5% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.header_left {
+    width: 17%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8vw;
+}
+
+.header_left a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header_left a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.header_right {
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8vw;
+}
+
+.header_right a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header_right a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.header_right a:nth-of-type(2) {
+    background: #000;
+    border-radius: 100%;
+    width: 0.4vw;
+    height: 0.4vw;
+}
+
+.header_right a:nth-of-type(2):hover {
+    width: 0.45vw;
+    height: 0.45vw;
+}
+
+
+/* ------------------- */
+
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: '함초롬돋움';
+    visibility: hidden;
+    display: flex;
+}
+
+.first {
+    width: 30%;
+    height: 100%;
+    background: #fffef3;
+    position: relative;
+    z-index: 900;
+    transform: translateX(-90%);
+}
+
+.first .x {
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+    top: 3%;
+    width: 7%;
+    background: none;
+    border: none;
+}
+
+.first .x img {
+    width: 100%;
+}
+
+.first nav {
+    padding: 10%;
+}
+
+.first nav a {
+    color: #000;
+    display: inline-block;
+    font-size: 0.8vw;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.first nav a.active {
+    border-bottom: 1px solid #000;
+}
+
+.first a img {
+    padding: 7% 0 0 10%;
+    width: 32%;
+}
+
+.first>div {
+    font-size: 1vw;
+    padding: 10%;
+}
+
+.first>div a {
+    text-decoration: none;
+    color: #000;
+}
+
+.first>div p:hover {
+    text-decoration-line: underline;
+}
+
+.first>div div {
+    display: none;
+}
+
+.first>div div.active {
+    display: block;
+    animation: slideIn 0.35s 0.3s forwards ease-in;
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+.first div div:nth-of-type(3) a {
+    border: 1px solid#a6a6a6;
+    font-size: 0.7vw;
+    padding: 4% 8%;
+}
+
+.first div div:nth-of-type(3) p {
+    font-size: 0.7vw;
+    margin-bottom: 5%;
+}
+
+.first div div:nth-of-type(3) p:nth-of-type(1) {
+    margin-top: 12%;
+}
+
+.first div div:nth-of-type(3) input {
+    border: none;
+    background: none;
+    width: 90%;
+    border-bottom: 1px solid#000;
+    position: relative;
+}
+
+.first div div:nth-of-type(3) .sear_btn {
+    position: absolute;
+    right: 17%;
+    border: none;
+    background: none;
+}
+
+.first div div:nth-of-type(3) .sear_btn img {
+    width: 70%;
+}
+
+.first div div:nth-of-type(4) input {
+    border: none;
+    background: none;
+    width: 90%;
+    border-bottom: 1px solid#000;
+    position: relative;
+}
+
+.first div div:nth-of-type(4) .sear_btn2 {
+    position: absolute;
+    right: 17%;
+    border: none;
+    background: none;
+}
+
+.first div div:nth-of-type(4) .sear_btn2 img {
+    width: 70%;
+}
+
+.first div div:nth-of-type(4) p {
+    font-size: 0.8vw;
+    margin-top: 10%;
+}
+
+.second {
+    width: 30%;
+    height: 100%;
+    background: #fffef3;
+    position: relative;
+    border-left: 1.5px solid#ddd;
+    z-index: 800;
+    transform: translateX(-100%);
+    transition: 1s;
+}
+
+.second .x {
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+    top: 3%;
+    width: 7%;
+    background: none;
+    border: none;
+}
+
+.second .x img {
+    width: 100%;
+}
+
+.second>div {
+    font-size: 1vw;
+    margin: 50% 0 0 10%;
+}
+
+.second>div a {
+    text-decoration: none;
+    color: #000;
+}
+
+.second>div a:hover {
+    text-decoration-line: underline;
+}
+
+.second>div div {
+    display: none;
+}
+
+.second>div div.active {
+    display: block;
+}
+
+
+/* ------------popup2-------------- */
+
+.popup2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: '함초롬돋움';
+    visibility: hidden;
+}
+
+.popup2 .table {
+    width: 40%;
+    height: 100%;
+    background: #f0efde;
+    position: relative;
+    transform: translateX(-100%);
+    transition: 1s;
+}
+
+.popup2 .table .x2 {
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+    top: 3%;
+    width: 5%;
+    background: none;
+    border: none;
+}
+
+.popup2 .table .x2 img {
+    width: 100%;
+}
+
+.popup2 .table table {
+    width: 68%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.popup2 .table table th {
+    font-weight: lighter;
+    font-size: 0.8vw;
+    text-align: left;
+    padding: 50% 0 4% 0;
+}
+
+.popup2 .table table tr {
+    font-size: 0.7vw;
+}
+
+.popup2 .table table tr td {
+    padding: 3.5% 0%;
+}
+
+.popup2 .table table tr:nth-of-type(2) td {
+    border-top: 1px solid #acab9f;
+}
+
+.popup2 .table table tr:nth-of-type(7) td {
+    border-bottom: 1px solid #acab9f;
+}
+
+
+/* ------log1------- */
+
+.log1 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.x3 {
+    position: absolute;
+    right: 38%;
+    top: 22%;
+    background: none;
+    border: none;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.x3 img {
+    width: 43%;
+}
+
+.login {
+    background: #fffef3;
+    width: 25%;
+    margin: 10% auto;
+    padding: 3% 2%;
+    position: relative;
+    text-align: center;
+}
+
+.login .hi {
+    font-size: 1.8vw;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.login .hi small {
+    font-size: 0.8vw;
+    color: rgb(202, 197, 190);
+    font-weight: lighter;
+}
+
+.login p {
+    text-align: left;
+}
+
+.login p input {
+    border: none;
+    border-bottom: 1px solid rgb(202, 197, 190);
+    width: 100%;
+    padding: 3%;
+    font-size: 1vw;
+    background: none;
+}
+
+.login button {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 3% 0;
+    font-size: 0.8vw;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: black;
+}
+
+
+/* ------------------ */
+
+.log2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.log2 .x3 {
+    position: absolute;
+    right: 36%;
+    top: 11%;
+    background: none;
+    border: none;
+}
+
+.log2 .x3 img {
+    width: 48%;
+}
+
+.log2 .back {
+    position: absolute;
+    left: 36%;
+    top: 11%;
+    background: none;
+    border: none;
+    z-index: 999;
+}
+
+.log2 .back img {
+    width: 48%;
+}
+
+.log2 .login {
+    background: #fffef3;
+    width: 30%;
+    margin: 4% auto;
+    padding: 3% 2%;
+    position: relative;
+    text-align: center;
+}
+
+.log2 .login .hi {
+    font-size: 1.8vw;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.log2 .login .hi small {
+    font-size: 0.8vw;
+    color: rgb(202, 197, 190);
+    font-weight: lighter;
+}
+
+.log2 .login p {
+    text-align: left;
+}
+
+.log2 .login p input {
+    border: none;
+    border-bottom: 1px solid rgb(202, 197, 190);
+    width: 100%;
+    padding: 3%;
+    font-size: 0.9vw;
+    background: none;
+}
+
+.log2 .login button {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 3% 0;
+    font-size: 0.8vw;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.log2 .login button:hover {
+    background-color: black;
+}
+
+.log2 .login a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 0.7vw;
+    margin-top: 3%;
+}
+
+
+/* -------------------------- */
+
+.log3 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.log3 .x3 {
+    position: absolute;
+    right: 36%;
+    top: 11%;
+    background: none;
+    border: none;
+}
+
+.log3 .x3 img {
+    width: 48%;
+}
+
+.log3 .back {
+    position: absolute;
+    left: 36%;
+    top: 11%;
+    background: none;
+    border: none;
+    z-index: 999;
+}
+
+.log3 .back img {
+    width: 48%;
+}
+
+.log3 .login {
+    background: #fffef3;
+    width: 28%;
+    margin: 4% auto;
+    padding: 3% 2%;
+    position: relative;
+    text-align: center;
+}
+
+.log3 .login .hi {
+    font-size: 1.55vw;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.log3 .login .hi small {
+    font-size: 0.8vw;
+    color: rgb(202, 197, 190);
+    font-weight: lighter;
+}
+
+.log3 .login p {
+    text-align: left;
+}
+
+.log3 .login p input {
+    border: none;
+    border-bottom: 1px solid rgb(202, 197, 190);
+    width: 100%;
+    padding: 3%;
+    font-size: 0.9vw;
+    background: none;
+}
+
+.log3 .login button {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 3% 0;
+    font-size: 0.8vw;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.log3 .login button:hover {
+    background-color: black;
+}
+
+
+/* -------------------------- */
+
+.log4 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.log4 .x3 {
+    position: absolute;
+    right: 38%;
+    top: 11%;
+    background: none;
+    border: none;
+}
+
+.log4 .x3 img {
+    width: 48%;
+}
+
+.log4 .login {
+    background: #fffef3;
+    width: 25%;
+    margin: 4% auto;
+    padding: 4% 2%;
+    position: relative;
+    text-align: center;
+}
+
+.log4 .login .hi {
+    font-size: 1.55vw;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.log4 .login .hi small {
+    font-size: 0.8vw;
+    color: rgb(202, 197, 190);
+    font-weight: lighter;
+}
+
+
+/* ------------- */
+
+aside {
+    position: fixed;
+    right: 10%;
+    top: 88%;
+    background: black;
+    z-index: 10;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: none;
+}
+
+aside p {
+    color: white;
+    font-size: 0.8vw;
+    transform: translate(0%, -25%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*------------------*/
+
+footer {
+    font-size: 0.75vw;
+    font-family: '함초롬돋움';
+}
+
+footer .footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #bfbfbf;
+    padding: 1% 10% 1% 12%;
+}
+
+.footer_left {
+    width: 9%
+}
+
+.footer_left a img {
+    width: 100%;
+}
+
+.footer_right {
+    width: 70%;
+}
+
+.footer_right .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 90%
+}
+
+.footer_right .top div p {
+    margin: 0;
+    margin-bottom: 30%;
+}
+
+.footer_right .top div a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 5% 0;
+}
+
+.footer_right .top div a:hover {
+    font-weight: bold;
+}
+
+.footer_right .bottom {
+    padding-top: 3%;
+    line-height: 1.3vw;
+}
+
+.footer_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+}
+
+.footer_bar p {
+    margin: 1% 3%;
+}
+
+.thanks_banner_click {
+    display: none;
+}
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media(max-width:1024px) {
+    .thanks_banner_click {
+        display: none;
+    }
+    .thanks_banner {
+        background: #bbae02;
+        color: #000;
+        text-align: center;
+        font-family: '함초롬돋움';
+        font-size: 1.3vw;
+    }
+    .thanks_banner p {
+        padding: 1%;
+        margin: 0;
+    }
+    .member_banner {
+        background: #000;
+        color: #fff;
+        text-align: center;
+        font-family: '함초롬돋움';
+        font-size: 1.3vw;
+        padding: 0.9%;
+    }
+    .member_banner p {
+        margin: 0 auto;
+    }
+    .member_banner:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .cart {
+        background: #0000009a;
+        color: #fff;
+        text-align: right;
+        font-family: '함초롬돋움';
+        font-size: 1.3vw;
+        display: none;
+    }
+    .cart p {
+        padding: 1% 2%;
+        margin: 0;
+    }
+    /*-------------------------------------*/
+    .head {
+        position: relative;
+    }
+    header {
+        font-family: '함초롬돋움';
+    }
+    .header {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0%;
+        padding: 4% 3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 2;
+    }
+    .header_left {
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.3vw;
+    }
+    .header_left a {
+        text-decoration: none;
+        color: #000;
+    }
+    .header_left a:hover {
+        border-bottom: 1px solid #000;
+    }
+    .header_right {
+        width: 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.3vw;
+    }
+    .header_right a {
+        text-decoration: none;
+        color: #000;
+    }
+    .header_right a:hover {
+        border-bottom: 1px solid #000;
+    }
+    .header_right a:nth-of-type(2) {
+        background: #000;
+        border-radius: 100%;
+        width: 0.8vw;
+        height: 0.8vw;
+    }
+    .header_right a:nth-of-type(2):hover {
+        width: 0.9vw;
+        height: 0.9vw;
+    }
+    /*------------------*/
+    footer {
+        font-size: 1.2vw;
+        font-family: '함초롬돋움';
+    }
+    footer .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1.5px solid #bfbfbf;
+        padding: 2% 4% 2% 12%;
+    }
+    .footer_left {
+        width: 13%
+    }
+    .footer_left a img {
+        width: 100%;
+    }
+    .footer_right {
+        width: 70%;
+    }
+    .footer_right .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        width: 90%
+    }
+    .footer_right .top div p {
+        margin: 0;
+        margin-bottom: 23%;
+    }
+    .footer_right .top div a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        padding: 5% 0;
+    }
+    .footer_right .top div a:hover {
+        font-weight: bold;
+    }
+    .footer_right .bottom {
+        font-size: 1.1vw;
+        padding-top: 3%;
+        line-height: 1.5vw;
+    }
+    .footer_bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #000;
+        color: #fff;
+    }
+    .footer_bar p {
+        margin: 1.5% 4%;
+    }
+    /* ------------------- */
+    .popup {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.3);
+        font-family: '함초롬돋움';
+        visibility: hidden;
+        display: flex;
+    }
+    .first {
+        width: 35%;
+        height: 100%;
+        background: #fffef3;
+        position: relative;
+        z-index: 900;
+    }
+    .first .x {
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        width: 8%;
+        background: none;
+        border: none;
+    }
+    .first .x img {
+        width: 100%;
+    }
+    .first nav {
+        padding: 10%;
+    }
+    .first nav a {
+        color: #000;
+        display: inline-block;
+        font-size: 1.3vw;
+        margin-right: 3%;
+        cursor: pointer;
+    }
+    .first nav a.active {
+        border-bottom: 1px solid #000;
+    }
+    .first a img {
+        padding: 7% 0 0 10%;
+        width: 36%;
+    }
+    .first>div {
+        font-size: 1.5vw;
+        padding: 10%;
+    }
+    .first>div a {
+        text-decoration: none;
+        color: #000;
+    }
+    .first>div p:hover {
+        text-decoration-line: underline;
+    }
+    .first>div div {
+        display: none;
+    }
+    .first>div div.active {
+        display: block;
+    }
+    .first div div:nth-of-type(3) a {
+        border: 1px solid#a6a6a6;
+        font-size: 1.1vw;
+        padding: 5% 8%;
+    }
+    .first div div:nth-of-type(3) p {
+        font-size: 1.2vw;
+        margin-bottom: 5%;
+    }
+    .first div div:nth-of-type(3) p:nth-of-type(1) {
+        margin-top: 15%;
+    }
+    .first div div:nth-of-type(3) input {
+        border: none;
+        background: none;
+        width: 95%;
+        border-bottom: 1px solid#000;
+        position: relative;
+    }
+    .first div div:nth-of-type(3) .sear_btn {
+        position: absolute;
+        right: 13%;
+        border: none;
+        background: none;
+    }
+    .first div div:nth-of-type(3) .sear_btn img {
+        width: 70%;
+    }
+    .first div div:nth-of-type(4) input {
+        border: none;
+        background: none;
+        width: 95%;
+        border-bottom: 1px solid#000;
+        position: relative;
+    }
+    .first div div:nth-of-type(4) .sear_btn2 {
+        position: absolute;
+        right: 13%;
+        border: none;
+        background: none;
+    }
+    .first div div:nth-of-type(4) .sear_btn2 img {
+        width: 70%;
+    }
+    .first div div:nth-of-type(4) p {
+        font-size: 1.2vw;
+        margin-top: 10%;
+    }
+    .second {
+        width: 35%;
+        height: 100%;
+        background: #fffef3;
+        position: relative;
+        border-left: 1.5px solid#ddd;
+        z-index: 800;
+    }
+    .second .x {
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        width: 8%;
+        background: none;
+        border: none;
+    }
+    .second .x img {
+        width: 100%;
+    }
+    .second>div {
+        font-size: 1.5vw;
+        margin: 50% 0 0 10%;
+    }
+    .second>div a {
+        text-decoration: none;
+        color: #000;
+    }
+    .second>div a:hover {
+        text-decoration-line: underline;
+    }
+    .second>div div {
+        display: none;
+    }
+    .second>div div.active {
+        display: block;
+    }
+    /* ------------popup2-------------- */
+    .popup2 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.3);
+        font-family: '함초롬돋움';
+        visibility: hidden;
+    }
+    .popup2 .table {
+        width: 47%;
+        height: 100%;
+        background: #f0efde;
+        position: relative;
+    }
+    .popup2 .table .x2 {
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        width: 6.5%;
+        background: none;
+        border: none;
+    }
+    .popup2 .table .x2 img {
+        width: 100%;
+    }
+    .popup2 .table table {
+        width: 75%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .popup2 .table table th {
+        font-weight: lighter;
+        font-size: 1.2vw;
+        text-align: left;
+        padding: 55% 0 4.5% 0;
+    }
+    .popup2 .table table tr {
+        font-size: 1.1vw;
+    }
+    .popup2 .table table tr td {
+        padding: 4% 0%;
+    }
+    .popup2 .table table tr:nth-of-type(2) td {
+        border-top: 1px solid #acab9f;
+    }
+    .popup2 .table table tr:nth-of-type(7) td {
+        border-bottom: 1px solid #acab9f;
+    }
+    /* ------log1------- */
+    .log1 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: none;
+    }
+    .x3 {
+        position: absolute;
+        right: 33.5%;
+        top: 18%;
+        z-index: 999;
+        background: none;
+        border: none;
+    }
+    .x3 img {
+        width: 43%;
+    }
+    .login {
+        background: #fffef3;
+        width: 35%;
+        margin: 10% auto;
+        padding: 5% 3.5% 4% 3.5%;
+        position: relative;
+        text-align: center;
+    }
+    .login .hi {
+        font-size: 2.1vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .login .hi small {
+        font-size: 1.2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .login p {
+        text-align: left;
+    }
+    .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 1.5vw;
+        background: none;
+    }
+    .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 1.3vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .login button:hover {
+        background-color: black;
+    }
+    /* ------------------ */
+    .log2 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log2 .x3 {
+        position: absolute;
+        right: 30%;
+        top: 13.5%;
+        background: none;
+        border: none;
+    }
+    .log2 .x3 img {
+        width: 40%;
+    }
+    .log2 .back {
+        position: absolute;
+        left: 30%;
+        top: 13.5%;
+        background: none;
+        border: none;
+        z-index: 999;
+    }
+    .log2 .back img {
+        width: 40%;
+    }
+    .log2 .login {
+        background: #fffef3;
+        width: 40%;
+        margin: 8% auto;
+        padding: 4% 3%;
+        position: relative;
+        text-align: center;
+    }
+    .log2 .login .hi {
+        font-size: 2vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log2 .login .hi small {
+        font-size: 1.2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .log2 .login p {
+        text-align: left;
+    }
+    .log2 .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 1.5vw;
+        background: none;
+    }
+    .log2 .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 1.3vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .log2 .login button:hover {
+        background-color: black;
+    }
+    .log2 .login a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-weight: lighter;
+        font-size: 1.1vw;
+        margin-top: 3%;
+    }
+    /* -------------------------- */
+    .log3 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log3 .x3 {
+        position: absolute;
+        right: 32.5%;
+        top: 12%;
+        background: none;
+        border: none;
+    }
+    .log3 .x3 img {
+        width: 40%;
+    }
+    .log3 .back {
+        position: absolute;
+        left: 32.5%;
+        top: 12%;
+        background: none;
+        border: none;
+        z-index: 999;
+    }
+    .log3 .back img {
+        width: 40%;
+    }
+    .log3 .login {
+        background: #fffef3;
+        width: 35%;
+        margin: 7% auto;
+        padding: 4% 3%;
+        position: relative;
+        text-align: center;
+    }
+    .log3 .login .hi {
+        font-size: 1.8vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log3 .login .hi small {
+        font-size: 1.2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .log3 .login p {
+        text-align: left;
+    }
+    .log3 .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 1.5vw;
+        background: none;
+    }
+    .log3 .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 1.2vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .log3 .login button:hover {
+        background-color: black;
+    }
+    /* -------------------------- */
+    .log4 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log4 .x3 {
+        position: absolute;
+        right: 33%;
+        top: 13%;
+        background: none;
+        border: none;
+    }
+    .log4 .x3 img {
+        width: 40%;
+    }
+    .log4 .login {
+        background: #fffef3;
+        width: 34%;
+        margin: 8% auto;
+        padding: 7% 5%;
+        position: relative;
+        text-align: center;
+    }
+    .log4 .login .hi {
+        font-size: 1.8vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log4 .login .hi small {
+        font-size: 1.2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    /* ------------- */
+    aside {
+        position: fixed;
+        right: 10%;
+        top: 88%;
+        background: black;
+        z-index: 10;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: none;
+    }
+    aside p {
+        color: white;
+        font-size: 1.3vw;
+        transform: translate(0%, -23%);
+    }
+}
+
+@media(max-width:768px) {
+    .thanks_banner {
+        background: #bbae02;
+        color: #000;
+        text-align: center;
+        font-family: '함초롬돋움';
+        font-size: 2vw;
+        white-space: wrap;
+    }
+    .thanks_banner p {
+        padding: 2%;
+        margin: 0;
+    }
+    .thanks_banner p:before {
+        content: none;
+    }
+    .thanks_banner p:after {
+        content: "주문 폭주 및 배송사의 사정으로 배송 지연이 발생 될 수 있는 점 참고 부탁 드립니다.";
+    }
+    .member_banner {
+        background: #000;
+        color: #fff;
+        text-align: center;
+        font-family: '함초롬돋움';
+        font-size: 2vw;
+        padding: 1.9%;
+    }
+    .member_banner p {
+        margin: 0 auto;
+    }
+    .member_banner:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .cart {
+        background: #0000009a;
+        color: #fff;
+        text-align: right;
+        font-family: '함초롬돋움';
+        font-size: 2vw;
+        display: none;
+    }
+    .cart p {
+        padding: 2% 3%;
+        margin: 0;
+    }
+    /*-------------------------------------*/
+    .head {
+        position: relative;
+    }
+    header {
+        font-family: '함초롬돋움';
+    }
+    .header {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0%;
+        padding: 4% 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 2;
+    }
+    .header_left {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 2vw;
+    }
+    .header_left a {
+        text-decoration: none;
+        color: #000;
+    }
+    .header_left a:hover {
+        border-bottom: 1px solid #000;
+    }
+    .header_right {
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2vw;
+    }
+    .header_right a {
+        text-decoration: none;
+        color: #000;
+    }
+    .header_right a:hover {
+        border-bottom: 1px solid #000;
+    }
+    .header_right a:nth-of-type(2) {
+        background: #000;
+        border-radius: 100%;
+        width: 1vw;
+        height: 1vw;
+    }
+    .header_right a:nth-of-type(2):hover {
+        width: 1.1vw;
+        height: 1.1vw;
+    }
+    /*------------------*/
+    footer {
+        font-size: 2vw;
+        font-family: '함초롬돋움';
+    }
+    footer .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1.5px solid #bfbfbf;
+        padding: 0%;
+    }
+    .footer_left {
+        display: none;
+        width: 13%
+    }
+    .footer_left a img {
+        width: 100%;
+    }
+    .footer_right {
+        width: 90%;
+        margin: 3% auto;
+    }
+    .footer_right .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        width: 90%
+    }
+    .footer_right .top div p {
+        margin: 0;
+        margin-bottom: 23%;
+    }
+    .footer_right .top div a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        padding: 5% 0;
+    }
+    .footer_right .top div a:hover {
+        font-weight: bold;
+    }
+    .footer_right .bottom {
+        font-size: 1.8vw;
+        padding-top: 3%;
+        line-height: 3vw;
+    }
+    .footer_bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #000;
+        color: #fff;
+    }
+    .footer_bar p {
+        margin: 2% 4%;
+    }
+    /* ------------------- */
+    .popup {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.3);
+        font-family: '함초롬돋움';
+        visibility: hidden;
+        display: flex;
+    }
+    .first {
+        width: 48%;
+        height: 100%;
+        background: #fffef3;
+        position: relative;
+        z-index: 900;
+    }
+    .first .x {
+        cursor: pointer;
+        position: absolute;
+        right: 6%;
+        top: 6%;
+        width: 10%;
+        background: none;
+        border: none;
+    }
+    .first .x img {
+        width: 100%;
+    }
+    .first nav {
+        padding: 20% 10%;
+    }
+    .first nav a {
+        color: #000;
+        display: inline-block;
+        font-size: 2vw;
+        margin-right: 4%;
+        cursor: pointer;
+    }
+    .first nav a.active {
+        border-bottom: 1px solid #000;
+    }
+    .first a img {
+        padding: 7% 0 0 10%;
+        width: 42%;
+    }
+    .first>div {
+        font-size: 2.5vw;
+        padding: 10%;
+    }
+    .first>div a {
+        text-decoration: none;
+        color: #000;
+    }
+    .first>div p:hover {
+        text-decoration-line: underline;
+    }
+    .first>div div {
+        display: none;
+    }
+    .first>div div.active {
+        display: block;
+    }
+    .first div div:nth-of-type(3) a {
+        border: 1px solid#a6a6a6;
+        font-size: 2vw;
+        padding: 5% 8%;
+    }
+    .first div div:nth-of-type(3) p {
+        font-size: 2vw;
+        margin-bottom: 5%;
+    }
+    .first div div:nth-of-type(3) p:nth-of-type(1) {
+        margin-top: 15%;
+    }
+    .first div div:nth-of-type(3) input {
+        border: none;
+        background: none;
+        width: 100%;
+        border-bottom: 1px solid#000;
+        position: relative;
+    }
+    .first div div:nth-of-type(3) .sear_btn {
+        position: absolute;
+        right: 10%;
+        border: none;
+        background: none;
+    }
+    .first div div:nth-of-type(3) .sear_btn img {
+        width: 70%;
+    }
+    .first div div:nth-of-type(4) input {
+        border: none;
+        background: none;
+        width: 100%;
+        border-bottom: 1px solid#000;
+        position: relative;
+    }
+    .first div div:nth-of-type(4) .sear_btn2 {
+        position: absolute;
+        right: 10%;
+        border: none;
+        background: none;
+    }
+    .first div div:nth-of-type(4) .sear_btn2 img {
+        width: 70%;
+    }
+    .first div div:nth-of-type(4) p {
+        font-size: 2vw;
+        margin-top: 10%;
+    }
+    .second {
+        width: 48%;
+        height: 100%;
+        background: #fffef3;
+        position: relative;
+        border-left: 1.5px solid#ddd;
+        z-index: 800;
+    }
+    .second .x {
+        cursor: pointer;
+        position: absolute;
+        right: 6%;
+        top: 6%;
+        width: 10%;
+        background: none;
+        border: none;
+    }
+    .second .x img {
+        width: 100%;
+    }
+    .second>div {
+        font-size: 2.5vw;
+        margin: 75% 0 0 10%;
+    }
+    .second>div a {
+        text-decoration: none;
+        color: #000;
+    }
+    .second>div a:hover {
+        text-decoration-line: underline;
+    }
+    .second>div div {
+        display: none;
+    }
+    .second>div div.active {
+        display: block;
+    }
+    /* ------------popup2-------------- */
+    .popup2 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.3);
+        font-family: '함초롬돋움';
+        visibility: hidden;
+    }
+    .popup2 .table {
+        width: 80%;
+        height: 100%;
+        background: #f0efde;
+        position: relative;
+    }
+    .popup2 .table .x2 {
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        width: 6.5%;
+        background: none;
+        border: none;
+    }
+    .popup2 .table .x2 img {
+        width: 100%;
+    }
+    .popup2 .table table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .popup2 .table table th {
+        font-weight: lighter;
+        font-size: 2.2vw;
+        text-align: left;
+        padding: 55% 0 4.5% 0;
+    }
+    .popup2 .table table tr {
+        font-size: 2vw;
+    }
+    .popup2 .table table tr td {
+        padding: 4% 0%;
+    }
+    .popup2 .table table tr:nth-of-type(2) td {
+        border-top: 1px solid #acab9f;
+    }
+    .popup2 .table table tr:nth-of-type(7) td {
+        border-bottom: 1px solid #acab9f;
+    }
+    /* ------log1------- */
+    .log1 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: none;
+    }
+    .x3 {
+        position: absolute;
+        right: 20%;
+        top: 18%;
+        z-index: 999;
+        background: none;
+        border: none;
+    }
+    .x3 img {
+        width: 50%;
+    }
+    .login {
+        background: #fffef3;
+        width: 65%;
+        margin: 20% auto;
+        padding: 7% 4% 6% 4%;
+        position: relative;
+        text-align: center;
+    }
+    .login .hi {
+        font-size: 4vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .login .hi small {
+        font-size: 2.2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .login p {
+        text-align: left;
+    }
+    .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 3vw;
+        background: none;
+    }
+    .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 2vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .login button:hover {
+        background-color: black;
+    }
+    /* ------------------ */
+    .log2 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log2 .x3 {
+        position: absolute;
+        right: 18%;
+        top: 17%;
+        background: none;
+        border: none;
+    }
+    .log2 .x3 img {
+        width: 45%;
+    }
+    .log2 .back {
+        position: absolute;
+        left: 18%;
+        top: 17%;
+        background: none;
+        border: none;
+        z-index: 999;
+    }
+    .log2 .back img {
+        width: 45%;
+    }
+    .log2 .login {
+        background: #fffef3;
+        width: 65%;
+        margin: 20% auto;
+        padding: 6% 5%;
+        position: relative;
+        text-align: center;
+    }
+    .log2 .login .hi {
+        font-size: 3.3vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log2 .login .hi small {
+        font-size: 2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .log2 .login p {
+        text-align: left;
+    }
+    .log2 .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 3vw;
+        background: none;
+    }
+    .log2 .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 2vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .log2 .login button:hover {
+        background-color: black;
+    }
+    .log2 .login a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-weight: lighter;
+        font-size: 1.8vw;
+        margin-top: 3%;
+    }
+    /* -------------------------- */
+    .log3 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log3 .x3 {
+        position: absolute;
+        right: 18%;
+        top: 18%;
+        background: none;
+        border: none;
+    }
+    .log3 .x3 img {
+        width: 45%;
+    }
+    .log3 .back {
+        position: absolute;
+        left: 18%;
+        top: 18%;
+        background: none;
+        border: none;
+        z-index: 999;
+    }
+    .log3 .back img {
+        width: 45%;
+    }
+    .log3 .login {
+        background: #fffef3;
+        width: 65%;
+        margin: 20% auto;
+        padding: 7% 5%;
+        position: relative;
+        text-align: center;
+    }
+    .log3 .login .hi {
+        font-size: 3vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log3 .login .hi small {
+        font-size: 2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .log3 .login p {
+        text-align: left;
+    }
+    .log3 .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 2.7vw;
+        background: none;
+    }
+    .log3 .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 2vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .log3 .login button:hover {
+        background-color: black;
+    }
+    /* -------------------------- */
+    .log4 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log4 .x3 {
+        position: absolute;
+        right: 22%;
+        top: 18%;
+        background: none;
+        border: none;
+    }
+    .log4 .x3 img {
+        width: 45%;
+    }
+    .log4 .login {
+        background: #fffef3;
+        width: 60%;
+        margin: 20% auto;
+        padding: 10% 8%;
+        position: relative;
+        text-align: center;
+    }
+    .log4 .login .hi {
+        font-size: 3vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log4 .login .hi small {
+        font-size: 2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    /* ------------- */
+    aside {
+        position: fixed;
+        right: 10%;
+        top: 88%;
+        background: black;
+        z-index: 10;
+        text-align: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        display: none;
+    }
+    aside p {
+        color: white;
+        font-size: 2vw;
+        transform: translate(0%, -23%);
+    }
+    .thanks_banner_click {
+        display: none;
+    }
+}
+
+@media(max-width:480px) {
+    .thanks_banner {
+        background: #bbae02;
+        color: #000;
+        text-align: center;
+        font-family: '함초롬돋움';
+        font-size: 4vw;
+        cursor: pointer;
+    }
+    .thanks_banner_click {
+        background: #000000d7;
+        color: #fff;
+        text-align: center;
+        font-family: '함초롬돋움';
+        font-size: 3vw;
+    }
+    .thanks_banner p,
+    .thanks_banner_click p {
+        padding: 2.5%;
+        margin: 0;
+    }
+    .thanks_banner p:before {
+        content: none;
+    }
+    .thanks_banner p:after {
+        content: "공지를 보시려면 클릭하세요";
+    }
+    .member_banner {
+        background: #000;
+        color: #fff;
+        text-align: center;
+        font-family: '함초롬돋움';
+        font-size: 4vw;
+        padding: 2%;
+    }
+    .member_banner p {
+        margin: 0 auto;
+    }
+    .member_banner:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .cart {
+        background: #0000009a;
+        color: #fff;
+        text-align: right;
+        font-family: '함초롬돋움';
+        font-size: 3.8vw;
+        display: none;
+    }
+    .cart p {
+        padding: 2% 4%;
+        margin: 0;
+    }
+    /*-------------------------------------*/
+    .head {
+        position: relative;
+    }
+    header {
+        font-family: '함초롬돋움';
+    }
+    .header {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0%;
+        padding: 7% 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 2;
+    }
+    .header_left {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 3.5vw;
+    }
+    .header_left a {
+        text-decoration: none;
+        color: #000;
+    }
+    .header_left a:hover {
+        border-bottom: 1px solid #000;
+    }
+    .header_right {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 3.5vw;
+    }
+    .header_right a {
+        text-decoration: none;
+        color: #000;
+    }
+    .header_right a:hover {
+        border-bottom: 1px solid #000;
+    }
+    .header_right a:nth-of-type(2) {
+        background: #000;
+        border-radius: 100%;
+        width: 2vw;
+        height: 2vw;
+    }
+    .header_right a:nth-of-type(2):hover {
+        width: 2.1vw;
+        height: 2.1vw;
+    }
+    /*------------------*/
+    footer {
+        font-size: 1.2vw;
+        font-family: '함초롬돋움';
+    }
+    footer .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #bfbfbf;
+        padding: 0%;
+    }
+    .footer_left {
+        width: 13%;
+        display: none;
+    }
+    .footer_left a img {
+        width: 100%;
+    }
+    .footer_right {
+        width: 90%;
+        margin: 5% auto;
+    }
+    .footer_right .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        width: 100%
+    }
+    .footer_right .top div p {
+        margin: 0;
+        margin-bottom: 25%;
+        font-size: 3vw;
+    }
+    .footer_right .top div a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        padding: 5% 0;
+        font-size: 3vw;
+    }
+    .footer_right .top div a:hover {
+        font-weight: bold;
+    }
+    .footer_right .bottom {
+        font-size: 2.5vw;
+        padding-top: 3%;
+        line-height: 3.2vw;
+        display: none;
+    }
+    .footer_bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #000;
+        color: #fff;
+        font-size: 3vw;
+    }
+    .footer_bar p {
+        margin: 3% 4%;
+    }
+    /* ------------------- */
+    .popup {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.3);
+        font-family: '함초롬돋움';
+        visibility: hidden;
+        display: flex;
+    }
+    .first {
+        width: 50%;
+        height: 100%;
+        background: #fffef3;
+        position: relative;
+        z-index: 900;
+    }
+    .first .x {
+        cursor: pointer;
+        position: absolute;
+        right: 4%;
+        top: 3%;
+        width: 17%;
+        background: none;
+        border: none;
+    }
+    .first .x img {
+        width: 100%;
+    }
+    .first nav {
+        padding: 25% 10%;
+        white-space: nowrap;
+    }
+    .first nav a {
+        color: #000;
+        display: inline-block;
+        font-size: 3.4vw;
+        margin-right: 0%;
+        cursor: pointer;
+    }
+    .first nav a.active {
+        border-bottom: 1px solid #000;
+    }
+    .first a img {
+        padding: 7% 0 0 10%;
+        width: 48%;
+    }
+    .first>div {
+        font-size: 3.5vw;
+        padding: 10%;
+    }
+    .first>div a {
+        text-decoration: none;
+        color: #000;
+    }
+    .first>div p:hover {
+        text-decoration-line: underline;
+    }
+    .first>div div {
+        display: none;
+    }
+    .first>div div.active {
+        display: block;
+    }
+    .first div div:nth-of-type(3) a {
+        border: 1px solid#a6a6a6;
+        font-size: 3vw;
+        padding: 5% 8%;
+    }
+    .first div div:nth-of-type(3) p {
+        font-size: 3vw;
+        margin-bottom: 5%;
+    }
+    .first div div:nth-of-type(3) p:nth-of-type(1) {
+        margin-top: 15%;
+    }
+    .first div div:nth-of-type(3) input {
+        border: none;
+        background: none;
+        width: 100%;
+        border-bottom: 1px solid#000;
+        position: relative;
+    }
+    .first div div:nth-of-type(3) .sear_btn {
+        position: absolute;
+        right: 8%;
+        border: none;
+        background: none;
+    }
+    .first div div:nth-of-type(3) .sear_btn img {
+        width: 70%;
+    }
+    .first div div:nth-of-type(4) input {
+        border: none;
+        background: none;
+        width: 100%;
+        border-bottom: 1px solid#000;
+        position: relative;
+    }
+    .first div div:nth-of-type(4) .sear_btn2 {
+        position: absolute;
+        right: 8%;
+        border: none;
+        background: none;
+    }
+    .first div div:nth-of-type(4) .sear_btn2 img {
+        width: 70%;
+    }
+    .first div div:nth-of-type(4) p {
+        font-size: 3vw;
+        margin-top: 10%;
+    }
+    .second {
+        width: 50%;
+        height: 100%;
+        background: #fffef3;
+        position: relative;
+        border-left: 1.5px solid#ddd;
+        z-index: 800;
+    }
+    .second .x {
+        cursor: pointer;
+        position: absolute;
+        right: 10%;
+        top: 3%;
+        width: 17%;
+        background: none;
+        border: none;
+    }
+    .second .x img {
+        width: 100%;
+    }
+    .second>div {
+        font-size: 3.5vw;
+        margin: 95% 0 0 10%;
+    }
+    .second>div a {
+        text-decoration: none;
+        color: #000;
+    }
+    .second>div a:hover {
+        text-decoration-line: underline;
+    }
+    .second>div div {
+        display: none;
+    }
+    .second>div div.active {
+        display: block;
+    }
+    /* ------------popup2-------------- */
+    .popup2 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.3);
+        font-family: '함초롬돋움';
+        visibility: hidden;
+    }
+    .popup2 .table {
+        width: 95%;
+        height: 100%;
+        background: #f0efde;
+        position: relative;
+    }
+    .popup2 .table .x2 {
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        width: 10%;
+        background: none;
+        border: none;
+    }
+    .popup2 .table .x2 img {
+        width: 100%;
+    }
+    .popup2 .table table {
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .popup2 .table table th {
+        font-weight: lighter;
+        font-size: 5vw;
+        text-align: left;
+        padding: 45% 0 4.5% 0;
+    }
+    .popup2 .table table tr {
+        font-size: 3.4vw;
+    }
+    .popup2 .table table tr td {
+        padding: 4% 0%;
+    }
+    .popup2 .table table tr:nth-of-type(2) td {
+        border-top: 1px solid #acab9f;
+    }
+    .popup2 .table table tr:nth-of-type(7) td {
+        border-bottom: 1px solid #acab9f;
+    }
+    /* ------log1------- */
+    .log1 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: none;
+    }
+    .x3 {
+        position: absolute;
+        right: 10%;
+        top: 20%;
+        z-index: 999;
+        background: none;
+        border: none;
+    }
+    .x3 img {
+        width: 43%;
+    }
+    .login {
+        background: #fffef3;
+        width: 80%;
+        margin: 30% auto;
+        padding: 7% 4% 6% 4%;
+        position: relative;
+        text-align: center;
+    }
+    .login .hi {
+        font-size: 6vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .login .hi small {
+        font-size: 3.5vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .login p {
+        text-align: left;
+    }
+    .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 4.8vw;
+        background: none;
+    }
+    .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 4vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .login button:hover {
+        background-color: black;
+    }
+    /* ------------------ */
+    .log2 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log2 .x3 {
+        position: absolute;
+        right: 2%;
+        top: 12.5%;
+        background: none;
+        border: none;
+    }
+    .log2 .x3 img {
+        width: 40%;
+    }
+    .log2 .back {
+        position: absolute;
+        left: 2%;
+        top: 12.5%;
+        background: none;
+        border: none;
+        z-index: 999;
+    }
+    .log2 .back img {
+        width: 40%;
+    }
+    .log2 .login {
+        background: #fffef3;
+        width: 90%;
+        margin: 20% auto;
+        padding: 5%;
+        position: relative;
+        text-align: center;
+    }
+    .log2 .login .hi {
+        font-size: 5.5vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log2 .login .hi small {
+        font-size: 3.2vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .log2 .login p {
+        text-align: left;
+    }
+    .log2 .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 4.5vw;
+        background: none;
+    }
+    .log2 .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 4vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .log2 .login button:hover {
+        background-color: black;
+    }
+    .log2 .login a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-weight: lighter;
+        font-size: 3.5vw;
+        margin-top: 3%;
+    }
+    /* -------------------------- */
+    .log3 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log3 .x3 {
+        position: absolute;
+        right: 5%;
+        top: 19%;
+        background: none;
+        border: none;
+    }
+    .log3 .x3 img {
+        width: 40%;
+    }
+    .log3 .back {
+        position: absolute;
+        left: 5%;
+        top: 19%;
+        background: none;
+        border: none;
+        z-index: 999;
+    }
+    .log3 .back img {
+        width: 40%;
+    }
+    .log3 .login {
+        background: #fffef3;
+        width: 85%;
+        margin: 30% auto;
+        padding: 7% 5%;
+        position: relative;
+        text-align: center;
+    }
+    .log3 .login .hi {
+        font-size: 5vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log3 .login .hi small {
+        font-size: 3vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    .log3 .login p {
+        text-align: left;
+    }
+    .log3 .login p input {
+        border: none;
+        border-bottom: 1px solid rgb(202, 197, 190);
+        width: 100%;
+        padding: 3%;
+        font-size: 4vw;
+        background: none;
+    }
+    .log3 .login button {
+        background-color: rgb(58, 58, 58);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 3% 0;
+        font-size: 4vw;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .log3 .login button:hover {
+        background-color: black;
+    }
+    /* -------------------------- */
+    .log4 {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: hidden;
+    }
+    .log4 .x3 {
+        position: absolute;
+        right: 8%;
+        top: 22%;
+        background: none;
+        border: none;
+    }
+    .log4 .x3 img {
+        width: 40%;
+    }
+    .log4 .login {
+        background: #fffef3;
+        width: 80%;
+        margin: 35% auto;
+        padding: 10% 7%;
+        position: relative;
+        text-align: center;
+    }
+    .log4 .login .hi {
+        font-size: 5.5vw;
+        text-align: left;
+        font-weight: lighter;
+    }
+    .log4 .login .hi small {
+        font-size: 4vw;
+        color: rgb(202, 197, 190);
+        font-weight: lighter;
+    }
+    /* ------------- */
+    aside {
+        position: fixed;
+        right: 10%;
+        top: 88%;
+        background: black;
+        z-index: 10;
+        text-align: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: none;
+    }
+    aside p {
+        color: white;
+        font-size: 4vw;
+        transform: translate(0%, -23%);
+    }
+}

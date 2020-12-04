@@ -1,0 +1,503 @@
+.change_img {
+    background: url(../img/shops_main.jpg) center no-repeat;
+    background-size: 100%;
+
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+table {
+    width: 95%;
+    line-height: 3.0;
+    margin: 20px;
+    border-collapse: collapse;
+    border-bottom: 2px solid #b8b8b8;
+    margin: 0 auto;
+    color: #b8b8b8;
+
+}
+
+table caption {
+    text-align: left;
+
+}
+
+
+table caption h1 {
+    font-size: 2em;
+    color: #b8b8b8;
+}
+
+
+
+table thead tr th {
+
+    padding: 0px 30px 0px;
+
+    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+table tbody tr td {
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+table tbody tr td img {
+    border: 10px solid #000;
+}
+
+main h2 {
+    width: 95%;
+    text-align: right;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #b8b8b8;
+    margin: 0 auto;
+    /*    padding-right: 40px;*/
+    /*    margin-top: 20px;*/
+    /*    color: #b8b8b8;*/
+}
+
+main ul {
+    list-style: none;
+}
+
+.reci {
+    width: 80%;
+    padding: 3%;
+}
+
+.reci h1 {
+    /*    padding:3%;*/
+    color: #b8b8b8;
+    margin-top: 80px;
+    padding: 1%;
+}
+
+.reci ul li p input {
+    list-style: none;
+    float: left;
+    margin: 30px 5px 0px;
+    padding-left: 1%;
+    width: 28%;
+    height: 50px;
+    background-color: #fff;
+    border: 0;
+    outline-style: none;
+}
+
+.reci ul {
+    overflow: hidden;
+}
+
+.add input[name="aaa"] {
+    width: 45%;
+    background-color: #fff;
+    border: 0;
+    outline-style: none;
+}
+
+
+.add {
+    padding: 3.5%;
+
+
+}
+
+.add h1 {
+
+    color: #b8b8b8;
+}
+
+.add ul li p input {
+    list-style: none;
+    line-height: 3.0;
+    width: 36%;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 0;
+    outline-style: none;
+    padding-left: 1%;
+
+}
+
+.add ul {}
+
+.add ul li {}
+
+.add ul li:nth-of-type(1) {}
+
+.add ul li:nth-of-type(2) {}
+
+.add ul li:nth-of-type(3) {}
+
+
+.add ul li a {
+
+    background-color: #F59E8E;
+    color: #fff;
+    border-radius: 1px;
+    padding: 13px 13px;
+
+
+}
+
+.add ul li a {}
+
+
+
+.met {
+    padding: 1.9%;
+    width: 100%;
+    height: 100%;
+}
+
+.met h1 {
+    padding: 1.5%;
+    color: #b8b8b8;
+}
+
+.met ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 20px;
+    color: #b8b8b8;
+    width: 100%;
+
+}
+
+.met ul li {
+    float: left;
+    width: 33%;
+
+
+}
+
+.met ul li p {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.met ul li p:hover {
+    background: #F59E8E;
+    color: #fff;
+}
+
+.met .btn a {
+    background-color: #fff;
+    color: #b8b8b8;
+    border-radius: 1px;
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 1%;
+
+
+}
+
+.met .btn a:hover {
+    color: #fff;
+    background: #F59E8E;
+    transition: .5s;
+}
+
+.met .btn {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+@media (min-width:768px) and (max-width:1023px)  {
+    .change_img {
+        background: url(../img/shops_main.jpg) center no-repeat;
+        background-size: 100%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 200px;
+
+
+    }
+
+    main {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .all {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+
+    .all table {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .all table caption h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        padding-top: 5%;
+        border-bottom: 1px dotted #b8b8b8;
+    }
+
+    .all table thead:nth-of-type(1) {
+        display: none;
+    }
+
+    .all table tbody tr td:nth-of-type(1) {
+        display: none;
+    }
+
+
+    .all table tbody td {
+        display: block;
+        padding: 0;
+        margin: 0;
+        border-top: 1px dotted #b8b8b8;
+        font-size: 16px;
+
+    }
+
+    .all table tbody tr td img {
+        margin-top: 5%;
+
+    }
+    .all>h2{
+        font-size:16px;
+    }
+
+    .reci {
+        text-align: center;
+        width: 100%;
+    }
+    .reci h1{
+        padding:5%;
+        margin: 0;
+    }
+    .reci ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .reci ul li p input {
+        width: 90%;
+        margin: 5.4%;
+    }
+
+    .add {}
+
+    .add h1 {
+        text-align: center;
+    }
+
+    .add ul {
+        text-align: left;
+    }
+
+    .add ul li p input {
+        width: 50%;
+    }
+
+    .add input[name="aaa"] {
+        width: 100%;
+    }
+
+    .met {
+        width: 100%;
+    }
+
+    .met h1 {
+        padding-top:5%;
+        text-align: center;
+    }
+
+    .met ul {}
+
+    .met ul li {
+        width: 100%;
+        border:none;
+        outline: none;
+
+
+    }
+
+    .met ul li p {
+        width: 100%;
+        text-align: center;
+         border:none;
+
+        outline: none;
+    }
+    .met .btn{
+        margin: 0;
+        padding:0;
+        width: 100%;
+        padding-bottom: 5%;
+        
+        padding-top: 5%;
+    }
+    .met .btn>a{
+        padding:2%;
+        font-size: 16px;
+        
+    }
+    
+
+}
+
+@media (max-width:767px) {
+    .change_img {
+        background: url(../img/shops_main.jpg) center no-repeat;
+        background-size: 100%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 200px;
+
+
+    }
+
+    main {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .all {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+
+    .all table {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .all table caption h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        padding-top: 5%;
+        border-bottom: 1px dotted #b8b8b8;
+    }
+
+    .all table thead:nth-of-type(1) {
+        display: none;
+    }
+
+    .all table tbody tr td:nth-of-type(1) {
+        display: none;
+    }
+
+
+    .all table tbody td {
+        display: block;
+        padding: 0;
+        margin: 0;
+        border-top: 1px dotted #b8b8b8;
+        font-size: 16px;
+
+    }
+
+    .all table tbody tr td img {
+        margin-top: 5%;
+
+    }
+    .all>h2{
+        font-size:16px;
+    }
+
+    .reci {
+        text-align: center;
+        width: 100%;
+    }
+    .reci h1{
+        padding:5%;
+        margin: 0;
+    }
+    .reci ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .reci ul li p input {
+        width: 90%;
+        margin: 5.4%;
+    }
+
+    .add {}
+
+    .add h1 {
+        text-align: center;
+    }
+
+    .add ul {
+        text-align: left;
+    }
+
+    .add ul li p input {
+        width: 50%;
+    }
+
+    .add input[name="aaa"] {
+        width: 100%;
+    }
+
+    .met {
+        width: 100%;
+    }
+
+    .met h1 {
+        padding-top:5%;
+        text-align: center;
+    }
+
+    .met ul {}
+
+    .met ul li {
+        width: 100%;
+        border:none;
+        outline: none;
+
+
+    }
+
+    .met ul li p {
+        width: 100%;
+        text-align: center;
+         border:none;
+
+        outline: none;
+    }
+    .met .btn{
+        margin: 0;
+        padding:0;
+        width: 100%;
+        padding-bottom: 5%;
+       padding-top:5%; 
+   
+    }
+    .met .btn>a{
+        padding:2%;
+        font-size: 16px;
+        
+    }
+    
+
+}

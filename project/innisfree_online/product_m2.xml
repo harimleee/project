@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <type>p001</type>
+        <kind>블루베리 리밸런싱 스킨</kind>
+        <imgSrc>img/skin/blueberry.png</imgSrc>
+        <tit>500 mL / ￦20,000</tit>
+        <url>product_sub.html</url>
+    </item>
+    <item>
+        <type>p001</type>
+        <kind>제주 왕벚꽃 스킨</kind>
+        <imgSrc>img/skin/jejuflower.png</imgSrc>
+        <tit>200 mL / ￦16,000</tit>
+        <url>#</url>
+    </item>
+    <item>
+        <type>p002</type>
+        <kind>아토 수딩 5.5로션</kind>
+        <imgSrc>img/lotion/ato.png</imgSrc>
+        <tit>500 mL / ￦32,000</tit>
+        <url>#</url>
+    </item>
+    <item>
+        <type>p002</type>
+        <kind>그린티 밸런싱 로션</kind>
+        <imgSrc>img/lotion/greentee.png</imgSrc>
+        <tit>100 mL / ￦10,000</tit>
+        <url>#</url>
+    </item>
+    <item>
+        <type>p003</type>
+        <kind>트루케어 논나노</kind>
+        <imgSrc>img/suncare/truecare.png</imgSrc>
+        <tit>80 mL / ￦24,000</tit>
+        <url>#</url>
+    </item>
+    <item>
+        <type>p003</type>
+        <kind>인텐시브 레져 선스틱</kind>
+        <imgSrc>img/suncare/leisure.png</imgSrc>
+        <tit>18g / ￦19,000</tit>
+        <url>#</url>
+    </item>
+    <item>
+        <type>p004</type>
+        <kind>트루케어 알라토인 워터드롭 에센스</kind>
+        <imgSrc>img/serum/truecare.png</imgSrc>
+        <tit>150 mL / ￦28,000</tit>
+        <url>#</url>
+    </item>
+    <item>
+        <type>p004</type>
+        <kind>트루케어 AC 진정 앰플</kind>
+        <imgSrc>img/serum/truecareAC.png</imgSrc>
+        <tit>40 mL / ￦28,000</tit>
+        <url>#</url>
+    </item>
+    <item>
+        <type>p005</type>
+        <kind>자연발효 에너지 오일</kind>
+        <imgSrc>img/oil/soybean.png</imgSrc>
+        <tit>30mL / ￦28,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p005</type>
+        <kind>올리브 리얼 에센셜 오일</kind>
+        <imgSrc>img/oil/olive.png</imgSrc>
+        <tit>30mL / ￦25,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p006</type>
+        <kind>트루케어 모이스트 리커버리 크림</kind>
+        <imgSrc>img/cream/truecare.png</imgSrc>
+        <tit>80 mL / ￦20,000</tit>
+        <url></url>
+    </item>
+     <item>
+        <type>p006</type>
+        <kind>제주 왕벚꽃 젤리 크림</kind>
+        <imgSrc>img/cream/jejuflower.png</imgSrc>
+        <tit>50 mL / ￦20,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p007</type>
+        <kind>그린티 씨드 아이 앤 페이스 볼</kind>
+        <imgSrc>img/message/greentea.png</imgSrc>
+        <tit>10 mL / ￦18,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p008</type>
+        <kind>그린티 씨드 아이 앤 페이스 볼</kind>
+        <imgSrc>img/eye/greenteasedd.png</imgSrc>
+        <tit>10 mL / ￦18,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p008</type>
+        <kind>링클 사이언스 아이 크림</kind>
+        <imgSrc>img/eye/whinkle.png</imgSrc>
+        <tit>30 mL / ￦30,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p009</type>
+        <kind>포레스트 포맨 그루밍 컬러드 립밤</kind>
+        <imgSrc>img/lip/forest.png</imgSrc>
+        <tit>3.3 g / ￦8,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p009</type>
+        <kind>글로우 틴트 립밤</kind>
+        <imgSrc>img/lip/glow.png</imgSrc>
+        <tit>3.5 g / ￦7,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p010</type>
+        <kind>제주 왕벚꽃 미스트</kind>
+        <imgSrc>img/mist/jejuflower.png</imgSrc>
+        <tit>120 mL / ￦16,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p010</type>
+        <kind>비자 시카 미스트</kind>
+        <imgSrc>img/mist/biga.png</imgSrc>
+        <tit>80 mL / ￦16,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p011</type>
+        <kind>올리브 리얼 스킨케어 스페셜 3종 세트</kind>
+        <imgSrc>img/set/olive.png</imgSrc>
+        <tit>￦19,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p011</type>
+        <kind>립밤 핸드크림 스페셜 기프트 세트</kind>
+        <imgSrc>img/set/special.png</imgSrc>
+        <tit>￦12,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p012</type>
+        <kind>비자 트러블 포커싱 패치 (9Patches / 1EA)</kind>
+        <imgSrc>img/etc/biga.png</imgSrc>
+        <tit>￦9,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p012</type>
+        <kind>스팟 하이드로콜로이드 밴드 (15Patches / 1EA)[의약외품]</kind>
+        <imgSrc>img/etc/spot.png</imgSrc>
+        <tit>￦4,500</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p013</type>
+        <kind>비자 시카 밤</kind>
+        <imgSrc>img/big/biga.png</imgSrc>
+        <tit>80 g / ￦32,000</tit>
+        <url></url>
+    </item>
+    <item>
+        <type>p013</type>
+        <kind>화산송이 모공 폼</kind>
+        <imgSrc>img/big/volcanic.png</imgSrc>
+        <tit>300 g / ￦12,000</tit>
+        <url></url>
+    </item>
+</items>

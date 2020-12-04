@@ -1,0 +1,1075 @@
+.part1 {
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.part1 .artpart {
+    width: 40%;
+    margin: 0 auto;
+   
+}
+
+.part1 .artpart>div {
+   border: 20px solid #000;
+    padding: 5%;
+    background: #fff;
+    box-shadow: -9px 10px 25px 1px rgba(0, 0, 0, 0.75);
+     
+}
+.part1 .artpart>a{
+    
+}
+
+
+.part1 .artpart img{
+     width: 100%;
+}
+
+/*
+.part1 .frame {
+    float: left;
+    width: 40%;
+    box-shadow: 5px 1px 10px 5px rgba(0, 0, 0, 0.1);
+     margin:6% 0% 6% 10%;
+}
+
+.part1 .frame .art {
+    width:75%;
+    margin: 10% auto;
+}
+
+.part1 .frame .art img {
+    width: 100%;
+    height: 100%;
+
+}
+*/
+
+
+.part1 .lang {
+    width: 43%;
+    
+
+}
+
+.part1 .lang h1 {
+    font-size: 1.5vw;
+}
+
+.part1 .lang p {
+    font-size: 1.1vw;
+    margin: 8% 0;
+}
+
+.part1 .lang h2 {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.part1 .lang .frame2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+}
+
+
+
+.part1 .lang .frame2 li {
+    list-style-type: none;
+
+}
+
+.part1 .lang .frame2 li img {
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 66%;
+    margin-top: 10%;
+}
+
+.part1 .lang .frame2 li:hover img {
+    border: 3px solid #000;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.part1 .lang .frame2 li p {
+    font-size: 0.7vw;
+    text-align: center;
+    margin: 8% 0;
+    margin-right: 30%
+}
+
+
+
+.part1 .lang .frame2 li:hover p {
+    font-weight: bold;
+}
+
+.part1 .lang .click {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 8% 0;
+}
+
+.part1 .lang .click a {
+    list-style-type: none;
+    width: 23%;
+    padding: 3% 0;
+    background: #d5d5d5;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    font-size: 0.9vw;
+}
+
+.part1 .lang .click a:nth-of-type(2) {
+    margin: 0 5%
+}
+
+.part1 .lang .click a:hover {
+    background: #f59e8e;
+}
+
+
+
+span {
+    display: block;
+    background-color: #676767;
+    width: 100%;
+    padding: 0.1%;
+    margin: 10% auto;
+
+}
+
+.part2 {
+    width: 90%;
+    margin: 10% auto;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 14%;
+}
+
+
+.part2 .lang2 {
+    
+    width: 40%;
+}
+
+.part2 .lang2 h3 {
+    font-size: 1.8vw;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.part2 .lang2 p {
+    font-size: 1vw;
+    text-align: center;
+}
+
+.part2 .face {
+    width: 35%;
+    
+}
+
+.part2 .face img {
+    width: 80%;
+    border-radius: 100%;
+
+}
+
+h4 {
+     font-family: 'Poiret One', cursive;
+    font-size: 3.2vw;
+    text-align: center;
+    color: #000000;
+}
+
+.part_3 {
+    width: 85%;
+ margin: 0 auto;
+    padding-top: 3%;
+    
+} 
+
+.part_3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+.part_3 ul li {
+    width: 100%;
+    /*
+    transform: translateX(-50%);
+    left:50;
+    right:50;
+*/
+
+
+}
+
+
+/*fram_1*/
+.part_3 ul .frame_1 {
+    width: 22%;
+}
+
+
+
+.part_3 ul .frame_1 .wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_1 a img {
+    width: 100%;
+    border: 15px solid #000;
+    padding: 5%;
+    margin-bottom: 5%;
+    box-shadow: -9px 10px 25px 1px rgba(0, 0, 0, 0.75);
+}
+
+
+.part_3 ul .frame_1 .art {
+    width: 100%;
+   margin: 2% 0;
+
+}
+
+
+.part_3 ul .frame_1 .art p {
+    font-size: 1.1vw;
+    line-height: 1.5;
+    font-style: 'Roboto';
+    padding-left: 5%;
+}
+
+.part_3 .more {
+    width: 10%;
+    background: #d5d5d5;
+    text-align: center;
+    margin: 5% auto 8% auto;
+    
+    padding: 1% 0;
+
+    
+}
+
+.part_3 .more a {
+    font-size: 1vw;
+    color: #000;
+    font-weight: bold;
+   
+}
+.part_3 .more:hover{
+    background: #f59e8e;
+     
+}
+/*------------------------------------------------*/
+
+
+@media (max-width:1024px){
+    .part1 {
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.part1 .artpart {
+    width: 45%;
+    margin: 0 auto;
+   
+}
+
+.part1 .artpart>div {
+   border: 10px solid #000;
+    padding: 5%;
+    background: #fff;
+    box-shadow: -9px 10px 25px 1px rgba(0, 0, 0, 0.75);
+     
+}
+.part1 .artpart>a{
+    
+}
+
+
+.part1 .artpart img{
+     width: 100%;
+}
+
+
+
+.part1 .lang {
+    width: 40%;
+    
+
+}
+
+.part1 .lang h1 {
+    font-size: 1.8vw;
+}
+
+.part1 .lang p {
+    font-size: 1.5vw;
+    margin: 8% 0;
+}
+
+.part1 .lang h2 {
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+.part1 .lang .frame2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+    width:80%;
+    margin: 0 auto;
+        margin-top: 2%;
+}
+
+
+
+.part1 .lang .frame2 li {
+    list-style-type: none;
+
+}
+
+.part1 .lang .frame2 li img {
+    border: 2.5px solid #fff;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    
+}
+
+.part1 .lang .frame2 li:hover img {
+    border: 2.5px solid #000;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.part1 .lang .frame2 li p {
+    font-size: 1.1vw;
+    text-align: center;
+    margin: 8% 0;
+   margin-right: 16%;
+}
+
+
+
+.part1 .lang .frame2 li:hover p {
+    font-weight: bold;
+}
+
+.part1 .lang .click {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 8% 0;
+}
+
+.part1 .lang .click a {
+    list-style-type: none;
+    width: 23%;
+    padding: 4% 0;
+    background: #d5d5d5;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    font-size: 1.1vw;
+}
+
+.part1 .lang .click a:nth-of-type(2) {
+    margin: 0 5%
+}
+
+.part1 .lang .click a:hover {
+    background: #f59e8e;
+}
+
+
+
+span {
+    display: block;
+    background-color: #676767;
+    width: 100%;
+    padding: 0.1%;
+    margin: 10% auto;
+
+}
+
+.part2 {
+    width: 100%;
+    margin: 10% auto;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 14%;
+}
+
+
+.part2 .lang2 {
+    
+    width: 50%;
+}
+
+.part2 .lang2 h3 {
+    font-size: 2.1vw;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.part2 .lang2 p {
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.part2 .face {
+    width: 30%;
+    text-align: center;
+    
+}
+
+.part2 .face img {
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+h4 {
+     font-family: 'Poiret One', cursive;
+    font-size: 3.3vw;
+    text-align: center;
+    color: #000000;
+}
+
+.part_3 {
+    width: 90%;
+ margin: 0 auto;
+    padding-top: 3%;
+    
+} 
+
+.part_3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part_3 ul li {
+    width: 100%;
+    /*
+    transform: translateX(-50%);
+    left:50;
+    right:50;
+*/
+
+
+}
+
+
+/*fram_1*/
+.part_3 ul .frame_1 {
+    width: 24%;
+}
+
+
+
+.part_3 ul .frame_1 .wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_1 a img {
+    width: 100%;
+    border: 15px solid #000;
+    padding: 5%;
+    margin-bottom: 5%;
+    box-shadow: -2px 8px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.part_3 ul .frame_1 .art {
+    width: 100%;
+   margin: 2% 0;
+
+}
+
+
+.part_3 ul .frame_1 .art p {
+    font-size: 1.8vw;
+    line-height: 1.4;
+    font-style: 'Roboto';
+    padding-left: 5%;
+}
+
+.part_3 .more {
+    width: 12%;
+    background: #d5d5d5;
+    text-align: center;
+    margin: 5% auto 8% auto;
+    
+    padding: 1% 0;
+transition:.5s;
+    
+}
+
+.part_3 .more a {
+    font-size: 1.3vw;
+    color: #000;
+    font-weight: bold;
+  
+}
+.part_3 .more:hover{
+    background: #f59e8e;
+    
+     
+}
+}
+@media (max-width:768px){
+     .part1 {
+    width: 100%;
+    margin: 5% auto;
+    display: inline-block;
+    justify-content: none;
+    align-items: none;
+   
+}
+
+.part1 .artpart {
+    width: 90%;
+    margin: 0 auto;
+   
+}
+
+.part1 .artpart>div {
+   border: 10px solid #000;
+    padding: 5%;
+    background: #fff;
+    box-shadow: -9px 10px 25px 1px rgba(0, 0, 0, 0.75);
+     
+}
+.part1 .artpart>a{
+    
+}
+
+
+.part1 .artpart img{
+     width: 100%;
+}
+
+
+.part1 .lang {
+    width: 100%;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.part1 .lang h1 {
+    font-size: 3vw;
+}
+
+.part1 .lang p {
+    font-size: 2.8vw;
+    line-height: 1.6;
+    margin: 5% 0;
+}
+
+.part1 .lang h2 {
+    font-size: 2.5vw;
+    font-weight: normal;
+}
+
+.part1 .lang .frame2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+}
+
+
+
+.part1 .lang .frame2 li {
+    list-style-type: none;
+
+}
+
+.part1 .lang .frame2 li img {
+    border: 4.5px solid #fff;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-top: 15%;
+}
+
+.part1 .lang .frame2 li:hover img {
+    border: 4.5px solid #000;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.part1 .lang .frame2 li p {
+    font-size: 2vw;
+    text-align: center;
+    margin: 8% 0;
+    margin-left: 4%;
+    
+}
+
+
+
+.part1 .lang .frame2 li:hover p {
+    font-weight: bold;
+}
+
+.part1 .lang .click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 0;
+}
+
+.part1 .lang .click a {
+    list-style-type: none;
+    width: 23%;
+    padding: 3% 0;
+    background: #d5d5d5;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    font-size: 2.5vw;
+}
+.part1 .lang .click a:nth-of-type(1) {
+    margin-right: 5%;
+}
+.part1 .lang .click a:nth-of-type(2) {
+    margin: 0;
+}
+
+.part1 .lang .click a:hover {
+    background: #f59e8e;
+}
+
+
+
+span {
+    display: block;
+    background-color: #676767;
+    width: 100%;
+    padding: 0.1%;
+    margin: 0% auto;
+
+}
+
+.part2 {
+    width: 100%;
+    margin: 15% auto;
+   display: flex;
+    justify-content: none;
+    align-items: none;
+    margin-bottom: 18%;
+    flex-direction: column;
+}
+
+
+.part2 .lang2 {
+    margin: 0 auto;
+    width: 90%;
+    order: 2;
+    margin-top: 5%;
+}
+
+.part2 .lang2 h3 {
+    font-size: 3vw;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.part2 .lang2 p {
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+.part2 .face {
+    width: 40%;
+    text-align: none;
+    margin: 0 auto;
+    order: 1;
+}
+
+.part2 .face img {
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+h4 {
+     font-family: 'Poiret One', cursive;
+    font-size:4.5vw;
+    text-align: center;
+    color: #000000;
+}
+
+.part_3 {
+    width: 90%;
+ margin: 0 auto;
+    padding-top: 11%;
+      display: flex;
+    justify-content: none;
+    flex-direction: column;
+} 
+
+.part_3 ul {
+    width: 100%;
+   }
+
+.part_3 ul li {
+    width: 100%;
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+/*fram_1*/
+.part_3 ul .frame_1 {
+    width: 100%;
+}
+
+
+
+.part_3 ul .frame_1 .wrap {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_1 a img {
+    width: 100%;
+    border: 7px solid #000;
+    padding: 5%;
+    margin-bottom: 15%;
+    box-shadow: -2px 8px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.part_3 ul .frame_1 .art {
+    width: 40%;
+   margin: 0;
+}
+
+
+.part_3 ul .frame_1 .art p {
+    font-size: 3vw;
+    line-height: 1.4;
+    font-style: 'Roboto';
+    padding-left: 0%;
+    text-align: left;
+}
+
+.part_3 .more {
+    width: 20%;
+    background: #d5d5d5;
+    text-align: center;
+    margin: 3% auto 15% auto;
+    padding: 2% 0;
+}
+
+.part_3 .more a {
+    font-size: 2.6vw;
+    color: #000;
+    font-weight: bold;
+   
+}
+.part_3 .more:hover{
+    background: #f59e8e;
+     
+}
+}
+@media (max-width:480px){
+      .part1 {
+    width: 100%;
+    margin: 5% auto;
+    display: inline-block;
+    justify-content: none;
+    align-items: none;
+   
+}
+
+.part1 .artpart {
+    width: 90%;
+    margin: 0 auto;
+   
+}
+
+.part1 .artpart>div {
+   border: 8px solid #000;
+    padding: 5%;
+    background: #fff;
+    box-shadow: -9px 10px 25px 1px rgba(0, 0, 0, 0.4);
+     
+}
+.part1 .artpart>a{
+    
+}
+
+
+.part1 .artpart img{
+     width: 100%;
+}
+
+
+.part1 .lang {
+    width: 100%;
+    text-align: center;
+    margin: 8% auto;
+}
+
+.part1 .lang h1 {
+    font-size: 4.8vw;
+}
+
+.part1 .lang p {
+    font-size: 4vw;
+    line-height: 1.5;
+    margin: 8% 0;
+}
+
+.part1 .lang h2 {
+    font-size: 4vw;
+    font-weight: normal;
+}
+
+.part1 .lang .frame2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+}
+
+
+
+.part1 .lang .frame2 li {
+    list-style-type: none;
+
+}
+
+.part1 .lang .frame2 li img {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 65%;
+    margin-top: 15%;
+}
+
+.part1 .lang .frame2 li:hover img {
+    border: 2px solid #000;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.part1 .lang .frame2 li p {
+    font-size: 3vw;
+    text-align: center;
+    margin: 8% 0;
+    margin-left: 4%;
+    
+}
+
+
+
+.part1 .lang .frame2 li:hover p {
+    font-weight: bold;
+}
+
+.part1 .lang .click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 0;
+}
+
+.part1 .lang .click a {
+    list-style-type: none;
+    width: 25%;
+    padding: 4% 0;
+    background: #d5d5d5;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    font-size: 3vw;
+}
+.part1 .lang .click a:nth-of-type(1) {
+    margin-right: 5%;
+}
+.part1 .lang .click a:nth-of-type(2) {
+    margin: 0;
+}
+
+.part1 .lang .click a:hover {
+    background: #f59e8e;
+}
+
+
+
+span {
+    display: block;
+    background-color: #676767;
+    width: 100%;
+    padding: 0.1%;
+    margin: 0% auto;
+
+}
+
+.part2 {
+    width: 100%;
+    margin: 15% auto;
+   display: flex;
+    justify-content: none;
+    align-items: none;
+    margin-bottom: 18%;
+    flex-direction: column;
+}
+
+
+.part2 .lang2 {
+    margin: 0 auto;
+    width: 90%;
+    order: 2;
+    margin-top: 5%;
+}
+
+.part2 .lang2 h3 {
+    font-size: 4vw;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.part2 .lang2 p {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.part2 .face {
+    width: 45%;
+    text-align: none;
+    margin: 0 auto;
+    order: 1;
+}
+
+.part2 .face img {
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+h4 {
+     font-family: 'Poiret One', cursive;
+    font-size:5vw;
+    text-align: center;
+    color: #000000;
+}
+
+.part_3 {
+    width: 90%;
+ margin: 0 auto;
+    padding-top: 11%;
+      display: flex;
+    justify-content: none;
+    flex-direction: column;
+} 
+
+.part_3 ul {
+    width: 100%;
+   }
+
+.part_3 ul li {
+    width: 100%;
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+/*fram_1*/
+.part_3 ul .frame_1 {
+    width: 100%;
+}
+
+
+
+.part_3 ul .frame_1 .wrap {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.part_3 ul .frame_1 a img {
+    width: 100%;
+    border: 5px solid #000;
+    padding: 5%;
+    margin-bottom: 15%;
+    box-shadow: -2px 3px 8px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.part_3 ul .frame_1 .art {
+    width: 40%;
+   margin: 0;
+}
+
+
+.part_3 ul .frame_1 .art p {
+    font-size: 3.5vw;
+    line-height: 1.4;
+    font-style: 'Roboto';
+    padding-left: 0%;
+    text-align: left;
+}
+
+.part_3 .more {
+    width: 25%;
+    background: #d5d5d5;
+    text-align: center;
+    margin: 3% auto 15% auto;
+    padding: 2% 0;
+}
+
+.part_3 .more a {
+    font-size: 3.3vw;
+    color: #000;
+    font-weight: bold;
+   
+}
+.part_3 .more:hover{
+    background: #f59e8e;
+     
+}
+}

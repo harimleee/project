@@ -1,0 +1,230 @@
+@import url("common.css");
+main {
+    font-family: '함초롬돋움';
+    .main {
+        .A_logo {
+            margin: 10% 0 0 2.8%;
+            a {
+                img {
+                    width: 6%;
+                }
+            }
+        }
+    }
+    .nav {
+        margin: 3% 2.8%;
+        ;
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 0.9vw;
+            padding-right: 0.8%;
+        }
+        a.active {
+            font-weight: bold;
+        }
+    }
+    .list {
+        .list_text {
+            table {
+                width: 50%;
+                margin: 3% 2.6%;
+                border-collapse: collapse;
+                thead {
+                    th {
+                        font-weight: normal;
+                        text-align: center;
+                        padding-bottom: 2%;
+                        border-bottom: 1px solid rgb(221, 219, 213);
+                        font-size: 0.8vw;
+                    }
+                }
+                tbody {
+                    cursor: pointer;
+                    tr {
+                        font-size: 0.7vw;
+                        td {
+                            border-bottom: 1px solid rgb(221, 219, 213);
+                            padding: 2% 0;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media(max-width:1024px) {
+    main {
+        font-family: '함초롬돋움';
+        .main {
+            .A_logo {
+                margin: 12% 0 0 4%;
+                a {
+                    img {
+                        width: 10%;
+                    }
+                }
+            }
+        }
+        .nav {
+            margin: 5% 4%;
+            ;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.5vw;
+                padding-right: 0.8%;
+            }
+            a.active {
+                font-weight: bold;
+            }
+        }
+        .list {
+            .list_text {
+                table {
+                    width: 75%;
+                    margin: 5% 4%;
+                    border-collapse: collapse;
+                    thead {
+                        th {
+                            font-weight: normal;
+                            text-align: center;
+                            padding-bottom: 2%;
+                            border-bottom: 1px solid rgb(221, 219, 213);
+                            font-size: 1.3vw;
+                        }
+                    }
+                    tbody {
+                        tr {
+                            font-size: 1.2vw;
+                            td {
+                                border-bottom: 1px solid rgb(221, 219, 213);
+                                padding: 2% 2%;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        font-family: '함초롬돋움';
+        .main {
+            .A_logo {
+                margin: 15% 0 0 6.5%;
+                a {
+                    img {
+                        width: 15%;
+                    }
+                }
+            }
+        }
+        .nav {
+            margin: 5% 6.5%;
+            ;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.8vw;
+                padding-right: 0.8%;
+            }
+            a.active {
+                font-weight: bold;
+            }
+        }
+        .list {
+            .list_text {
+                table {
+                    width: 90%;
+                    margin: 5% 4%;
+                    border-collapse: collapse;
+                    thead {
+                        th {
+                            font-weight: normal;
+                            text-align: center;
+                            padding-bottom: 2%;
+                            border-bottom: 1px solid rgb(221, 219, 213);
+                            font-size: 2vw;
+                        }
+                    }
+                    tbody {
+                        tr {
+                            font-size: 1.8vw;
+                            td {
+                                border-bottom: 1px solid rgb(221, 219, 213);
+                                padding: 2% 2%;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:480px) {
+    main {
+        font-family: '함초롬돋움';
+        .main {
+            .A_logo {
+                margin: 20% 0 0 6%;
+                a {
+                    img {
+                        width: 20%;
+                    }
+                }
+            }
+        }
+        .nav {
+            margin: 8% 6%;
+            ;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 4vw;
+                padding-right: 0.8%;
+            }
+            a.active {
+                font-weight: bold;
+            }
+        }
+        .list {
+            .list_text {
+                table {
+                    width: 90%;
+                    margin: 8% auto;
+                    border-collapse: collapse;
+                    thead {
+                        th {
+                            font-weight: normal;
+                            text-align: center;
+                            padding-bottom: 2%;
+                            border-bottom: 1px solid rgb(221, 219, 213);
+                            font-size: 3.3vw;
+                        }
+                    }
+                    tbody {
+                        tr {
+                            font-size: 3vw;
+                            td {
+                                border-bottom: 1px solid rgb(221, 219, 213);
+                                padding: 2% 2%;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

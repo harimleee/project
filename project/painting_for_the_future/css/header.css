@@ -1,0 +1,96 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    margin: 2% auto;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 100%;
+}
+
+
+.list {
+    width: 30%;
+}
+
+.list nav {
+    margin-left:7%;
+    width: 100%;
+    /*    margin-right: 30%;*/
+}
+
+.list nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 5%;
+    /*    padding-left: 5%;*/
+    text-align: center;
+}
+
+.list nav a:hover {
+    border-bottom: 2px solid darksalmon;
+    color: darksalmon;
+    /*    색바꾸기*/
+
+    /*    padding: 5px 0;*/
+}
+
+.lang {
+    padding-left: 18%;
+    padding-right: 0;
+}
+
+.lang nav {}
+
+.lang nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+}
+
+.lang nav a:hover {
+    border-bottom: 2px solid darksalmon;
+    color: darksalmon;
+}
+
+.login {
+}
+
+.login nav {
+}
+
+.login nav a {
+    
+padding: 2%;
+}
+
+
+.login nav a:nth-of-type(1) img {
+    width: 35%;
+    height: 35%
+}
+
+.login nav a:nth-of-type(2) img {
+    width: 45%;
+    height: 45%;
+}

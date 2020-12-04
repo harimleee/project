@@ -1,0 +1,857 @@
+@charset "UTF-8";
+@import url("common.css");
+main {
+  font-family: "함초롬돋움";
+}
+main .visual {
+  position: relative;
+  width: 100%;
+  height: 30vw;
+}
+main .visual img {
+  width: 100%;
+  height: 100%;
+}
+main .visual .logo {
+  width: 6%;
+  position: absolute;
+  left: 3%;
+  top: 18%;
+}
+main .visual .logo img {
+  width: 100%;
+}
+main .visual .center {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+main .visual .center h2 {
+  font-weight: bolder;
+  font-size: 2.8vw;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+main .visual .center p {
+  width: 35%;
+  margin: 0 auto;
+  font-size: 1vw;
+  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+main .two {
+  width: 80%;
+  margin: 8% auto;
+}
+main .two .two_1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+main .two .two_1 .t_w {
+  text-align: center;
+}
+main .two .two_1 .t_w p {
+  text-align: center;
+  font-size: 0.9vw;
+  line-height: 1.2vw;
+}
+main .two .two_1 .t_w img {
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+main .two p {
+  text-align: right;
+  margin-top: 4%;
+  font-size: 0.8vw;
+}
+main .three {
+  width: 80%;
+  margin: 6% auto;
+}
+main .three .share_title {
+  text-align: center;
+}
+main .three .share_title .num {
+  font-size: 1.5vw;
+  margin: 0;
+}
+main .three .share_title h3 {
+  font-size: 1.8vw;
+  margin: 1% 0;
+}
+main .three .share_title .write {
+  font-size: 0.9vw;
+  line-height: 1.5vw;
+}
+main .three .t_1 {
+  display: flex;
+  align-items: flex-end;
+  margin: 5% 0;
+}
+main .three .t_1 img {
+  width: 50%;
+}
+main .three .t_1 .right {
+  margin-left: 3%;
+}
+main .three .t_1 .right .title {
+  font-size: 1.3vw;
+}
+main .three .t_1 .right .sub_t {
+  font-size: 0.9vw;
+  line-height: 1.5vw;
+}
+main .three .t_1 .right .text {
+  font-size: 0.75vw;
+  line-height: 1.3vw;
+  color: #6e6e6e;
+}
+main .three .t2 {
+  margin: 5% 0;
+}
+main .three .t2 .title {
+  font-size: 1.3vw;
+}
+main .three .t2 .text {
+  font-size: 0.75vw;
+  line-height: 1.3vw;
+  color: #6e6e6e;
+  width: 60%;
+}
+main .three .t2 img {
+  width: 50%;
+}
+main .four {
+  margin: 8% 0;
+}
+main .four .share_title {
+  text-align: center;
+}
+main .four .share_title .num {
+  font-size: 1.5vw;
+  margin: 0;
+}
+main .four .share_title h3 {
+  font-size: 1.8vw;
+  margin: 1.5% 0;
+}
+main .four .share_title .write {
+  font-size: 0.9vw;
+  line-height: 1.5vw;
+  width: 55%;
+  margin: 0 auto;
+}
+main .four .f_1 {
+  width: 80%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .four .f_1 img {
+  width: 1.7%;
+}
+main .four .f_1 .right2 {
+  width: 80%;
+  margin: 0 auto;
+}
+main .four .f_1 .right2 .r_1 {
+  margin: 5% 0;
+}
+main .four .f_1 .right2 .r_1 .year {
+  font-size: 1vw;
+}
+main .four .f_1 .right2 .r_1 .text {
+  font-size: 0.9vw;
+}
+main .five {
+  margin: 6% 0 10% 0;
+}
+main .five .share_title {
+  text-align: center;
+}
+main .five .share_title .num {
+  font-size: 1.5vw;
+  margin: 0;
+}
+main .five .share_title h3 {
+  font-size: 1.8vw;
+  margin: 1% 0;
+}
+main .five .share_title .write {
+  font-size: 0.9vw;
+  line-height: 1.6vw;
+  width: 55%;
+  margin: 0 auto;
+}
+main .five .drag {
+  text-align: center;
+  margin: 5% auto;
+  width: 60%;
+}
+main .five .drag .dragg {
+  width: 100%;
+}
+main .five .drag .dragg img {
+  width: 55%;
+  height: 15vw;
+  margin: 0 auto;
+}
+main .five .drag .dragg .d_title {
+  font-size: 1.1vw;
+}
+main .five .drag .dragg .d_text {
+  font-size: 0.8vw;
+  line-height: 1.5vw;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+@media (max-width: 1024px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .visual {
+    position: relative;
+    width: 100%;
+    height: 45vw;
+  }
+  main .visual img {
+    width: 100%;
+    height: 100%;
+  }
+  main .visual .logo {
+    width: 10%;
+    position: absolute;
+    left: 3.5%;
+    top: 22%;
+  }
+  main .visual .logo img {
+    width: 100%;
+  }
+  main .visual .center {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  main .visual .center h2 {
+    font-weight: bolder;
+    font-size: 3.8vw;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  }
+  main .visual .center p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.8vw;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+  }
+  main .two {
+    width: 90%;
+    margin: 8% auto;
+  }
+  main .two .two_1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+  }
+  main .two .two_1 .t_w {
+    width: 30%;
+    text-align: center;
+  }
+  main .two .two_1 .t_w p {
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+  }
+  main .two .two_1 .t_w img {
+    width: 55%;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .two p {
+    text-align: right;
+    margin-top: 4%;
+    font-size: 1.2vw;
+  }
+  main .three {
+    width: 90%;
+    margin: 6% auto;
+  }
+  main .three .share_title {
+    text-align: center;
+  }
+  main .three .share_title .num {
+    font-size: 2.3vw;
+    margin: 0;
+  }
+  main .three .share_title h3 {
+    font-size: 2.5vw;
+    margin: 2% 0;
+  }
+  main .three .share_title .write {
+    font-size: 1.5vw;
+    line-height: 3vw;
+  }
+  main .three .t_1 {
+    display: flex;
+    align-items: center;
+    margin: 5% 0;
+  }
+  main .three .t_1 img {
+    width: 50%;
+  }
+  main .three .t_1 .right {
+    margin-left: 3%;
+  }
+  main .three .t_1 .right .title {
+    font-size: 2.3vw;
+  }
+  main .three .t_1 .right .sub_t {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+  }
+  main .three .t_1 .right .text {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    color: #6e6e6e;
+  }
+  main .three .t2 {
+    margin: 5% 0;
+  }
+  main .three .t2 .title {
+    font-size: 2.3vw;
+  }
+  main .three .t2 .text {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    color: #6e6e6e;
+    width: 80%;
+  }
+  main .three .t2 img {
+    width: 50%;
+  }
+  main .four {
+    margin: 8% 0;
+  }
+  main .four .share_title {
+    text-align: center;
+  }
+  main .four .share_title .num {
+    font-size: 2.3vw;
+    margin: 0;
+  }
+  main .four .share_title h3 {
+    font-size: 2.5vw;
+    margin: 2% 0;
+  }
+  main .four .share_title .write {
+    font-size: 1.5vw;
+    line-height: 3vw;
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .four .f_1 {
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main .four .f_1 img {
+    width: 2.2%;
+  }
+  main .four .f_1 .right2 {
+    width: 80%;
+    margin: 0 0 0 10%;
+  }
+  main .four .f_1 .right2 .r_1 {
+    margin: 5% 0;
+  }
+  main .four .f_1 .right2 .r_1 .year {
+    font-size: 1.5vw;
+    margin: 0;
+  }
+  main .four .f_1 .right2 .r_1 .text {
+    font-size: 1.3vw;
+  }
+  main .five {
+    margin: 6% 0 10% 0;
+  }
+  main .five .share_title {
+    text-align: center;
+  }
+  main .five .share_title .num {
+    font-size: 2.3vw;
+    margin: 0;
+  }
+  main .five .share_title h3 {
+    font-size: 2.5vw;
+    margin: 2% 0;
+  }
+  main .five .share_title .write {
+    font-size: 1.5vw;
+    line-height: 3vw;
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .five .drag {
+    text-align: center;
+    margin: 5% auto;
+    width: 80%;
+  }
+  main .five .drag .dragg {
+    width: 100%;
+  }
+  main .five .drag .dragg img {
+    width: 65%;
+    height: 24vw;
+    margin: 0 auto;
+  }
+  main .five .drag .dragg .d_title {
+    font-size: 1.8vw;
+  }
+  main .five .drag .dragg .d_text {
+    font-size: 1.5vw;
+    line-height: 2vw;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .visual {
+    position: relative;
+    width: 100%;
+    height: 55vw;
+  }
+  main .visual img {
+    width: 100%;
+    height: 100%;
+  }
+  main .visual .logo {
+    width: 14%;
+    position: absolute;
+    left: 6%;
+    top: 25%;
+  }
+  main .visual .logo img {
+    width: 100%;
+  }
+  main .visual .center {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  main .visual .center h2 {
+    font-weight: bolder;
+    font-size: 4.5vw;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  }
+  main .visual .center p {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 2.2vw;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+  }
+  main .two {
+    width: 90%;
+    margin: 12% auto;
+  }
+  main .two .two_1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+  }
+  main .two .two_1 .t_w {
+    width: 30%;
+    text-align: center;
+  }
+  main .two .two_1 .t_w p {
+    text-align: center;
+    font-size: 1.7vw;
+    line-height: 3.3vw;
+  }
+  main .two .two_1 .t_w img {
+    width: 65%;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .two p {
+    text-align: right;
+    margin-top: 4%;
+    font-size: 1.8vw;
+  }
+  main .three {
+    width: 90%;
+    margin: 10% auto;
+  }
+  main .three .share_title {
+    text-align: center;
+  }
+  main .three .share_title .num {
+    font-size: 3vw;
+    margin: 0;
+  }
+  main .three .share_title h3 {
+    font-size: 3.3vw;
+    margin: 3% 0;
+  }
+  main .three .share_title .write {
+    font-size: 2.1vw;
+    line-height: 3vw;
+  }
+  main .three .t_1 {
+    display: block;
+    align-items: center;
+    margin: 8% 0;
+  }
+  main .three .t_1 img {
+    width: 55%;
+  }
+  main .three .t_1 .right {
+    margin-left: 0%;
+  }
+  main .three .t_1 .right .title {
+    font-size: 3vw;
+  }
+  main .three .t_1 .right .sub_t {
+    font-size: 2vw;
+    line-height: 3.5vw;
+  }
+  main .three .t_1 .right .text {
+    font-size: 2vw;
+    line-height: 3.5vw;
+    color: #6e6e6e;
+  }
+  main .three .t2 {
+    margin: 8% 0;
+  }
+  main .three .t2 .title {
+    font-size: 3vw;
+  }
+  main .three .t2 .text {
+    font-size: 2vw;
+    line-height: 3.5vw;
+    color: #6e6e6e;
+  }
+  main .three .t2 img {
+    width: 55%;
+  }
+  main .four {
+    margin: 10% 0;
+  }
+  main .four .share_title {
+    text-align: center;
+  }
+  main .four .share_title .num {
+    font-size: 3vw;
+    margin: 0;
+  }
+  main .four .share_title h3 {
+    font-size: 3.3vw;
+    margin: 3% 0;
+  }
+  main .four .share_title .write {
+    font-size: 2.1vw;
+    line-height: 3vw;
+    width: 82%;
+    margin: 0 auto;
+  }
+  main .four .f_1 {
+    width: 90%;
+    margin: 6% auto;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main .four .f_1 img {
+    width: 0%;
+    display: none;
+  }
+  main .four .f_1 .right2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .four .f_1 .right2 .r_1 {
+    margin: 8% 0;
+    text-align: center;
+  }
+  main .four .f_1 .right2 .r_1 .year {
+    font-size: 2.3vw;
+    margin: 0;
+  }
+  main .four .f_1 .right2 .r_1 .text {
+    font-size: 2vw;
+  }
+  main .five {
+    margin: 10% 0 10% 0;
+  }
+  main .five .share_title {
+    text-align: center;
+  }
+  main .five .share_title .num {
+    font-size: 3vw;
+    margin: 0;
+  }
+  main .five .share_title h3 {
+    font-size: 3.3vw;
+    margin: 3% 0;
+  }
+  main .five .share_title .write {
+    font-size: 2.1vw;
+    line-height: 3vw;
+    width: 85%;
+    margin: 0 auto;
+  }
+  main .five .drag {
+    text-align: center;
+    margin: 8% auto;
+    width: 90%;
+  }
+  main .five .drag .dragg {
+    width: 100%;
+  }
+  main .five .drag .dragg img {
+    width: 75%;
+    height: 27vw;
+    margin: 0 auto;
+  }
+  main .five .drag .dragg .d_title {
+    font-size: 2.5vw;
+  }
+  main .five .drag .dragg .d_text {
+    font-size: 2vw;
+    line-height: 3.5vw;
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    font-family: "함초롬돋움";
+  }
+  main .visual {
+    position: relative;
+    width: 100%;
+    height: 70vw;
+  }
+  main .visual img {
+    width: 100%;
+    height: 100%;
+  }
+  main .visual .logo {
+    width: 20%;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+  }
+  main .visual .logo img {
+    width: 100%;
+  }
+  main .visual .center {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  main .visual .center h2 {
+    font-weight: bolder;
+    font-size: 6.5vw;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  }
+  main .visual .center p {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 3.2vw;
+    text-shadow: none;
+  }
+  main .two {
+    width: 90%;
+    margin: 12% auto;
+  }
+  main .two .two_1 {
+    display: block;
+    justify-content: space-around;
+    margin: 5% auto;
+  }
+  main .two .two_1 .t_w {
+    width: 70%;
+    text-align: center;
+    margin: 10% auto;
+  }
+  main .two .two_1 .t_w p {
+    text-align: center;
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  main .two .two_1 .t_w img {
+    width: 60%;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .two p {
+    text-align: right;
+    margin-top: 4%;
+    font-size: 3vw;
+  }
+  main .three {
+    width: 90%;
+    margin: 20% auto;
+  }
+  main .three .share_title {
+    text-align: center;
+  }
+  main .three .share_title .num {
+    font-size: 5vw;
+    margin: 0;
+  }
+  main .three .share_title h3 {
+    width: 85%;
+    font-size: 4.5vw;
+    margin: 3% auto;
+  }
+  main .three .share_title .write {
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+  main .three .t_1 {
+    display: block;
+    align-items: center;
+    margin: 10% 0;
+  }
+  main .three .t_1 img {
+    width: 100%;
+  }
+  main .three .t_1 .right {
+    margin-left: 0%;
+  }
+  main .three .t_1 .right .title {
+    font-size: 5vw;
+  }
+  main .three .t_1 .right .sub_t {
+    font-size: 4vw;
+    line-height: 5.5vw;
+  }
+  main .three .t_1 .right .text {
+    font-size: 3.5vw;
+    line-height: 5vw;
+    color: #6e6e6e;
+  }
+  main .three .t2 {
+    margin: 10% 0;
+  }
+  main .three .t2 .title {
+    font-size: 5vw;
+  }
+  main .three .t2 .text {
+    font-size: 3.5vw;
+    line-height: 5vw;
+    color: #6e6e6e;
+  }
+  main .three .t2 img {
+    width: 100%;
+  }
+  main .four {
+    margin: 10% 0;
+  }
+  main .four .share_title {
+    text-align: center;
+  }
+  main .four .share_title .num {
+    font-size: 5vw;
+    margin: 0;
+  }
+  main .four .share_title h3 {
+    width: 85%;
+    font-size: 4.5vw;
+    margin: 3% auto;
+  }
+  main .four .share_title .write {
+    font-size: 3.5vw;
+    line-height: 6vw;
+    width: 84%;
+    margin: 0 auto;
+  }
+  main .four .f_1 {
+    width: 90%;
+    margin: 8% auto;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main .four .f_1 img {
+    width: 0%;
+    display: none;
+  }
+  main .four .f_1 .right2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .four .f_1 .right2 .r_1 {
+    margin: 10% 0;
+    text-align: center;
+  }
+  main .four .f_1 .right2 .r_1 .year {
+    font-size: 3.3vw;
+    margin: 0;
+  }
+  main .four .f_1 .right2 .r_1 .text {
+    font-size: 3vw;
+  }
+  main .five {
+    margin: 20% 0 10% 0;
+  }
+  main .five .share_title {
+    text-align: center;
+  }
+  main .five .share_title .num {
+    font-size: 5vw;
+    margin: 0;
+  }
+  main .five .share_title h3 {
+    width: 85%;
+    font-size: 4.5vw;
+    margin: 5% auto;
+  }
+  main .five .share_title .write {
+    font-size: 3.5vw;
+    line-height: 6vw;
+    width: 84%;
+    margin: 0 auto;
+  }
+  main .five .drag {
+    text-align: center;
+    margin: 15% auto;
+    width: 90%;
+  }
+  main .five .drag .dragg {
+    width: 100%;
+  }
+  main .five .drag .dragg img {
+    width: 90%;
+    height: 35vw;
+    margin: 0 auto;
+  }
+  main .five .drag .dragg .d_title {
+    font-size: 3.3vw;
+  }
+  main .five .drag .dragg .d_text {
+    font-size: 3vw;
+    line-height: 4.5vw;
+    width: 85%;
+    margin: 0 auto;
+  }
+}
